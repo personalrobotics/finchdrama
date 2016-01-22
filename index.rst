@@ -5,7 +5,7 @@
 .. _Finch Robot: http://finchrobot.com
 .. _BirdBrain Technologies: http://www.birdbraintechnologies.com
 .. _Snap!: http://snap.berkeley.edu
-.. _Lessons Folder: https://drive.google.com/folderview?id=0BxlVQHRvo4zfb3M3aHdaN3lGZE0&usp=sharing
+.. _Lessons Folder: https://drive.google.com/folderview?id=0BxlVQHRvo4zfb3M3aHdaN3lGZE0&usp=sharing#list
 .. _Finch Chromebook Support: http://finchrobot.com/chromebook-support
 .. _Chrome Finch Connection App: https://chrome.google.com/webstore/detail/finch-connection-app/ojocioejjpmeccjfjlhkepchminjemod
 .. _Finch Snap Curricula: http://www.finchrobot.com/snap-and-scratch-20-finch-resources
