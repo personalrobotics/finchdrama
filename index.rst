@@ -9,6 +9,7 @@
 .. _Finch Chromebook Support: http://finchrobot.com/chromebook-support
 .. _Chrome Finch Connection App: https://chrome.google.com/webstore/detail/finch-connection-app/ojocioejjpmeccjfjlhkepchminjemod
 .. _Finch Snap Curricula: http://www.finchrobot.com/snap-and-scratch-20-finch-resources
+.. _CC-BY-SA: http://creativecommons.org/licenses/by-sa/4.0/
 
 .. class:: backlinks
 
@@ -57,6 +58,17 @@ The best detailed instructions on getting started are found on `Finch Chromebook
 Support`_.  Please note that the
 examples will not work with the BirdBrain Robot Server as it uses an
 incompatible system for communicating between Snap! and the robot.
+
+
+
+
+
+License
+-------
+
+.. raw:: html
+
+   <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">The text content of the Finch Drama Project</span> by the <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Carnegie Mellon University Personal Robotics Lab</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://personalrobotics.github.io/finchdrama/" rel="dct:source">http://personalrobotics.github.io/finchdrama/</a>.
 
 
 ----------------------------------------------------------------
