@@ -38,7 +38,7 @@ although the core ideas could be ported to other devices.  We are using the
 
 This page is currently just the launchpoint toward the actual resources:
 
-  * `Curriculum Materials (hosted on Google Drive) <Lessons Folder>`_
+  * `Curriculum Materials (hosted on Google Drive) <Lessons Folder_>`_
 
 BirdBrain also hosts `several other curriculum examples using Snap and Scratch
 <Finch Snap Curricula_>`_.
