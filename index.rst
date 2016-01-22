@@ -5,7 +5,7 @@
 .. _Finch Robot: http://finchrobot.com
 .. _BirdBrain Technologies: http://www.birdbraintechnologies.com
 .. _Snap!: http://snap.berkeley.edu
-.. _Lessons Folder: https://drive.google.com/drive/u/0/folders/0BxlVQHRvo4zfb3M3aHdaN3lGZE0
+.. _Lessons Folder: https://drive.google.com/folderview?id=0BxlVQHRvo4zfb3M3aHdaN3lGZE0&usp=sharing
 .. _Finch Chromebook Support: http://finchrobot.com/chromebook-support
 .. _Chrome Finch Connection App: https://chrome.google.com/webstore/detail/finch-connection-app/ojocioejjpmeccjfjlhkepchminjemod
 .. _Finch Snap Curricula: http://www.finchrobot.com/snap-and-scratch-20-finch-resources
@@ -51,6 +51,7 @@ To run the examples, you will need:
   * a Finch with USB cable
   * a computer running the Chrome browser (Windows, OS X, Linux, or Chromebook)
   * the `Chrome Finch Connection App`_
+  * an active network connection
 
 The best detailed instructions on getting started are found on `Finch Chromebook
 Support`_.  Please note that the
