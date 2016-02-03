@@ -5,7 +5,7 @@
 .. _Finch Robot: http://finchrobot.com
 .. _BirdBrain Technologies: http://www.birdbraintechnologies.com
 .. _Snap!: http://snap.berkeley.edu
-.. _Lessons Folder: https://drive.google.com/folderview?id=0BxlVQHRvo4zfb3M3aHdaN3lGZE0&usp=sharing#list
+.. _Exercises Folder: https://drive.google.com/folderview?id=0BxlVQHRvo4zfb3M3aHdaN3lGZE0&usp=sharing#list
 .. _Finch Chromebook Support: http://finchrobot.com/chromebook-support
 .. _Chrome Finch Connection App: https://chrome.google.com/webstore/detail/finch-connection-app/ojocioejjpmeccjfjlhkepchminjemod
 .. _Finch Snap Curricula: http://www.finchrobot.com/snap-and-scratch-20-finch-resources
@@ -23,7 +23,7 @@ Finch Drama Project
 .. class:: quicklinks
 
 Quick Links:
-[`Lessons Folder (Google Drive) <Lessons Folder_>`_\ ]
+[`Exercises Folder (Google Drive) <Exercises Folder_>`_\ ]
 [`Snap! on the Finch <Finch Chromebook Support_>`_\ ]
 
 
@@ -39,8 +39,14 @@ although the core ideas could be ported to other devices.  We are using the
 
 This page is currently just the launchpoint toward the actual resources:
 
-  * `Curriculum Materials (hosted on Google Drive) <Lessons Folder_>`_
+  * `Curriculum Materials (hosted on Google Drive) <Exercises Folder_>`_
+  * Quick links to Snap sketches (these work best in Chrome):
 
+    #. `Network Communication <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Sprite-Communication-Intro>`__
+    #. `Sensorless Parking <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Sensorless-Parking>`__
+    #. `Robot Synchronization <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Coordination-Intro>`__
+    #. `Robot Sequencing <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Sequencing>`__
+    
 BirdBrain also hosts `several other curriculum examples using Snap and Scratch
 <Finch Snap Curricula_>`_.
 
