@@ -40,13 +40,17 @@ although the core ideas could be ported to other devices.  We are using the
 This page is currently just the launchpoint toward the actual resources:
 
   * `Curriculum Materials (hosted on Google Drive) <Exercises Folder_>`_
+
   * Quick links to Snap sketches (these work best in Chrome):
 
     #. `Network Communication <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Sprite-Communication-Intro>`__
     #. `Sensorless Parking <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Sensorless-Parking>`__
     #. `Robot Synchronization <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Coordination-Intro>`__
     #. `Robot Sequencing <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Sequencing>`__
-    
+    #. `Precise Coordination <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Precise-Coordination>`__
+
+  * `Snap! Blocks Quick Reference <https://docs.google.com/spreadsheets/d/1k0sW-ThtlpyYEY5fOfLIImGz_vTxFDx847ENfDzWuE8/pubhtml>`__
+
 BirdBrain also hosts `several other curriculum examples using Snap and Scratch
 <Finch Snap Curricula_>`_.
 
