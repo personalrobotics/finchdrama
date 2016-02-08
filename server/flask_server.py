@@ -12,6 +12,11 @@ from flask import Flask
 from flask import Response
 from flask import request
 
+import logging
+# configure logging to eliminate all the normal HTTP request messages
+log = logging.getLogger('werkzeug')
+log.setLevel(logging.ERROR)
+
 # single global storage object
 import blackboard
 bb = blackboard.BlackBoard()
