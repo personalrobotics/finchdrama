@@ -41,10 +41,10 @@ class BlackBoard(object):
         self.data_lock = threading.Lock()
         
         # set up the resource limits
-        self.max_namespaces   = 30   # maximum number of key-value stores
-        self.max_values       = 20   # maximum number of key-value pairs per store
-        self.max_key_length   = 20   # maximum length for a namespace or value key
-        self.max_value_length = 50   # maximum length for a value string
+        self.max_namespaces   = 100   # maximum number of key-value stores
+        self.max_values       =  40   # maximum number of key-value pairs per store
+        self.max_key_length   =  20   # maximum length for a namespace or value key
+        self.max_value_length = 100   # maximum length for a value string
         
         return
 
