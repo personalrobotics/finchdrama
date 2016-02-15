@@ -43,6 +43,7 @@ This page is currently just the launchpoint toward the actual resources:
 
   * Quick links to Snap sketches (these work best in Chrome):
 
+    #. `State Machine <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-State-Machine>`__
     #. `Network Communication <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Sprite-Communication-Intro>`__
     #. `Sensorless Parking <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Sensorless-Parking>`__
     #. `Robot Synchronization <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Coordination-Intro>`__
