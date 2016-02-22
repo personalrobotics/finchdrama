@@ -1,0 +1,38 @@
+
+digraph input_matching {
+	node [fontsize=10]
+	edge [fontsize=8]
+	dpi="144"
+	size="7,7!"
+	
+	// declare all nodes
+	START [ label = "START\nwait briefly"]
+	EXPLORE [ label = "EXPLORE\ndrive forward"]
+	REVERSE [ label = "REVERSE\ndrive backwards"]
+	TURNLEFT  [ label = "TURNLEFT\nsmall turn"]
+	TURNRIGHT [ label = "TURNRIGHT\nsmall turn"]
+	BACKTRACK [ label = "BACKTRACK\nescape backwards"]
+	SPIN [ label = "SPIN\nturn around"]
+	PAUSE [ label = "PAUSE\nwait briefly"]
+
+	// declare all edges with labels
+	START -> EXPLORE   [ label = "two seconds elapsed"]
+	
+	EXPLORE -> BACKTRACK  [ label = "obstacle in front"]
+	EXPLORE -> REVERSE     [ label = "five seconds elapsed"]
+
+	REVERSE -> TURNLEFT   [ label = "two seconds elapsed\nAND random = 1"]
+	REVERSE -> TURNRIGHT  [ label = "two seconds elapsed\nAND random = 2"]
+
+	BACKTRACK -> SPIN     [ label = "one second elapsed"]
+
+	TURNLEFT  -> EXPLORE  [ label = "0.5 seconds elapsed"]
+	TURNRIGHT -> EXPLORE  [ label = "0.5 seconds elapsed"]
+
+	SPIN -> PAUSE         [ label = "one second elapsed"]
+
+	PAUSE -> BACKTRACK    [ label = "one second elapsed\nAND obstacle in front"]
+	PAUSE -> EXPLORE      [ label = "one second elapsed\nAND no obstacle"]
+
+	label = "Finch Robot Exploration\nState Transition Diagram"
+}
