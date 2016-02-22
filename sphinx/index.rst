@@ -21,9 +21,16 @@ Contents
 ========
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    intro
+   snapref
+   ex/state-machine
+   ex/sensorless-parking
+   ex/network-comm
+   ex/robot-sync
+
+
 
 For reference a :ref:`search` and :ref:`genindex` are available.
 
