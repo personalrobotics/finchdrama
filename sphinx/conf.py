@@ -28,6 +28,12 @@ import datetime
 # ones.
 
 extensions = [
+    # 'sphinx.ext.autodoc',
+    # 'sphinx.ext.viewcode',
+    # 'sphinx.ext.mathjax',
+    # 'sphinxcontrib.youtube',
+    # 'breathe',
+    'sphinx.ext.graphviz'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -115,8 +121,8 @@ pygments_style = 'sphinx'
 # html_theme = 'sphinx_rtd_theme'
 
 # good:
-# html_theme = 'nature'  # simple, clean typography and colors, has a default sidebard
-html_theme = 'haiku'   # good typography, although no sidebar, looks more like a book
+html_theme = 'nature'  # simple, clean typography and colors, has a default sidebar
+# html_theme = 'haiku'   # good typography, although no sidebar, looks more like a book
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
