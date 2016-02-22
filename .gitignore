@@ -1,1 +1,5 @@
+# ignore Emacs backup files
 *~
+
+# ignore the top-level sphinx build folder
+/build/
