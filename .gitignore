@@ -3,3 +3,6 @@
 
 # ignore compiled Python
 *.pyc
+
+# ignore the top-level sphinx build folder
+/build/
