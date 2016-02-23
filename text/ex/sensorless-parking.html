@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Exercise - Sensorless Parking &mdash; Finch Drama Project</title>
+    
+    <link rel="stylesheet" href="../_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/guide.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '2016-02-23',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="Finch Drama Project" href="../index.html" />
+    <link rel="next" title="Exercise - Network Communication" href="network-comm.html" />
+    <link rel="prev" title="Exercise - State Transition Diagrams" href="state-machine.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="network-comm.html" title="Exercise - Network Communication"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="state-machine.html" title="Exercise - State Transition Diagrams"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Finch Drama Project</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="exercise-sensorless-parking">
+<h1>Exercise - Sensorless Parking<a class="headerlink" href="#exercise-sensorless-parking" title="Permalink to this headline">¶</a></h1>
+<p>For this exercise, we will explore automatically driving a Finch robot into a
+known location in a corner without using any sensors.  Hence the name,
+‘sensorless parking.’</p>
+<div class="section" id="driving-without-sensors">
+<h2>Driving Without Sensors<a class="headerlink" href="#driving-without-sensors" title="Permalink to this headline">¶</a></h2>
+<p>The Finch does have useful sensors, but they are limited.  It cannot sense
+obstacles to the sides or rear, and cannot precisely measure distances.  So in
+order to make the best use of the Finch, we can first explore how much we can
+accomplish without sensors at all.  That way, we have a baseline for deciding
+whether adding code that uses sensor data improves the performance.</p>
+<p>Let’s first consider driving into a corner.  If the Finch is placed on a
+relatively smooth surface near a wall and starts driving forward, when it
+reaches the wall its wheels will begin to slip.  If after a time, it briefly
+reverses direction, it will end up a short distance from the wall.  It can then
+rotate until touch to align with the wall, then reverse until touch to park in a
+corner.</p>
+</div>
+<div class="section" id="try-it-out">
+<h2>Try it out!<a class="headerlink" href="#try-it-out" title="Permalink to this headline">¶</a></h2>
+<p>Before we go furthur in the discussion, let’s try this.  We will be using <a class="reference external" href="http://snap.berkeley.edu">Snap!</a>
+to control the Finch for all these exercises; it’s a lot like <a class="reference external" href="https://scratch.mit.edu/">Scratch</a>, but
+includes additional programming features and is easier to use for sharing Finch
+code examples directly.</p>
+<p>The <a class="reference external" href="http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&amp;ProjectName=Finch-Sensorless-Parking">example code can be loaded directly from the Snap server using this link</a>.  Please read the comment in the Snap sketch and
+try out the steps to see how your Finch robot physically performs.  You’ll need
+to make sure it runs in Chrome, and you’ll need to make you have installed and
+launched the <a class="reference external" href="https://chrome.google.com/webstore/detail/finch-connection-app/ojocioejjpmeccjfjlhkepchminjemod">Chrome Finch Connection App</a>.</p>
+</div>
+<div class="section" id="discussion">
+<h2>Discussion<a class="headerlink" href="#discussion" title="Permalink to this headline">¶</a></h2>
+<p>If you have followed the notes in the sketch, then you should have been able to
+see the whole sequence: forward, stall, reverse, rotate, stall, reverse, stall.
+If the robot started fairly close to a corner and pointed in the right general
+direction, it can end up neatly parked against the wall in the corner.</p>
+<p>One big question: how close does the robot need to start for this to work?  See
+if you can guess at the range of starting positions and angles which will work,
+and then try them out.</p>
+</div>
+<div class="section" id="terminology">
+<h2>Terminology<a class="headerlink" href="#terminology" title="Permalink to this headline">¶</a></h2>
+<p>There are two terms which will help us in future discussion: <em>uncertainty</em> and
+<em>capture region</em>.</p>
+<p><strong>Uncertainty</strong> is a term used to robotics to identify the amount and kind of
+error in the knowledge which a robot has about the world.  In our example, the
+initial distance of the robot from the wall is uncertain - you can see it, but
+the robot has no way of knowing how far away it is.</p>
+<p>The robot initially drives forward for a fixed duration.  If robot is close
+enough to the wall to make contact during this motion, then when it backs up it
+will be close to the target position.  This sequence can be said to reduce
+uncertainty.</p>
+<p>However, if the robot is too far from the wall, then it won’t reliably reach the
+target because it will start to back up too soon.  This position is said to be
+outside the <strong>capture region</strong> for the driving motion.</p>
+<img alt="../_images/corner-capture.png" class="align-center" src="../_images/corner-capture.png" />
+</div>
+<div class="section" id="challenges">
+<h2>Challenges<a class="headerlink" href="#challenges" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Can you change the parameters in the sketch to increase the size of the
+capture region?</li>
+<li>Can you find a different sequence which reliably parks the robot with the
+tail flat against the wall but without using a corner?</li>
+</ol>
+<p><em>Garth Zeglin, Personal Robotics Lab, Carnegie Mellon University</em></p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Exercise - Sensorless Parking</a><ul>
+<li><a class="reference internal" href="#driving-without-sensors">Driving Without Sensors</a></li>
+<li><a class="reference internal" href="#try-it-out">Try it out!</a></li>
+<li><a class="reference internal" href="#discussion">Discussion</a></li>
+<li><a class="reference internal" href="#terminology">Terminology</a></li>
+<li><a class="reference internal" href="#challenges">Challenges</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="state-machine.html"
+                        title="previous chapter">Exercise - State Transition Diagrams</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="network-comm.html"
+                        title="next chapter">Exercise - Network Communication</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="network-comm.html" title="Exercise - Network Communication"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="state-machine.html" title="Exercise - State Transition Diagrams"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Finch Drama Project</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2016, Garth Zeglin.
+      Last updated on 2016-02-23.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
+    </div>
+  </body>
+</html>

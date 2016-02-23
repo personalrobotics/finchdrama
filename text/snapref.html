@@ -1,0 +1,1727 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Standard Snap Blocks Reference &mdash; Finch Drama Project</title>
+    
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/guide.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2016-02-23',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Finch Drama Project" href="index.html" />
+    <link rel="next" title="Drama Library Blocks Reference" href="libref.html" />
+    <link rel="prev" title="Introduction" href="intro.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="libref.html" title="Drama Library Blocks Reference"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="intro.html" title="Introduction"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Finch Drama Project</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="standard-snap-blocks-reference">
+<span id="snap-reference"></span><h1>Standard Snap Blocks Reference<a class="headerlink" href="#standard-snap-blocks-reference" title="Permalink to this headline">¶</a></h1>
+<p>The <a class="reference external" href="http://snap.berkeley.edu/SnapManual.pdf">Snap Manual</a> details many of the operators provided in the language but is
+not comprehensive.  The following reference is intended to provide a quick guide
+to every standard operator in the native set as well as a few of the libraries.</p>
+<div class="section" id="key-to-block-descriptions">
+<h2>Key to Block Descriptions<a class="headerlink" href="#key-to-block-descriptions" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>Standard library</dt>
+<dd>Includes the primitive blocks always available in <a class="reference external" href="http://snap.berkeley.edu">Snap!</a>.</dd>
+<dt>Tools library</dt>
+<dd>These blocks are available once <strong>Import Tools</strong> is run from the File menu.</dd>
+<dt>Finch library</dt>
+<dd>The blocks in the BirdBrain Finch-Chrome library, which can found in the Snap
+sketch loaded by the <a class="reference external" href="https://chrome.google.com/webstore/detail/finch-connection-app/ojocioejjpmeccjfjlhkepchminjemod">Chrome Finch Connection App</a>.</dd>
+</dl>
+<div class="section" id="key-to-block-arguments">
+<h3>Key to Block Arguments<a class="headerlink" href="#key-to-block-arguments" title="Permalink to this headline">¶</a></h3>
+<p>The argument notation is idiosyncratic, but follows this convention:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="13%" />
+<col width="87%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Symbol</th>
+<th class="head">Data Type</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><code class="docutils literal"><span class="pre">#</span></code></td>
+<td>numeric value</td>
+</tr>
+<tr class="row-odd"><td><code class="docutils literal"><span class="pre">&lt;&gt;</span></code></td>
+<td>Boolean value</td>
+</tr>
+<tr class="row-even"><td><code class="docutils literal"><span class="pre">&quot;&quot;</span></code></td>
+<td>string</td>
+</tr>
+<tr class="row-odd"><td><code class="docutils literal"><span class="pre">[]</span></code></td>
+<td>list</td>
+</tr>
+<tr class="row-even"><td><code class="docutils literal"><span class="pre">*</span></code></td>
+<td>general value (text or string)</td>
+</tr>
+<tr class="row-odd"><td><code class="docutils literal"><span class="pre">&amp;</span></code></td>
+<td>name of variable, sprite, operation, etc.</td>
+</tr>
+<tr class="row-even"><td><code class="docutils literal"><span class="pre">()</span></code></td>
+<td>procedure</td>
+</tr>
+<tr class="row-odd"><td><code class="docutils literal"><span class="pre">[%]</span></code></td>
+<td>color (selected from color picker)</td>
+</tr>
+<tr class="row-even"><td><code class="docutils literal"><span class="pre">...</span></code></td>
+<td>variable number of arguments</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="key-to-block-shapes">
+<h3>Key to Block Shapes<a class="headerlink" href="#key-to-block-shapes" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="docutils">
+<colgroup>
+<col width="18%" />
+<col width="18%" />
+<col width="63%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Shape</th>
+<th class="head">Category</th>
+<th class="head">Properties</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>C-shaped</td>
+<td>special form</td>
+<td>accepts one or more procedures within the body</td>
+</tr>
+<tr class="row-odd"><td>oval</td>
+<td>reporter</td>
+<td>returns a value</td>
+</tr>
+<tr class="row-even"><td>tabbed</td>
+<td>command</td>
+<td>called for side-effects (no return value)</td>
+</tr>
+<tr class="row-odd"><td>hexagon</td>
+<td>predicate</td>
+<td>returns a Boolean value</td>
+</tr>
+<tr class="row-even"><td>hat</td>
+<td>entry point</td>
+<td>starts a thread of execution, i.e., a script</td>
+</tr>
+<tr class="row-odd"><td>cap</td>
+<td>exit point</td>
+<td>ends a thread</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="table-of-blocks">
+<h2>Table of Blocks<a class="headerlink" href="#table-of-blocks" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="6%" />
+<col width="6%" />
+<col width="5%" />
+<col width="6%" />
+<col width="19%" />
+<col width="19%" />
+<col width="38%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Library</th>
+<th class="head">Palette</th>
+<th class="head">Color</th>
+<th class="head">Shape</th>
+<th class="head">Name</th>
+<th class="head">Arguments</th>
+<th class="head">Notes</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>C-shaped</td>
+<td>forever</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>C-shaped</td>
+<td>if &lt;&gt;</td>
+<td>Boolean-value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>C-shaped</td>
+<td>if &lt;&gt; else</td>
+<td>Boolean-value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>C-shaped</td>
+<td>repeat #</td>
+<td>iteration-count</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>C-shaped</td>
+<td>repeat until &lt;&gt;</td>
+<td>Boolean-value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Control</td>
+<td>gray</td>
+<td>C-shaped</td>
+<td>warp</td>
+<td>&nbsp;</td>
+<td>runs a script in turbo mode</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>cap</td>
+<td>delete this clone</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>cap</td>
+<td>report *</td>
+<td>value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>cap</td>
+<td>stop &amp;</td>
+<td>script-selection</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>hat</td>
+<td>when &amp; key pressed</td>
+<td>key</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>hat</td>
+<td>when &lt;&gt;</td>
+<td>Boolean-value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>hat</td>
+<td>when flag clicked</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>hat</td>
+<td>when I am &amp;</td>
+<td>condition-name</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>hat</td>
+<td>when I receive &amp;</td>
+<td>message-name</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>hat</td>
+<td>when I start as a clone</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>oval</td>
+<td>call ()</td>
+<td>reporter-function</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>oval</td>
+<td>call () w/continuation</td>
+<td>command-function</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>oval</td>
+<td>message</td>
+<td>&nbsp;</td>
+<td>reports the most recently broadcast message</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>tabbed</td>
+<td>broadcast &amp;</td>
+<td>message-name</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>tabbed</td>
+<td>broadcast &amp; and wait</td>
+<td>message-name</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>tabbed</td>
+<td>create a clone of &amp;</td>
+<td>sprite</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>tabbed</td>
+<td>launch ()</td>
+<td>command-function</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>tabbed</td>
+<td>pause all</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>tabbed</td>
+<td>run ()</td>
+<td>command-function</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>tabbed</td>
+<td>run () w/continuation</td>
+<td>command-function</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>tabbed</td>
+<td>stop &amp;</td>
+<td>script-selection</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>tabbed</td>
+<td>wait # seconds</td>
+<td>seconds</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Control</td>
+<td>gold</td>
+<td>tabbed</td>
+<td>wait until &lt;&gt;</td>
+<td>Boolean-value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Looks</td>
+<td>purple</td>
+<td>oval</td>
+<td>costume</td>
+<td>&nbsp;</td>
+<td>returns the current sprite costume number</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Looks</td>
+<td>purple</td>
+<td>oval</td>
+<td>size</td>
+<td>&nbsp;</td>
+<td>returns the current size percentage</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Looks</td>
+<td>purple</td>
+<td>tabbed</td>
+<td>change &amp; effect by #</td>
+<td>effect-name, value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Looks</td>
+<td>purple</td>
+<td>tabbed</td>
+<td>change size by #</td>
+<td>value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Looks</td>
+<td>purple</td>
+<td>tabbed</td>
+<td>clear graphic effects</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Looks</td>
+<td>purple</td>
+<td>tabbed</td>
+<td>go back # layers</td>
+<td>value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Looks</td>
+<td>purple</td>
+<td>tabbed</td>
+<td>go to front</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Looks</td>
+<td>purple</td>
+<td>tabbed</td>
+<td>hide</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Looks</td>
+<td>purple</td>
+<td>tabbed</td>
+<td>next costume</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Looks</td>
+<td>purple</td>
+<td>tabbed</td>
+<td>say &#8220;&#8221;</td>
+<td>string</td>
+<td>places a speech balloon near a sprite</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Looks</td>
+<td>purple</td>
+<td>tabbed</td>
+<td>say &#8220;&#8221; for # secs</td>
+<td>string, duration</td>
+<td>places a speech balloon near a sprite</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Looks</td>
+<td>purple</td>
+<td>tabbed</td>
+<td>set &amp; effect to #</td>
+<td>effect-name, value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Looks</td>
+<td>purple</td>
+<td>tabbed</td>
+<td>set size to # %</td>
+<td>percentage-value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Looks</td>
+<td>purple</td>
+<td>tabbed</td>
+<td>show</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Looks</td>
+<td>purple</td>
+<td>tabbed</td>
+<td>switch to costume &amp;</td>
+<td>costume-name</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Looks</td>
+<td>purple</td>
+<td>tabbed</td>
+<td>think &#8220;&#8221;</td>
+<td>string</td>
+<td>places a thought bubble near a sprite</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Looks</td>
+<td>purple</td>
+<td>tabbed</td>
+<td>think &#8220;&#8221; for # secs</td>
+<td>string, duration</td>
+<td>places a thought bubble near a sprite</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Motion</td>
+<td>blue</td>
+<td>oval</td>
+<td>direction</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Motion</td>
+<td>blue</td>
+<td>oval</td>
+<td>x position</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Motion</td>
+<td>blue</td>
+<td>oval</td>
+<td>y position</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Motion</td>
+<td>blue</td>
+<td>tabbed</td>
+<td>change x by #</td>
+<td>x</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Motion</td>
+<td>blue</td>
+<td>tabbed</td>
+<td>change y by #</td>
+<td>y</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Motion</td>
+<td>blue</td>
+<td>tabbed</td>
+<td>glide # secs to x: # y: #</td>
+<td>duration, x, y</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Motion</td>
+<td>blue</td>
+<td>tabbed</td>
+<td>go to &amp;</td>
+<td>target-name</td>
+<td>a sprite name or mouse-pointer</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Motion</td>
+<td>blue</td>
+<td>tabbed</td>
+<td>go to x: # y: #</td>
+<td>x, y</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Motion</td>
+<td>blue</td>
+<td>tabbed</td>
+<td>if on edge, bounce</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Motion</td>
+<td>blue</td>
+<td>tabbed</td>
+<td>move # steps</td>
+<td>step-count</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Motion</td>
+<td>blue</td>
+<td>tabbed</td>
+<td>point in direction #</td>
+<td>angle</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Motion</td>
+<td>blue</td>
+<td>tabbed</td>
+<td>point towards &amp;</td>
+<td>target-name</td>
+<td>a sprite name or mouse-pointer</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Motion</td>
+<td>blue</td>
+<td>tabbed</td>
+<td>set x to #</td>
+<td>x</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Motion</td>
+<td>blue</td>
+<td>tabbed</td>
+<td>set y to #</td>
+<td>y</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Motion</td>
+<td>blue</td>
+<td>tabbed</td>
+<td>turn CCW # degrees</td>
+<td>angle</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Motion</td>
+<td>blue</td>
+<td>tabbed</td>
+<td>turn CW # degrees</td>
+<td>angle</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>hexagon</td>
+<td># &lt; #</td>
+<td>number, number</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>hexagon</td>
+<td># &lt; #</td>
+<td>number, number</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>hexagon</td>
+<td># = #</td>
+<td>number, number</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>hexagon</td>
+<td>&lt;&gt; and &lt;&gt;</td>
+<td>Boolean-value, Boolean-value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>hexagon</td>
+<td>&lt;&gt; or &lt;&gt;</td>
+<td>Boolean-value, Boolean-value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>hexagon</td>
+<td>false</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>hexagon</td>
+<td>is * a &amp;?</td>
+<td>value, type-identifier</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>hexagon</td>
+<td>is * identical to * ?</td>
+<td>value, value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>hexagon</td>
+<td>not &lt;&gt;</td>
+<td>Boolean-value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>hexagon</td>
+<td>true</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>oval</td>
+<td>&amp; of #</td>
+<td>operator-name, number</td>
+<td>example operators are abs, sqrt, acose...</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>oval</td>
+<td># - #</td>
+<td>number, number</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>oval</td>
+<td># * #</td>
+<td>number, number</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>oval</td>
+<td># / #</td>
+<td>number, number</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>oval</td>
+<td># + #</td>
+<td>number, number</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>oval</td>
+<td># mod #</td>
+<td>number, number</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>oval</td>
+<td>JavaScript function ( &#8220;&#8221;...){&#8220;&#8221;...}</td>
+<td>args, code</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>oval</td>
+<td>join &#8220;&#8221; &#8220;&#8221;...</td>
+<td>string, string...</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>oval</td>
+<td>length of &#8220;&#8221;</td>
+<td>string</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>oval</td>
+<td>letter # of &#8220;&#8221;</td>
+<td>index-value, string</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>oval</td>
+<td>pick random # to #</td>
+<td>low-value, high-value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>oval</td>
+<td>round #</td>
+<td>number</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>oval</td>
+<td>split &#8220;&#8221; by &amp;</td>
+<td>string, character</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>oval</td>
+<td>unicode # as letter</td>
+<td>ordinal-value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Operators</td>
+<td>green</td>
+<td>oval</td>
+<td>unicode of &amp;</td>
+<td>character</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Operators</td>
+<td>gray</td>
+<td>predicate-ring</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>passes a procedure as a value</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Operators</td>
+<td>gray</td>
+<td>reporter-ring</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>passes a procedure as a value</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Operators</td>
+<td>gray</td>
+<td>command-ring</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>passes a procedure as a value</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Pen</td>
+<td>aqua</td>
+<td>tabbed</td>
+<td>change pen color by #</td>
+<td>number</td>
+<td>there are 200 pen colors</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Pen</td>
+<td>aqua</td>
+<td>tabbed</td>
+<td>change pen shade by #</td>
+<td>number</td>
+<td>the pen shade goes from 0 to 100</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Pen</td>
+<td>aqua</td>
+<td>tabbed</td>
+<td>change pen size by #</td>
+<td>pixel-value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Pen</td>
+<td>aqua</td>
+<td>tabbed</td>
+<td>clear</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Pen</td>
+<td>aqua</td>
+<td>tabbed</td>
+<td>fill</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Pen</td>
+<td>aqua</td>
+<td>tabbed</td>
+<td>pen down</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Pen</td>
+<td>aqua</td>
+<td>tabbed</td>
+<td>pen up</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Pen</td>
+<td>aqua</td>
+<td>tabbed</td>
+<td>set pen color to [%]</td>
+<td>color-selection</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Pen</td>
+<td>aqua</td>
+<td>tabbed</td>
+<td>set pen color to #</td>
+<td>number</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Pen</td>
+<td>aqua</td>
+<td>tabbed</td>
+<td>set pen shade to #</td>
+<td>number</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Pen</td>
+<td>aqua</td>
+<td>tabbed</td>
+<td>set pen size to #</td>
+<td>pixel-value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Pen</td>
+<td>aqua</td>
+<td>tabbed</td>
+<td>stamp</td>
+<td>&nbsp;</td>
+<td>stamp a print of the costume image</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>hexagon</td>
+<td>color [%] is touching [%] ?</td>
+<td>color-selection, color-selection</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>hexagon</td>
+<td>key &amp; pressed?</td>
+<td>key</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>hexagon</td>
+<td>mouse down?</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>hexagon</td>
+<td>touching [%]?</td>
+<td>color-selection</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>hexagon</td>
+<td>touching &amp;?</td>
+<td>sprite-name</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>hexagon</td>
+<td>turbo mode?</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>oval</td>
+<td>&amp; of &amp;?</td>
+<td>property-name, sprite-name</td>
+<td>property examples: x-position, costume name</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>oval</td>
+<td>answer</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>oval</td>
+<td>current &amp;</td>
+<td>time-value-name</td>
+<td>e.g. year, month, day; “time in milliseconds” is epoch time</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>oval</td>
+<td>distance to &amp;</td>
+<td>sprite-name</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>oval</td>
+<td><code class="docutils literal"><span class="pre">http://</span></code> &#8220;&#8221;</td>
+<td>url</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>oval</td>
+<td>mouse x</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>oval</td>
+<td>mouse y</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>oval</td>
+<td>timer</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>tabbed</td>
+<td>ask &#8220;&#8221; and wait</td>
+<td>string</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>tabbed</td>
+<td>reset timer</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>tabbed</td>
+<td>set turbo mode to &lt;&gt;</td>
+<td>Boolean-value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Sound</td>
+<td>magenta</td>
+<td>oval</td>
+<td>tempo</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Sound</td>
+<td>magenta</td>
+<td>tabbed</td>
+<td>change tempo by #</td>
+<td>bpm-value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Sound</td>
+<td>magenta</td>
+<td>tabbed</td>
+<td>play note # for # beats</td>
+<td>note-number, beat-duration</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Sound</td>
+<td>magenta</td>
+<td>tabbed</td>
+<td>play sound &amp;</td>
+<td>sound-name</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Sound</td>
+<td>magenta</td>
+<td>tabbed</td>
+<td>play sound &amp; until done</td>
+<td>sound-name</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Sound</td>
+<td>magenta</td>
+<td>tabbed</td>
+<td>rest for # beats</td>
+<td>beats</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Sound</td>
+<td>magenta</td>
+<td>tabbed</td>
+<td>set tempo to # bpm</td>
+<td>bpm-value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Sound</td>
+<td>magenta</td>
+<td>tabbed</td>
+<td>stop all sounds</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Variables</td>
+<td>orange</td>
+<td>tabbed</td>
+<td>change &amp; by #</td>
+<td>variable-name, number</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Variables</td>
+<td>orange</td>
+<td>tabbed</td>
+<td>hide-variable &amp;</td>
+<td>variable-name</td>
+<td>hides the watcher for the variable</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Variables</td>
+<td>orange</td>
+<td>tabbed</td>
+<td>set &amp; to *</td>
+<td>variable-name, value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Variables</td>
+<td>orange</td>
+<td>tabbed</td>
+<td>show variable &amp;</td>
+<td>variable-name</td>
+<td>makes a watcher visible in the stage</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Variables</td>
+<td>gray</td>
+<td>tabbed</td>
+<td>script variables &amp;...</td>
+<td>variable-name...</td>
+<td>declare script-local variables in the current scope</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Variables</td>
+<td>red</td>
+<td>hexagon</td>
+<td>[] contains *</td>
+<td>list, value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Variables</td>
+<td>red</td>
+<td>oval</td>
+<td><code class="docutils literal"><span class="pre">*</span></code> in front of []</td>
+<td>value, list</td>
+<td>returns a new list with the value prepended (cons)</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Variables</td>
+<td>red</td>
+<td>oval</td>
+<td>all but first of []</td>
+<td>list</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Variables</td>
+<td>red</td>
+<td>oval</td>
+<td>item # of []</td>
+<td>index-value, list</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Variables</td>
+<td>red</td>
+<td>oval</td>
+<td>length of []</td>
+<td>list</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Variables</td>
+<td>red</td>
+<td>oval</td>
+<td>list <code class="docutils literal"><span class="pre">*</span></code>...</td>
+<td>value</td>
+<td>note: list with no values returns an empty list</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Variables</td>
+<td>red</td>
+<td>tabbed</td>
+<td>add * to []</td>
+<td>value, list</td>
+<td>appends an item to the end of the list</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Variables</td>
+<td>red</td>
+<td>tabbed</td>
+<td>delete # of []</td>
+<td>index-value, list</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Standard</td>
+<td>Variables</td>
+<td>red</td>
+<td>tabbed</td>
+<td>insert * at # of []</td>
+<td>value, index-value, list</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Standard</td>
+<td>Variables</td>
+<td>red</td>
+<td>tabbed</td>
+<td>replace item # of [] with *</td>
+<td>index-value, list, value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Tools</td>
+<td>Control</td>
+<td>gold</td>
+<td>C-shaped</td>
+<td>catch &amp; *</td>
+<td>variable-name, value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Tools</td>
+<td>Control</td>
+<td>gold</td>
+<td>C-shaped</td>
+<td>for &amp; = # to #</td>
+<td>variable-name, lower-value, upper-value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Tools</td>
+<td>Control</td>
+<td>gold</td>
+<td>C-shaped</td>
+<td>if &lt;&gt; do and pause all</td>
+<td>Boolean-value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Tools</td>
+<td>Control</td>
+<td>gold</td>
+<td>C-shaped</td>
+<td>tell &amp; to</td>
+<td>sprite-name</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Tools</td>
+<td>Control</td>
+<td>gold</td>
+<td>oval</td>
+<td>ask &amp; for ()</td>
+<td>sprite-name, reporter-function</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Tools</td>
+<td>Control</td>
+<td>gold</td>
+<td>oval</td>
+<td>catch &amp;</td>
+<td>variable-name</td>
+<td>defines a scope for throw &lt;&gt;</td>
+</tr>
+<tr class="row-odd"><td>Tools</td>
+<td>Control</td>
+<td>gold</td>
+<td>oval</td>
+<td>if &lt;&gt; then * else *</td>
+<td>Boolean-value, value, value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Tools</td>
+<td>Control</td>
+<td>gold</td>
+<td>tabbed</td>
+<td>ignore *</td>
+<td>value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Tools</td>
+<td>Control</td>
+<td>gold</td>
+<td>tabbed</td>
+<td>throw &amp;</td>
+<td>variable-name</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Tools</td>
+<td>Control</td>
+<td>gold</td>
+<td>tabbed</td>
+<td>throw &amp; *</td>
+<td>variable-name, value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Tools</td>
+<td>Operators</td>
+<td>green</td>
+<td>oval</td>
+<td>join words &#8220;&#8221;</td>
+<td>string</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Tools</td>
+<td>Operators</td>
+<td>green</td>
+<td>oval</td>
+<td>list -&gt; sentence []</td>
+<td>list</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Tools</td>
+<td>Operators</td>
+<td>green</td>
+<td>oval</td>
+<td>list -&gt; word []</td>
+<td>list</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Tools</td>
+<td>Operators</td>
+<td>green</td>
+<td>oval</td>
+<td>sentence -&gt; list &#8220;&#8221;</td>
+<td>string</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Tools</td>
+<td>Operators</td>
+<td>green</td>
+<td>oval</td>
+<td>word -&gt; list &#8220;&#8221;</td>
+<td>string</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Tools</td>
+<td>Pen</td>
+<td>aqua</td>
+<td>tabbed</td>
+<td>label &#8220;&#8221; of size #</td>
+<td>string, size-value</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Tools</td>
+<td>Variables</td>
+<td>orange</td>
+<td>C-shaped</td>
+<td>for each &amp; of []</td>
+<td>variable-name, list</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Tools</td>
+<td>Variables</td>
+<td>orange</td>
+<td>hexagon</td>
+<td>empty? []</td>
+<td>list</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Tools</td>
+<td>Variables</td>
+<td>orange</td>
+<td>oval</td>
+<td>combine with () items of []</td>
+<td>reporter-function, list</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Tools</td>
+<td>Variables</td>
+<td>orange</td>
+<td>oval</td>
+<td>keep items such that () from []</td>
+<td>Boolean-function, list</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Tools</td>
+<td>Variables</td>
+<td>orange</td>
+<td>oval</td>
+<td>map () over []</td>
+<td>reporter-function, list</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Finch</td>
+<td>Looks</td>
+<td>purple</td>
+<td>tabbed</td>
+<td>Finch LED R: # G: # B: #</td>
+<td>red, green, blue</td>
+<td>colors range from 0 to 100</td>
+</tr>
+<tr class="row-odd"><td>Finch</td>
+<td>Motion</td>
+<td>blue</td>
+<td>tabbed</td>
+<td>Move Finch Left: # Right: #</td>
+<td>left-speed, right-speed</td>
+<td>speeds range from -100 to 100</td>
+</tr>
+<tr class="row-even"><td>Finch</td>
+<td>Motion</td>
+<td>blue</td>
+<td>tabbed</td>
+<td>Stop Finch</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Finch</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>hexagon</td>
+<td>Finch Left Obstacle</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Finch</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>hexagon</td>
+<td>Finch Right Obstacle</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Finch</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>oval</td>
+<td>Finch Accelerations</td>
+<td>&nbsp;</td>
+<td>returns a list with [X,Y,Z] acceleration components</td>
+</tr>
+<tr class="row-even"><td>Finch</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>oval</td>
+<td>Finch Left Light Sensor</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Finch</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>oval</td>
+<td>Finch Light Sensors</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Finch</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>oval</td>
+<td>Finch Obstacles</td>
+<td>&nbsp;</td>
+<td>returns list of two Booleans</td>
+</tr>
+<tr class="row-odd"><td>Finch</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>oval</td>
+<td>Finch Orientation</td>
+<td>&nbsp;</td>
+<td>returns an orientation name string, e.g. &#8220;level&#8221;, &#8220;left wing down&#8221;, etc.</td>
+</tr>
+<tr class="row-even"><td>Finch</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>oval</td>
+<td>Finch Right Light Sensor</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Finch</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>oval</td>
+<td>Finch Temperature Celsius</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Finch</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>oval</td>
+<td>Finch Temperature Fahrenheit</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Finch</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>oval</td>
+<td>Finch X Acceleration</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Finch</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>oval</td>
+<td>Finch Y Acceleration</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Finch</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>oval</td>
+<td>Finch Z Acceleration</td>
+<td>&nbsp;</td>
+<td>ranges from 1 (right-side up) to -1 (upside-down)</td>
+</tr>
+<tr class="row-even"><td>Finch</td>
+<td>Sound</td>
+<td>magenta</td>
+<td>tabbed</td>
+<td>Finch Buzz+Wait # Hz # ms</td>
+<td>Hz-value, msec-duration</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Finch</td>
+<td>Sound</td>
+<td>magenta</td>
+<td>tabbed</td>
+<td>Finch Buzzer # Hz # ms</td>
+<td>Hz-value, msec-duration</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Finch</td>
+<td>Sound</td>
+<td>magenta</td>
+<td>tabbed</td>
+<td>Say This &#8220;&#8221;</td>
+<td>string</td>
+<td>performs speech synthesis on host computer</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Standard Snap Blocks Reference</a><ul>
+<li><a class="reference internal" href="#key-to-block-descriptions">Key to Block Descriptions</a><ul>
+<li><a class="reference internal" href="#key-to-block-arguments">Key to Block Arguments</a></li>
+<li><a class="reference internal" href="#key-to-block-shapes">Key to Block Shapes</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#table-of-blocks">Table of Blocks</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="intro.html"
+                        title="previous chapter">Introduction</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="libref.html"
+                        title="next chapter">Drama Library Blocks Reference</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="libref.html" title="Drama Library Blocks Reference"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="intro.html" title="Introduction"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Finch Drama Project</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2016, Garth Zeglin.
+      Last updated on 2016-02-23.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
+    </div>
+  </body>
+</html>
