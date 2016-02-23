@@ -1,5 +1,6 @@
 .. include:: links.rst
 
+.. _snap-reference:
 
 Standard Snap Blocks Reference
 ******************************
@@ -17,7 +18,7 @@ Standard library
 
 Tools library
   These blocks are available once **Import Tools** is run from the File menu.
-  
+
 Finch library
   The blocks in the BirdBrain Finch-Chrome library, which can found in the Snap
   sketch loaded by the `Chrome Finch Connection App`_.
@@ -29,7 +30,7 @@ Key to Block Arguments
 The argument notation is idiosyncratic, but follows this convention:
 
 =======	===============================================
-Symbol	Data Type 
+Symbol	Data Type
 =======	===============================================
 ``#``	numeric value
 ``<>``	Boolean value

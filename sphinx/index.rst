@@ -27,6 +27,7 @@ Contents
 
    intro
    snapref
+   libref
    ex/state-machine
    ex/sensorless-parking
    ex/network-comm
