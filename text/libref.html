@@ -1,0 +1,436 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Drama Library Blocks Reference &mdash; Finch Drama Project</title>
+    
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/guide.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2016-02-23',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Finch Drama Project" href="index.html" />
+    <link rel="next" title="Exercise - State Transition Diagrams" href="ex/state-machine.html" />
+    <link rel="prev" title="Standard Snap Blocks Reference" href="snapref.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="ex/state-machine.html" title="Exercise - State Transition Diagrams"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="snapref.html" title="Standard Snap Blocks Reference"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Finch Drama Project</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="drama-library-blocks-reference">
+<span id="course-library"></span><h1>Drama Library Blocks Reference<a class="headerlink" href="#drama-library-blocks-reference" title="Permalink to this headline">¶</a></h1>
+<p>The <a class="reference external" href="http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&amp;ProjectName=Finch-Drama-Library">course library</a> is a common set of Snap blocks used
+across many of the exercises.  They will likely be useful for student projects
+as well as example code for highlighting programming techniques.  This library
+is built using the standard Snap blocks described on the <a class="reference internal" href="snapref.html#snap-reference"><span>Standard Snap Blocks Reference</span></a>
+page and follows the same conventions.</p>
+<div class="section" id="summary-of-library">
+<h2>Summary of Library<a class="headerlink" href="#summary-of-library" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="5%" />
+<col width="6%" />
+<col width="5%" />
+<col width="6%" />
+<col width="20%" />
+<col width="20%" />
+<col width="39%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Library</th>
+<th class="head">Palette</th>
+<th class="head">Color</th>
+<th class="head">Shape</th>
+<th class="head">Name</th>
+<th class="head">Arguments</th>
+<th class="head">Notes</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Drama</td>
+<td>Motion</td>
+<td>blue</td>
+<td>tabbed</td>
+<td>drive Finch and record into []</td>
+<td>recording-list</td>
+<td>records keyboard-controlled motions and appends action lists to the given recording list</td>
+</tr>
+<tr class="row-odd"><td>Drama</td>
+<td>Motion</td>
+<td>blue</td>
+<td>tabbed</td>
+<td>play Finch action []</td>
+<td>action-list</td>
+<td>performs a single action specified as a list of values</td>
+</tr>
+<tr class="row-even"><td>Drama</td>
+<td>Motion</td>
+<td>blue</td>
+<td>tabbed</td>
+<td>play action <code class="docutils literal"><span class="pre">&quot;&quot;</span></code> from library []</td>
+<td>action-name, action-library</td>
+<td>plays a named sequence</td>
+</tr>
+<tr class="row-odd"><td>Drama</td>
+<td>Looks</td>
+<td>purple</td>
+<td>tabbed</td>
+<td>drive LEDs and record into []</td>
+<td>recording-list</td>
+<td>records keyboard-controlled lighting and appends action lists to the given recording list</td>
+</tr>
+<tr class="row-even"><td>Drama</td>
+<td>Sound</td>
+<td>magenta</td>
+<td>tabbed</td>
+<td>Finch buzz MIDI note <code class="docutils literal"><span class="pre">#</span></code> for <code class="docutils literal"><span class="pre">#</span></code> beats</td>
+<td>integer-note,number-of-beats</td>
+<td>plays a musical note</td>
+</tr>
+<tr class="row-odd"><td>Drama</td>
+<td>Sensing</td>
+<td>cyan</td>
+<td>oval</td>
+<td>current time</td>
+<td>&nbsp;</td>
+<td>returns the absolute (epoch) time in seconds</td>
+</tr>
+<tr class="row-even"><td>Drama</td>
+<td>Variables</td>
+<td>red</td>
+<td>hexagon</td>
+<td>null? *</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Drama</td>
+<td>Variables</td>
+<td>red</td>
+<td>oval</td>
+<td>find value for * in a-list []</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Drama</td>
+<td>Variables</td>
+<td>red</td>
+<td>oval</td>
+<td>find record for key * in a-list []</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Drama</td>
+<td>Variables</td>
+<td>red</td>
+<td>tabbed</td>
+<td>set value * for key * in a-list []</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Drama</td>
+<td>Variables</td>
+<td>red</td>
+<td>C-shaped</td>
+<td>for each &amp;key &amp;value of a-list []</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Drama</td>
+<td>Variables</td>
+<td>red</td>
+<td>oval</td>
+<td>text -&gt; action library <code class="docutils literal"><span class="pre">&quot;&quot;</span></code></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>Drama</td>
+<td>Variables</td>
+<td>red</td>
+<td>oval</td>
+<td>action library -&gt; text []</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Drama</td>
+<td>Variables</td>
+<td>red</td>
+<td>oval</td>
+<td>descriptor for server <code class="docutils literal"><span class="pre">&quot;&quot;</span></code> channel *</td>
+<td>server-name,channel-name</td>
+<td>create a new server-descriptor</td>
+</tr>
+<tr class="row-even"><td>Drama</td>
+<td>Variables</td>
+<td>orange</td>
+<td>oval</td>
+<td>send message list [] via server []</td>
+<td>message-list, server-descriptor</td>
+<td>sends key-value updates to a server and returns the parsed response</td>
+</tr>
+<tr class="row-odd"><td>Drama</td>
+<td>Variables</td>
+<td>orange</td>
+<td>oval</td>
+<td>poll server []</td>
+<td>server-descriptor</td>
+<td>fetch the current key-value set from a server channel</td>
+</tr>
+<tr class="row-even"><td>Drama</td>
+<td>Variables</td>
+<td>red</td>
+<td>oval</td>
+<td>clock skew for server []</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Drama</td>
+<td>Variables</td>
+<td>orange</td>
+<td>oval</td>
+<td>send cue * with # seconds delay</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="detailed-documentation">
+<h2>Detailed Documentation<a class="headerlink" href="#detailed-documentation" title="Permalink to this headline">¶</a></h2>
+<p>This section includes usage documentation and design discussion for the library
+blocks.</p>
+<div class="section" id="data-structures-and-special-values">
+<span id="data-structures"></span><h3>Data Structures and Special Values<a class="headerlink" href="#data-structures-and-special-values" title="Permalink to this headline">¶</a></h3>
+<p>All data structures in Snap are built from lists and atomic values such as
+integer, text, Boolean, or procedure.  So different &#8216;types&#8217; in most cases are
+really usage conventions.</p>
+<dl class="docutils">
+<dt>association-list</dt>
+<dd>An association list is a list of two-element lists, each containing a key and
+a value, with each key appearing no more than once.  It implements a
+dictionary or associative memory, mapping keys to values. <a class="footnote-reference" href="#alist" id="id1">[1]</a></dd>
+<dt>action-list</dt>
+<dd>An action list is a variable-length list used to represent a single
+output to the robot with an optional duration.</dd>
+<dt>recording-list</dt>
+<dd>A list of action-lists, representing a time-series of outputs to the robot.</dd>
+<dt>action-library</dt>
+<dd>An association list mapping action names to recording lists.  The
+recording lists may also include a special <code class="docutils literal"><span class="pre">call</span> <span class="pre">*</span></code> action to allow one
+action sequence to include another.</dd>
+<dt>server-descriptor</dt>
+<dd>A list encapsulating all the state for a server channel: the URL, channel
+(namespace) identifier, estimated clock skew, most recently transmitted query,
+and most recently received response.</dd>
+<dt>null</dt>
+<dd>An empty value distinct from any other value, conceptually representing
+&#8216;None&#8217;.  This value can be returned using a <code class="docutils literal"><span class="pre">report</span></code> operator with
+no value.  It is <em>not</em> the same as an empty list.  The <code class="docutils literal"><span class="pre">is</span> <span class="pre">*</span> <span class="pre">identical</span> <span class="pre">to</span> <span class="pre">*</span>
+<span class="pre">?</span></code> operator reports it as identical to an empty box.  The <code class="docutils literal"><span class="pre">is</span> <span class="pre">*</span> <span class="pre">a</span> <span class="pre">&amp;?</span></code>
+operator reports true for number, and the <code class="docutils literal"><span class="pre">length</span> <span class="pre">of</span> <span class="pre">&quot;&quot;</span></code> operator reports
+zero.  The library provides <code class="docutils literal"><span class="pre">null?</span> <span class="pre">*</span></code> to test for this value.</dd>
+</dl>
+<table class="docutils footnote" frame="void" id="alist" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[1]</a></td><td>An association list value can be a list, but since improper lists (dotted pairs) are not supported, each entry still has only two elements, the second of which is a list.</td></tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="association-lists">
+<h3>Association Lists<a class="headerlink" href="#association-lists" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><code class="docutils literal"><span class="pre">null?</span> <span class="pre">*</span></code></dt>
+<dd>Returns true if the value is equivalent to an empty value, else false.</dd>
+<dt><code class="docutils literal"><span class="pre">find</span> <span class="pre">value</span> <span class="pre">for</span> <span class="pre">*</span> <span class="pre">in</span> <span class="pre">a-list</span> <span class="pre">[]</span></code></dt>
+<dd>Search the association list for the given key.  Returns just the value, or null if not found.</dd>
+<dt><code class="docutils literal"><span class="pre">find</span> <span class="pre">record</span> <span class="pre">for</span> <span class="pre">key</span> <span class="pre">*</span> <span class="pre">in</span> <span class="pre">a-list</span> <span class="pre">[]</span></code></dt>
+<dd>Search the association list for the given key.  Returns the [key, value] list, or null if not found.</dd>
+<dt><code class="docutils literal"><span class="pre">set</span> <span class="pre">value</span> <span class="pre">*</span> <span class="pre">for</span> <span class="pre">key</span> <span class="pre">*</span> <span class="pre">in</span> <span class="pre">a-list</span> <span class="pre">[]</span></code></dt>
+<dd>Replace the value for the given key in the association list, adding it if not present.</dd>
+<dt><code class="docutils literal"><span class="pre">for</span> <span class="pre">each</span> <span class="pre">&amp;key</span> <span class="pre">&amp;value</span> <span class="pre">of</span> <span class="pre">a-list</span> <span class="pre">[]</span></code></dt>
+<dd>Iterate over each [key, value] pair in the association list, calling the
+procedure in the body of the C-shaped block with the local variables set to a
+key and a value.</dd>
+</dl>
+</div>
+<div class="section" id="action-libraries">
+<h3>Action Libraries<a class="headerlink" href="#action-libraries" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><code class="docutils literal"><span class="pre">action</span> <span class="pre">library</span> <span class="pre">-&gt;</span> <span class="pre">text</span> <span class="pre">[]</span></code></dt>
+<dd>Print an action library into a text form.  This allows a readable script to be saved in a text variable and exported to an external file.  Returns a string.</dd>
+<dt><code class="docutils literal"><span class="pre">text</span> <span class="pre">-&gt;</span> <span class="pre">action</span> <span class="pre">library</span> <span class="pre">&quot;&quot;</span></code></dt>
+<dd>Parse a text representation of an action library and returns an action library.</dd>
+</dl>
+</div>
+<div class="section" id="driving-and-recording">
+<h3>Driving and Recording<a class="headerlink" href="#driving-and-recording" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><code class="docutils literal"><span class="pre">drive</span> <span class="pre">Finch</span> <span class="pre">and</span> <span class="pre">record</span> <span class="pre">into</span> <span class="pre">[]</span></code></dt>
+<dd>Enables keyboard-controlled driving, recording an action-list for each change
+of output into an existing list.  The list may be empty to begin, but must
+exist in order to be modified.</dd>
+<dt><code class="docutils literal"><span class="pre">drive</span> <span class="pre">LEDs</span> <span class="pre">and</span> <span class="pre">record</span> <span class="pre">into</span> <span class="pre">[]</span></code></dt>
+<dd>Enabled keyboard-controlled lighting, recording events into the given recording list.</dd>
+<dt><code class="docutils literal"><span class="pre">play</span> <span class="pre">Finch</span> <span class="pre">action</span> <span class="pre">[]</span></code></dt>
+<dd>Interpret and perform a single action represented as an action-list, including
+delay for duration.  This may set the motor speed, change the LED color, or
+play a note on the buzzer.</dd>
+<dt><code class="docutils literal"><span class="pre">play</span> <span class="pre">action</span> <span class="pre">&quot;&quot;</span> <span class="pre">from</span> <span class="pre">library</span> <span class="pre">[]</span></code></dt>
+<dd>Play a named action sequence from the given action library.  The special
+<code class="docutils literal"><span class="pre">call</span></code> action is allowed to recursively invoke other actions from the same
+library, so this can be used to create a hierarchy of script sequences.  Care
+should be taken to avoid recursive calls since there are no conditionals to
+end recursion.</dd>
+</dl>
+</div>
+<div class="section" id="sound">
+<h3>Sound<a class="headerlink" href="#sound" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><code class="docutils literal"><span class="pre">Finch</span> <span class="pre">buzz</span> <span class="pre">MIDI</span> <span class="pre">note</span> <span class="pre">#</span> <span class="pre">for</span> <span class="pre">#</span> <span class="pre">beats</span></code></dt>
+<dd>Play a musical note on the Finch buzzer.  Note that the underlying primitive
+accepts a duration, here computed using the current global tempo setting, but
+this block does not execute any delay.  The note is specified as a MIDI note
+integer for which each integer value represents a musical half-step: middle-C
+is 60, C# is 61, the tuning A (440Hz) is 69, the octave above middle C is 72.</dd>
+</dl>
+</div>
+<div class="section" id="networking">
+<h3>Networking<a class="headerlink" href="#networking" title="Permalink to this headline">¶</a></h3>
+<p>The communications server supports sharing sets of key and value pairs on a
+number of distinct <em>channels</em> or <em>namespaces</em>.  The networking functions use a
+server-descriptor (see <a class="reference internal" href="#data-structures"><span>Data Structures and Special Values</span></a>) to encapsulate all the state for
+a connection to simplify the interface for sending and receiving messages.
+Messages are sets of key-value pairs, i.e., a message is an association list.</p>
+<dl class="docutils">
+<dt><code class="docutils literal"><span class="pre">descriptor</span> <span class="pre">for</span> <span class="pre">server</span> <span class="pre">&quot;&quot;</span> <span class="pre">channel</span> <span class="pre">*</span></code></dt>
+<dd>Create a new descriptor object given a server hostname and a namespace identifier.</dd>
+<dt><code class="docutils literal"><span class="pre">send</span> <span class="pre">message</span> <span class="pre">list</span> <span class="pre">[]</span> <span class="pre">via</span> <span class="pre">server</span> <span class="pre">[]</span></code></dt>
+<dd>Send an association list of key-value pairs to update the server state,
+returning an association list with the new state.</dd>
+<dt><code class="docutils literal"><span class="pre">poll</span> <span class="pre">server</span> <span class="pre">[]</span></code></dt>
+<dd>Fetch the current state of a server channel as an association list.</dd>
+<dt><code class="docutils literal"><span class="pre">clock</span> <span class="pre">skew</span> <span class="pre">for</span> <span class="pre">server</span> <span class="pre">[]</span></code></dt>
+<dd>Retrieve the clock skew estimate from the server descriptor.  This represents
+the number of seconds by which the local time is ahead of the server time.  If
+the value is negative, the local time is behind.  This estimate is adjusted
+during each server transaction.</dd>
+<dt><code class="docutils literal"><span class="pre">send</span> <span class="pre">cue</span> <span class="pre">*</span> <span class="pre">with</span> <span class="pre">#</span> <span class="pre">seconds</span> <span class="pre">delay</span></code></dt>
+<dd>Send a message with <code class="docutils literal"><span class="pre">next_cue</span></code> and <code class="docutils literal"><span class="pre">start_time</span></code> fields to indicate an
+event in the future.  The time is sent as an absolute timestamp measured
+against the server clock.  This allows clients to adjust the command to their
+own local clocks using their individual skew estimations</dd>
+</dl>
+</div>
+<div class="section" id="utility-functions">
+<h3>Utility Functions<a class="headerlink" href="#utility-functions" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><code class="docutils literal"><span class="pre">current</span> <span class="pre">time</span></code></dt>
+<dd>Returns the current local clock time in seconds to millisecond precision.
+This is &#8216;epoch&#8217; time, the number of seconds since January 1, 1970.</dd>
+</dl>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Drama Library Blocks Reference</a><ul>
+<li><a class="reference internal" href="#summary-of-library">Summary of Library</a></li>
+<li><a class="reference internal" href="#detailed-documentation">Detailed Documentation</a><ul>
+<li><a class="reference internal" href="#data-structures-and-special-values">Data Structures and Special Values</a></li>
+<li><a class="reference internal" href="#association-lists">Association Lists</a></li>
+<li><a class="reference internal" href="#action-libraries">Action Libraries</a></li>
+<li><a class="reference internal" href="#driving-and-recording">Driving and Recording</a></li>
+<li><a class="reference internal" href="#sound">Sound</a></li>
+<li><a class="reference internal" href="#networking">Networking</a></li>
+<li><a class="reference internal" href="#utility-functions">Utility Functions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="snapref.html"
+                        title="previous chapter">Standard Snap Blocks Reference</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="ex/state-machine.html"
+                        title="next chapter">Exercise - State Transition Diagrams</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="ex/state-machine.html" title="Exercise - State Transition Diagrams"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="snapref.html" title="Standard Snap Blocks Reference"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Finch Drama Project</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2016, Garth Zeglin.
+      Last updated on 2016-02-23.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Exercise - Network Communication &mdash; Finch Drama Project</title>
+    
+    <link rel="stylesheet" href="../_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/guide.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '2016-02-23',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="Finch Drama Project" href="../index.html" />
+    <link rel="next" title="Exercise - Robot Synchronization" href="robot-sync.html" />
+    <link rel="prev" title="Exercise - Sensorless Parking" href="sensorless-parking.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="robot-sync.html" title="Exercise - Robot Synchronization"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="sensorless-parking.html" title="Exercise - Sensorless Parking"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Finch Drama Project</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="exercise-network-communication">
+<h1>Exercise - Network Communication<a class="headerlink" href="#exercise-network-communication" title="Permalink to this headline">¶</a></h1>
+<p>For this exercise, we will explore a method for coordinating several Snap sketches using
+communication over a network.</p>
+<div class="section" id="coordinating-multiple-robots">
+<h2>Coordinating Multiple Robots<a class="headerlink" href="#coordinating-multiple-robots" title="Permalink to this headline">¶</a></h2>
+<p>Programming multiple robots to work together requires coordinating their
+actions.  This can be as simple as taking turns or as complex as combining
+sensor information from multiple robots.  Timing is essential to dramatic
+performance, so it can be important to synchronize multiple robot actors tightly
+to move together or precisely take turns.</p>
+<p>The simplest way to accomplish coordination is for humans to act as the eyes and
+ears of the robots and puppet them using keyboard commands, but it would be
+useful to automate elements of a performance.  The Finch has very limited
+capabilities to physically communicate from robot to robot, but the control
+computers can much more easily pass messages back and forth using the network.</p>
+</div>
+<div class="section" id="try-it-out">
+<h2>Try it out!<a class="headerlink" href="#try-it-out" title="Permalink to this headline">¶</a></h2>
+<p>Before we go further in the discussion, let’s try this.  The <a class="reference external" href="Sprite-Communication-Intro">first example
+sketch</a> demonstrates communication to control
+graphic sprites without needing any robots.  Please read the comment in the Snap
+sketch and try out the steps to see how network communication works.</p>
+</div>
+<div class="section" id="discussion">
+<h2>Discussion<a class="headerlink" href="#discussion" title="Permalink to this headline">¶</a></h2>
+<p>If you have followed the notes in the sketch, then you should have been able to
+see that a set of (key, value) pairs can be shared among multiple computers
+using a server as an intermediary.</p>
+<p>The complications of controlling robots with this approach revolve around
+carefully choosing what kind of data will be sent and by which robots.  It takes
+time for each query, so the server can only be polled at a modest rate, no more
+than a few times a second.  The amount of data is limited to a few sets of
+numbers or strings.</p>
+<p>However, the robots can each be preprogrammed with script sequences, so the
+actual movements don’t need to be sent.  The controlling computer need only act
+as a kind of conductor or director and indicate only which section to run and
+when.  Since each computer has a local clock, this instructions can also specify
+actions to take place in the near future so each robot has time to fetch the
+current directions.  We will see some of this in the next exercise with actual
+robots.</p>
+</div>
+<div class="section" id="terminology">
+<h2>Terminology<a class="headerlink" href="#terminology" title="Permalink to this headline">¶</a></h2>
+<p>There are several terms which will help us in future discussion.</p>
+<p><strong>Key and Value</strong>. A key is a kind of name, a text string used to identify a
+piece of data, i.e. a value, in a database.  This approach is commonly called a
+<a class="reference external" href="https://en.wikipedia.org/wiki/Key-value_database">key-value store</a> or key-value database.  In this example, the ‘value’ is a text
+string which can encode a set of numbers or strings.</p>
+<p><strong>Blackboard</strong>.  A physical blackboard has the property than anyone in the room
+can write on it, and anyone can read it.  A <a class="reference external" href="https://en.wikipedia.org/wiki/Blackboard_system">blackboard system</a> is a programming
+idiom for using a common memory for coordinating multiple computers or programs.
+The communication system in this exercise can be considered a kind of online
+blackboard.</p>
+</div>
+<div class="section" id="code-commentary">
+<h2>Code Commentary<a class="headerlink" href="#code-commentary" title="Permalink to this headline">¶</a></h2>
+<p>It is instructive to examine the details of the [process message] command block.
+If you right-click on an instance, you can select <strong>edit..</strong>  to see the code.</p>
+<p>The main structure is a <strong>for-each-of</strong> loop which iterates once for each line of
+text from the server response.  The <strong>split</strong> operator is used to divide the
+response text into a list of strings, one per line.  On each iteration of the
+loop, the line script variable holds one text line.</p>
+<p>This line is divided again with <strong>split</strong>, this time dividing the line at each
+space into a list of strings, and storing the result in <strong>record</strong>. The first
+item in this list is the key string, stored in <strong>key</strong>.  The list of one or more
+value items is stored in <strong>value</strong>.  The number of value items depends upon the
+data format for the given key; in this example, most values have only a single
+item, but the <strong>xy_position</strong> value is a pair of numbers.</p>
+<p>Following this data dissection is a set of <strong>if-then-else</strong> commands to
+determine what to do with the key-value pair.  In this example, each outcome is
+simply to store the value data in a particular global variable, but other
+actions are also possible such as immediately issuing a robot command.</p>
+<p>Note that the keys can come from the server in any order and may include
+unrecognized new keys.  This scheme handles these cases without breaking.</p>
+</div>
+<div class="section" id="challenges">
+<h2>Challenges<a class="headerlink" href="#challenges" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Can you add a new key-value pair to the blackboard?  Be sure to update the
+[process message] block to correctly interpret the value.</li>
+</ol>
+<p><em>Garth Zeglin, Personal Robotics Lab, Carnegie Mellon University</em></p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Exercise - Network Communication</a><ul>
+<li><a class="reference internal" href="#coordinating-multiple-robots">Coordinating Multiple Robots</a></li>
+<li><a class="reference internal" href="#try-it-out">Try it out!</a></li>
+<li><a class="reference internal" href="#discussion">Discussion</a></li>
+<li><a class="reference internal" href="#terminology">Terminology</a></li>
+<li><a class="reference internal" href="#code-commentary">Code Commentary</a></li>
+<li><a class="reference internal" href="#challenges">Challenges</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="sensorless-parking.html"
+                        title="previous chapter">Exercise - Sensorless Parking</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="robot-sync.html"
+                        title="next chapter">Exercise - Robot Synchronization</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="robot-sync.html" title="Exercise - Robot Synchronization"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="sensorless-parking.html" title="Exercise - Sensorless Parking"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Finch Drama Project</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2016, Garth Zeglin.
+      Last updated on 2016-02-23.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
+    </div>
+  </body>
+</html>

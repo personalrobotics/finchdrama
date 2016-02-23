@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Exercise - State Transition Diagrams &mdash; Finch Drama Project</title>
+    
+    <link rel="stylesheet" href="../_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/guide.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '2016-02-23',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="Finch Drama Project" href="../index.html" />
+    <link rel="next" title="Exercise - Sensorless Parking" href="sensorless-parking.html" />
+    <link rel="prev" title="Course Blocks Library Reference" href="../libref.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="sensorless-parking.html" title="Exercise - Sensorless Parking"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../libref.html" title="Course Blocks Library Reference"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Finch Drama Project</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="exercise-state-transition-diagrams">
+<h1>Exercise - State Transition Diagrams<a class="headerlink" href="#exercise-state-transition-diagrams" title="Permalink to this headline">¶</a></h1>
+<p>A common problem in Finch programming is switching between sequences of actions
+based on human or sensor input.  The simplest case in a linear script sequence
+in which each cue simply advances to the next movement.  But as soon as the
+robot program start choosing between alternatives, it can be useful to diagram
+the logic as a state transition graph.</p>
+<div class="section" id="state-transition-graphs-and-state-machines">
+<h2>State Transition Graphs and State Machines<a class="headerlink" href="#state-transition-graphs-and-state-machines" title="Permalink to this headline">¶</a></h2>
+<p>The basic idea is that at any given moment, the program exists in one discrete
+state, but can transition to other states based on specific conditions.  In the
+diagram, states are illustrated as ovals and transitions as directed arcs with
+arrowheads.  Each state is a mode with actions defining the behavior in that
+state.  Each transition has a predicate, i.e a true-or-false rule, which can be
+evaluated based on the sensor and interface inputs and determines whether to
+change state.  The combination of the state and transition definitions is known
+as a state machine.</p>
+<p>There are many possible ways of implementing a given state machine in code.
+Diagramming out the logic can help separate the conceptual thinking from the
+details of coding.</p>
+<p class="graphviz">
+<img src="../_images/graphviz-928fccb0d675e44a29267d7c129c75edfb22d64d.png" alt="digraph input_matching {
+	node [fontsize=10]
+	edge [fontsize=8]
+	dpi=&quot;144&quot;
+	size=&quot;7,7!&quot;
+	
+	// declare all nodes
+	START [ label = &quot;START\nwait briefly&quot;]
+	EXPLORE [ label = &quot;EXPLORE\ndrive forward&quot;]
+	REVERSE [ label = &quot;REVERSE\ndrive backwards&quot;]
+	TURNLEFT  [ label = &quot;TURNLEFT\nsmall turn&quot;]
+	TURNRIGHT [ label = &quot;TURNRIGHT\nsmall turn&quot;]
+	BACKTRACK [ label = &quot;BACKTRACK\nescape backwards&quot;]
+	SPIN [ label = &quot;SPIN\nturn around&quot;]
+	PAUSE [ label = &quot;PAUSE\nwait briefly&quot;]
+
+	// declare all edges with labels
+	START -&gt; EXPLORE   [ label = &quot;two seconds elapsed&quot;]
+	
+	EXPLORE -&gt; BACKTRACK  [ label = &quot;obstacle in front&quot;]
+	EXPLORE -&gt; REVERSE     [ label = &quot;five seconds elapsed&quot;]
+
+	REVERSE -&gt; TURNLEFT   [ label = &quot;two seconds elapsed\nAND random = 1&quot;]
+	REVERSE -&gt; TURNRIGHT  [ label = &quot;two seconds elapsed\nAND random = 2&quot;]
+
+	BACKTRACK -&gt; SPIN     [ label = &quot;one second elapsed&quot;]
+
+	TURNLEFT  -&gt; EXPLORE  [ label = &quot;0.5 seconds elapsed&quot;]
+	TURNRIGHT -&gt; EXPLORE  [ label = &quot;0.5 seconds elapsed&quot;]
+
+	SPIN -&gt; PAUSE         [ label = &quot;one second elapsed&quot;]
+
+	PAUSE -&gt; BACKTRACK    [ label = &quot;one second elapsed\nAND obstacle in front&quot;]
+	PAUSE -&gt; EXPLORE      [ label = &quot;one second elapsed\nAND no obstacle&quot;]
+
+	label = &quot;Finch Robot Exploration\nState Transition Diagram&quot;
+}" />
+</p>
+</div>
+<div class="section" id="state-machine-example">
+<h2>State Machine Example<a class="headerlink" href="#state-machine-example" title="Permalink to this headline">¶</a></h2>
+<p>The example state transition graph shown illustrates an exploratory behavior
+controlled by the obstacle sensor input and clock time. The basic purpose is to
+wander around a space without getting stuck.  Most of the time the Finch drives
+forward.  If it sees an obstacle, it enters BACKTRACK to rapidly escape
+backwards and then choose a new direction.  If it doesn’t see any obstacles
+within a short time, it backs up slightly using REVERSE and randomly changes
+direction.  This can help move the Finch away from any obstacles that it cannot
+see with its sensors.</p>
+</div>
+<div class="section" id="try-it-out">
+<h2>Try it out!<a class="headerlink" href="#try-it-out" title="Permalink to this headline">¶</a></h2>
+<p>Please try the <a class="reference external" href="http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&amp;ProjectName=Finch-State-Machine">sample implementation of the state machine in a Snap sketch</a>.  The code is structured as one large polling loop.  On
+each iteration, it evaluates a specific case corresponding to a single state
+(e.g. an oval in this graph), applying the actions and deciding whether to
+transition.  The current state value is kept as a string in a global variable.
+This is an idiomatic programming structure which allows any state to transition
+to any other state.</p>
+</div>
+<div class="section" id="challenges">
+<h2>Challenges<a class="headerlink" href="#challenges" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>What failure modes can you observe, e.g., where the robot gets stuck?  Can
+you add states or transitions to avoid this?  Do they create new failure
+modes?</li>
+<li>How could you use the orientation input to navigate different terrain?</li>
+<li>Can you simplify the code by creating some new blocks for common operations?</li>
+<li>Can you make the code more efficient by only issuing each robot command once
+when entering the state?  The example implementation keeps sending the
+identical robot commands again and again, which in many cases is not needed.</li>
+</ol>
+<p><em>Garth Zeglin, Personal Robotics Lab, Carnegie Mellon University</em></p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Exercise - State Transition Diagrams</a><ul>
+<li><a class="reference internal" href="#state-transition-graphs-and-state-machines">State Transition Graphs and State Machines</a></li>
+<li><a class="reference internal" href="#state-machine-example">State Machine Example</a></li>
+<li><a class="reference internal" href="#try-it-out">Try it out!</a></li>
+<li><a class="reference internal" href="#challenges">Challenges</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../libref.html"
+                        title="previous chapter">Course Blocks Library Reference</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="sensorless-parking.html"
+                        title="next chapter">Exercise - Sensorless Parking</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="sensorless-parking.html" title="Exercise - Sensorless Parking"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="../libref.html" title="Course Blocks Library Reference"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Finch Drama Project</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2016, Garth Zeglin.
+      Last updated on 2016-02-23.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
+    </div>
+  </body>
+</html>

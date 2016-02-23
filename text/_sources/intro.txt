@@ -29,11 +29,11 @@ The exercises assume students are already familiar with these basic programming
 ideas in Snap:
 
   #. imperative programming as sequences of commands
-  #. atomic data representation as numbers and strings
+  #. data representation as numbers and strings (atoms)
   #. the idea of composite data representation as lists
   #. creating functions with arguments
   #. state machine transition diagrams and implementation
-  
+
 And these topics related to robotics:
 
   #. issuing robot commands to change physical state (wheel velocity, LED color)
@@ -55,7 +55,7 @@ The following topics include the essential learning goals related to robot perfo
   #. creating meaning through context: story, setting, costuming
   #. writing a script for video-recorded performance
   #. writing a script for live performance
-     
+
 Accomplishing these objectives will require learning more fundamentals
 of robotics including the following:
 
@@ -76,3 +76,40 @@ following:
   #. understanding recursive functions
 
 
+Daily Sessions
+==============
+
+The course involves a series of hour-long sessions mixing technical exercises to
+build robot skills and drama exercises to develop storytelling abilities.  The
+course will loosely alternate between technical and drama topics, the exact
+schedule is yet to be determined.
+
+
+Summary of Drama Sequence
+-------------------------
+
+#. Introductions, warm-ups, and improv exercises.
+#. Storytelling with objects: finding a story in anything, seeing from a new point of view.
+#. Storytelling with robots: movement, setting, and relationships.
+#. Robot dance party.  Rhythm and synchrony.  Ensemble choreography.
+#. Creating a character, finding a voice.
+#. Costuming and set design.
+#. Robot circus.
+#. Developing a theme.
+#. Rehearsal skills.
+#. Scriptwriting workshop.
+#. Practice, practice, practice.
+#. Documentation.
+
+
+Summary of Technical Sequence
+-----------------------------
+
+#. Introduction to Snap!
+#. State machine programming.  Shared autonomy.
+#. Functions, lists, and data.
+#. Movement primitives.  Parameterization.
+#. Robot geometry.  Diff-drive kinematics, center of rotation, convex hull.
+#. Sensorless navigation.  Uncertainty, collisions and capture regions.
+#. Ensemble synchronization (networking).
+#. Distributed scripting and protocols.
