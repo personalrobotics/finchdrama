@@ -89,26 +89,40 @@ Association Lists
    procedure in the body of the C-shaped block with the local variables set to a
    key and a value.
 
-Action Libraries
------------------
-
-``action library -> text []``
-   Print an action library into a text form.  This allows a readable script to be saved in a text variable and exported to an external file.  Returns a string.
-
-
-``text -> action library ""``
-   Parse a text representation of an action library and returns an action library.
-
 Driving and Recording
 ---------------------
 
 ``drive Finch and record into []``
-  Enables keyboard-controlled driving, recording an action-list for each change
+  Runs keyboard-driving interface, recording an action-list for each change
   of output into an existing list.  The list may be empty to begin, but must
   exist in order to be modified.
 
 ``drive LEDs and record into []``
-  Enabled keyboard-controlled lighting, recording events into the given recording list.
+  Runs keyboard-controlled lighting interface, recording events into the given
+  recording list.
+
+``drive buzzer and record into []``
+  Runs musical keyboard interface, playing notes on the Finch buzzer and
+  recording events into the given recording list.  The keyboard is sampled at a
+  fraction of the current tempo so all notes are quantized according to the
+  tempo.
+
+Sound
+-----
+
+``Finch buzz MIDI note # for # beats``
+  Play a musical note of a given duration on the Finch buzzer.  Note that the
+  underlying primitive accepts a duration in milliseconds, so this block
+  computes the duration from beats using the current global tempo setting.  The
+  note length is implemented on the Finch itself; this block does not execute
+  any delay, but returns immediately.  The note is specified as a standard MIDI
+  note integer.  Each integer value represents a musical half-step, so for
+  example, middle-C is 60, C# is 61, the tuning A (440Hz) is 69, and the C an
+  octave above middle C is 72.
+  
+
+Action Libraries
+-----------------
 
 ``play Finch action []``
   Interpret and perform a single action represented as an action-list, including
@@ -121,16 +135,13 @@ Driving and Recording
   library, so this can be used to create a hierarchy of script sequences.  Care
   should be taken to avoid recursive calls since there are no conditionals to
   end recursion.
+  
+``action library -> text []``
+   Print an action library into a text form.  This allows a readable script to be saved in a text variable and exported to an external file.  Returns a string.
 
-Sound
------
-
-``Finch buzz MIDI note # for # beats``
-  Play a musical note on the Finch buzzer.  Note that the underlying primitive
-  accepts a duration, here computed using the current global tempo setting, but
-  this block does not execute any delay.  The note is specified as a MIDI note
-  integer for which each integer value represents a musical half-step: middle-C
-  is 60, C# is 61, the tuning A (440Hz) is 69, the octave above middle C is 72.
+``text -> action library ""``
+   Parse a text representation of an action library and returns an action library.
+  
 
 Networking
 ----------
@@ -142,20 +153,17 @@ a connection to simplify the interface for sending and receiving messages.
 Messages are sets of key-value pairs, i.e., a message is an association list.
 
 ``descriptor for server "" channel *``
-  Create a new descriptor object given a server hostname and a namespace identifier.
-
-``send message list [] via server []``
-  Send an association list of key-value pairs to update the server state,
-  returning an association list with the new state.
+  Create a new descriptor object given a server hostname and a namespace
+  identifier. All robots in the same performance group will need to specify the
+  same channel name.  It is recommended to use your own channel name to avoid
+  crosstalk with other groups.
 
 ``poll server []``
   Fetch the current state of a server channel as an association list.
-
-``clock skew for server []``
-  Retrieve the clock skew estimate from the server descriptor.  This represents
-  the number of seconds by which the local time is ahead of the server time.  If
-  the value is negative, the local time is behind.  This estimate is adjusted
-  during each server transaction.
+  
+``send message list [] via server []``
+  Send an association list of key-value pairs to update the server state,
+  returning an association list with the new state.
 
 ``send cue * with # seconds delay``
   Send a message with ``next_cue`` and ``start_time`` fields to indicate an
@@ -163,10 +171,16 @@ Messages are sets of key-value pairs, i.e., a message is an association list.
   against the server clock.  This allows clients to adjust the command to their
   own local clocks using their individual skew estimations
 
+``clock skew for server []``
+  Retrieve the clock skew estimate from the server descriptor.  This represents
+  the number of seconds by which the local time is ahead of the server time.  If
+  the value is negative, the local time is behind.  This estimate is adjusted
+  during each server transaction.
+
 
 Utility Functions
 -----------------
 
 ``current time``
   Returns the current local clock time in seconds to millisecond precision.
-  This is 'epoch' time, the number of seconds since January 1, 1970.
+  This is 'epoch' time, the number of seconds since midnight of January 1, 1970.

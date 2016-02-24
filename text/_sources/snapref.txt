@@ -8,6 +8,7 @@ Standard Snap Blocks Reference
 The `Snap Manual`_ details many of the operators provided in the language but is
 not comprehensive.  The following reference is intended to provide a quick guide
 to every standard operator in the native set as well as a few of the libraries.
+The course library is documented in :ref:`course-library`.
 
 
 Key to Block Descriptions
@@ -55,7 +56,7 @@ oval		reporter	returns a value
 tabbed		command		called for side-effects (no return value)
 hexagon		predicate	returns a Boolean value
 hat		entry point	starts a thread of execution, i.e., a script
-cap		exit point	ends a thread
+cap		exit point	ends a procedure or thread
 ===============	===============	====================================================
 
 

@@ -15,7 +15,7 @@
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
-        VERSION:     '2016-02-23',
+        VERSION:     '2016-02-24',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
         HAS_SOURCE:  true
@@ -84,7 +84,7 @@ page and follows the same conventions.</p>
 <td>Motion</td>
 <td>blue</td>
 <td>tabbed</td>
-<td>drive Finch and record into []</td>
+<td>drive Finch and record into <code class="docutils literal"><span class="pre">[]</span></code></td>
 <td>recording-list</td>
 <td>records keyboard-controlled motions and appends action lists to the given recording list</td>
 </tr>
@@ -92,7 +92,7 @@ page and follows the same conventions.</p>
 <td>Motion</td>
 <td>blue</td>
 <td>tabbed</td>
-<td>play Finch action []</td>
+<td>play Finch action <code class="docutils literal"><span class="pre">[]</span></code></td>
 <td>action-list</td>
 <td>performs a single action specified as a list of values</td>
 </tr>
@@ -100,7 +100,7 @@ page and follows the same conventions.</p>
 <td>Motion</td>
 <td>blue</td>
 <td>tabbed</td>
-<td>play action <code class="docutils literal"><span class="pre">&quot;&quot;</span></code> from library []</td>
+<td>play action <code class="docutils literal"><span class="pre">&quot;&quot;</span></code> from library <code class="docutils literal"><span class="pre">[]</span></code></td>
 <td>action-name, action-library</td>
 <td>plays a named sequence</td>
 </tr>
@@ -108,7 +108,7 @@ page and follows the same conventions.</p>
 <td>Looks</td>
 <td>purple</td>
 <td>tabbed</td>
-<td>drive LEDs and record into []</td>
+<td>drive LEDs and record into <code class="docutils literal"><span class="pre">[]</span></code></td>
 <td>recording-list</td>
 <td>records keyboard-controlled lighting and appends action lists to the given recording list</td>
 </tr>
@@ -116,11 +116,19 @@ page and follows the same conventions.</p>
 <td>Sound</td>
 <td>magenta</td>
 <td>tabbed</td>
+<td>drive buzzer and record into <code class="docutils literal"><span class="pre">[]</span></code></td>
+<td>recording-list</td>
+<td>records keyboard-controlled musical notes to the given recording list</td>
+</tr>
+<tr class="row-odd"><td>Drama</td>
+<td>Sound</td>
+<td>magenta</td>
+<td>tabbed</td>
 <td>Finch buzz MIDI note <code class="docutils literal"><span class="pre">#</span></code> for <code class="docutils literal"><span class="pre">#</span></code> beats</td>
 <td>integer-note,number-of-beats</td>
 <td>plays a musical note</td>
 </tr>
-<tr class="row-odd"><td>Drama</td>
+<tr class="row-even"><td>Drama</td>
 <td>Sensing</td>
 <td>cyan</td>
 <td>oval</td>
@@ -128,101 +136,101 @@ page and follows the same conventions.</p>
 <td>&nbsp;</td>
 <td>returns the absolute (epoch) time in seconds</td>
 </tr>
-<tr class="row-even"><td>Drama</td>
+<tr class="row-odd"><td>Drama</td>
 <td>Variables</td>
 <td>red</td>
 <td>hexagon</td>
-<td>null? *</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr class="row-odd"><td>Drama</td>
-<td>Variables</td>
-<td>red</td>
-<td>oval</td>
-<td>find value for * in a-list []</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
+<td>null? <code class="docutils literal"><span class="pre">*</span></code></td>
+<td>value</td>
+<td>returns true if value is equivalent to empty</td>
 </tr>
 <tr class="row-even"><td>Drama</td>
 <td>Variables</td>
 <td>red</td>
 <td>oval</td>
-<td>find record for key * in a-list []</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
+<td>find value for <code class="docutils literal"><span class="pre">*</span></code> in a-list <code class="docutils literal"><span class="pre">[]</span></code></td>
+<td>key,association-list</td>
+<td>looks up value for key</td>
 </tr>
 <tr class="row-odd"><td>Drama</td>
+<td>Variables</td>
+<td>red</td>
+<td>oval</td>
+<td>find record for key <code class="docutils literal"><span class="pre">*</span></code> in a-list <code class="docutils literal"><span class="pre">[]</span></code></td>
+<td>key,association-list</td>
+<td>looks up key-value list for key</td>
+</tr>
+<tr class="row-even"><td>Drama</td>
 <td>Variables</td>
 <td>red</td>
 <td>tabbed</td>
-<td>set value * for key * in a-list []</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
+<td>set value <code class="docutils literal"><span class="pre">*</span></code> for key <code class="docutils literal"><span class="pre">*</span></code> in a-list <code class="docutils literal"><span class="pre">[]</span></code></td>
+<td>value,key,association-list</td>
+<td>sets value for key</td>
 </tr>
-<tr class="row-even"><td>Drama</td>
+<tr class="row-odd"><td>Drama</td>
 <td>Variables</td>
 <td>red</td>
 <td>C-shaped</td>
-<td>for each &amp;key &amp;value of a-list []</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
+<td>for each <code class="docutils literal"><span class="pre">&amp;key</span></code> <code class="docutils literal"><span class="pre">&amp;value</span></code> of a-list <code class="docutils literal"><span class="pre">[]</span></code></td>
+<td>key-var,value-var,association-list</td>
+<td>iterates over keys and values</td>
 </tr>
-<tr class="row-odd"><td>Drama</td>
+<tr class="row-even"><td>Drama</td>
 <td>Variables</td>
 <td>red</td>
 <td>oval</td>
 <td>text -&gt; action library <code class="docutils literal"><span class="pre">&quot;&quot;</span></code></td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr class="row-even"><td>Drama</td>
-<td>Variables</td>
-<td>red</td>
-<td>oval</td>
-<td>action library -&gt; text []</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
+<td>string</td>
+<td>parses actions from readable text into library list</td>
 </tr>
 <tr class="row-odd"><td>Drama</td>
 <td>Variables</td>
 <td>red</td>
 <td>oval</td>
-<td>descriptor for server <code class="docutils literal"><span class="pre">&quot;&quot;</span></code> channel *</td>
+<td>action library -&gt; text <code class="docutils literal"><span class="pre">[]</span></code></td>
+<td>action-library</td>
+<td>print out library into readable text</td>
+</tr>
+<tr class="row-even"><td>Drama</td>
+<td>Variables</td>
+<td>orange</td>
+<td>oval</td>
+<td>descriptor for server <code class="docutils literal"><span class="pre">&quot;&quot;</span></code> channel <code class="docutils literal"><span class="pre">*</span></code></td>
 <td>server-name,channel-name</td>
 <td>create a new server-descriptor</td>
 </tr>
-<tr class="row-even"><td>Drama</td>
+<tr class="row-odd"><td>Drama</td>
 <td>Variables</td>
 <td>orange</td>
 <td>oval</td>
-<td>send message list [] via server []</td>
+<td>send message list <code class="docutils literal"><span class="pre">[]</span></code> via server <code class="docutils literal"><span class="pre">[]</span></code></td>
 <td>message-list, server-descriptor</td>
 <td>sends key-value updates to a server and returns the parsed response</td>
 </tr>
-<tr class="row-odd"><td>Drama</td>
+<tr class="row-even"><td>Drama</td>
 <td>Variables</td>
 <td>orange</td>
 <td>oval</td>
-<td>poll server []</td>
+<td>poll server <code class="docutils literal"><span class="pre">[]</span></code></td>
 <td>server-descriptor</td>
 <td>fetch the current key-value set from a server channel</td>
 </tr>
-<tr class="row-even"><td>Drama</td>
-<td>Variables</td>
-<td>red</td>
-<td>oval</td>
-<td>clock skew for server []</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
 <tr class="row-odd"><td>Drama</td>
 <td>Variables</td>
 <td>orange</td>
 <td>oval</td>
-<td>send cue * with # seconds delay</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
+<td>clock skew for server <code class="docutils literal"><span class="pre">[]</span></code></td>
+<td>server-descriptor</td>
+<td>access the clock skew field</td>
+</tr>
+<tr class="row-even"><td>Drama</td>
+<td>Variables</td>
+<td>orange</td>
+<td>oval</td>
+<td>send cue <code class="docutils literal"><span class="pre">*</span></code> with <code class="docutils literal"><span class="pre">#</span></code> seconds delay</td>
+<td>cue-value,seconds-value</td>
+<td>send a cue message scheduled in the future</td>
 </tr>
 </tbody>
 </table>
@@ -286,24 +294,40 @@ procedure in the body of the C-shaped block with the local variables set to a
 key and a value.</dd>
 </dl>
 </div>
-<div class="section" id="action-libraries">
-<h3>Action Libraries<a class="headerlink" href="#action-libraries" title="Permalink to this headline">¶</a></h3>
-<dl class="docutils">
-<dt><code class="docutils literal"><span class="pre">action</span> <span class="pre">library</span> <span class="pre">-&gt;</span> <span class="pre">text</span> <span class="pre">[]</span></code></dt>
-<dd>Print an action library into a text form.  This allows a readable script to be saved in a text variable and exported to an external file.  Returns a string.</dd>
-<dt><code class="docutils literal"><span class="pre">text</span> <span class="pre">-&gt;</span> <span class="pre">action</span> <span class="pre">library</span> <span class="pre">&quot;&quot;</span></code></dt>
-<dd>Parse a text representation of an action library and returns an action library.</dd>
-</dl>
-</div>
 <div class="section" id="driving-and-recording">
 <h3>Driving and Recording<a class="headerlink" href="#driving-and-recording" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt><code class="docutils literal"><span class="pre">drive</span> <span class="pre">Finch</span> <span class="pre">and</span> <span class="pre">record</span> <span class="pre">into</span> <span class="pre">[]</span></code></dt>
-<dd>Enables keyboard-controlled driving, recording an action-list for each change
+<dd>Runs keyboard-driving interface, recording an action-list for each change
 of output into an existing list.  The list may be empty to begin, but must
 exist in order to be modified.</dd>
 <dt><code class="docutils literal"><span class="pre">drive</span> <span class="pre">LEDs</span> <span class="pre">and</span> <span class="pre">record</span> <span class="pre">into</span> <span class="pre">[]</span></code></dt>
-<dd>Enabled keyboard-controlled lighting, recording events into the given recording list.</dd>
+<dd>Runs keyboard-controlled lighting interface, recording events into the given
+recording list.</dd>
+<dt><code class="docutils literal"><span class="pre">drive</span> <span class="pre">buzzer</span> <span class="pre">and</span> <span class="pre">record</span> <span class="pre">into</span> <span class="pre">[]</span></code></dt>
+<dd>Runs musical keyboard interface, playing notes on the Finch buzzer and
+recording events into the given recording list.  The keyboard is sampled at a
+fraction of the current tempo so all notes are quantized according to the
+tempo.</dd>
+</dl>
+</div>
+<div class="section" id="sound">
+<h3>Sound<a class="headerlink" href="#sound" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><code class="docutils literal"><span class="pre">Finch</span> <span class="pre">buzz</span> <span class="pre">MIDI</span> <span class="pre">note</span> <span class="pre">#</span> <span class="pre">for</span> <span class="pre">#</span> <span class="pre">beats</span></code></dt>
+<dd>Play a musical note of a given duration on the Finch buzzer.  Note that the
+underlying primitive accepts a duration in milliseconds, so this block
+computes the duration from beats using the current global tempo setting.  The
+note length is implemented on the Finch itself; this block does not execute
+any delay, but returns immediately.  The note is specified as a standard MIDI
+note integer.  Each integer value represents a musical half-step, so for
+example, middle-C is 60, C# is 61, the tuning A (440Hz) is 69, and the C an
+octave above middle C is 72.</dd>
+</dl>
+</div>
+<div class="section" id="action-libraries">
+<h3>Action Libraries<a class="headerlink" href="#action-libraries" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
 <dt><code class="docutils literal"><span class="pre">play</span> <span class="pre">Finch</span> <span class="pre">action</span> <span class="pre">[]</span></code></dt>
 <dd>Interpret and perform a single action represented as an action-list, including
 delay for duration.  This may set the motor speed, change the LED color, or
@@ -314,17 +338,10 @@ play a note on the buzzer.</dd>
 library, so this can be used to create a hierarchy of script sequences.  Care
 should be taken to avoid recursive calls since there are no conditionals to
 end recursion.</dd>
-</dl>
-</div>
-<div class="section" id="sound">
-<h3>Sound<a class="headerlink" href="#sound" title="Permalink to this headline">¶</a></h3>
-<dl class="docutils">
-<dt><code class="docutils literal"><span class="pre">Finch</span> <span class="pre">buzz</span> <span class="pre">MIDI</span> <span class="pre">note</span> <span class="pre">#</span> <span class="pre">for</span> <span class="pre">#</span> <span class="pre">beats</span></code></dt>
-<dd>Play a musical note on the Finch buzzer.  Note that the underlying primitive
-accepts a duration, here computed using the current global tempo setting, but
-this block does not execute any delay.  The note is specified as a MIDI note
-integer for which each integer value represents a musical half-step: middle-C
-is 60, C# is 61, the tuning A (440Hz) is 69, the octave above middle C is 72.</dd>
+<dt><code class="docutils literal"><span class="pre">action</span> <span class="pre">library</span> <span class="pre">-&gt;</span> <span class="pre">text</span> <span class="pre">[]</span></code></dt>
+<dd>Print an action library into a text form.  This allows a readable script to be saved in a text variable and exported to an external file.  Returns a string.</dd>
+<dt><code class="docutils literal"><span class="pre">text</span> <span class="pre">-&gt;</span> <span class="pre">action</span> <span class="pre">library</span> <span class="pre">&quot;&quot;</span></code></dt>
+<dd>Parse a text representation of an action library and returns an action library.</dd>
 </dl>
 </div>
 <div class="section" id="networking">
@@ -336,22 +353,25 @@ a connection to simplify the interface for sending and receiving messages.
 Messages are sets of key-value pairs, i.e., a message is an association list.</p>
 <dl class="docutils">
 <dt><code class="docutils literal"><span class="pre">descriptor</span> <span class="pre">for</span> <span class="pre">server</span> <span class="pre">&quot;&quot;</span> <span class="pre">channel</span> <span class="pre">*</span></code></dt>
-<dd>Create a new descriptor object given a server hostname and a namespace identifier.</dd>
+<dd>Create a new descriptor object given a server hostname and a namespace
+identifier. All robots in the same performance group will need to specify the
+same channel name.  It is recommended to use your own channel name to avoid
+crosstalk with other groups.</dd>
+<dt><code class="docutils literal"><span class="pre">poll</span> <span class="pre">server</span> <span class="pre">[]</span></code></dt>
+<dd>Fetch the current state of a server channel as an association list.</dd>
 <dt><code class="docutils literal"><span class="pre">send</span> <span class="pre">message</span> <span class="pre">list</span> <span class="pre">[]</span> <span class="pre">via</span> <span class="pre">server</span> <span class="pre">[]</span></code></dt>
 <dd>Send an association list of key-value pairs to update the server state,
 returning an association list with the new state.</dd>
-<dt><code class="docutils literal"><span class="pre">poll</span> <span class="pre">server</span> <span class="pre">[]</span></code></dt>
-<dd>Fetch the current state of a server channel as an association list.</dd>
-<dt><code class="docutils literal"><span class="pre">clock</span> <span class="pre">skew</span> <span class="pre">for</span> <span class="pre">server</span> <span class="pre">[]</span></code></dt>
-<dd>Retrieve the clock skew estimate from the server descriptor.  This represents
-the number of seconds by which the local time is ahead of the server time.  If
-the value is negative, the local time is behind.  This estimate is adjusted
-during each server transaction.</dd>
 <dt><code class="docutils literal"><span class="pre">send</span> <span class="pre">cue</span> <span class="pre">*</span> <span class="pre">with</span> <span class="pre">#</span> <span class="pre">seconds</span> <span class="pre">delay</span></code></dt>
 <dd>Send a message with <code class="docutils literal"><span class="pre">next_cue</span></code> and <code class="docutils literal"><span class="pre">start_time</span></code> fields to indicate an
 event in the future.  The time is sent as an absolute timestamp measured
 against the server clock.  This allows clients to adjust the command to their
 own local clocks using their individual skew estimations</dd>
+<dt><code class="docutils literal"><span class="pre">clock</span> <span class="pre">skew</span> <span class="pre">for</span> <span class="pre">server</span> <span class="pre">[]</span></code></dt>
+<dd>Retrieve the clock skew estimate from the server descriptor.  This represents
+the number of seconds by which the local time is ahead of the server time.  If
+the value is negative, the local time is behind.  This estimate is adjusted
+during each server transaction.</dd>
 </dl>
 </div>
 <div class="section" id="utility-functions">
@@ -359,7 +379,7 @@ own local clocks using their individual skew estimations</dd>
 <dl class="docutils">
 <dt><code class="docutils literal"><span class="pre">current</span> <span class="pre">time</span></code></dt>
 <dd>Returns the current local clock time in seconds to millisecond precision.
-This is &#8216;epoch&#8217; time, the number of seconds since January 1, 1970.</dd>
+This is &#8216;epoch&#8217; time, the number of seconds since midnight of January 1, 1970.</dd>
 </dl>
 </div>
 </div>
@@ -378,9 +398,9 @@ This is &#8216;epoch&#8217; time, the number of seconds since January 1, 1970.</
 <li><a class="reference internal" href="#detailed-documentation">Detailed Documentation</a><ul>
 <li><a class="reference internal" href="#data-structures-and-special-values">Data Structures and Special Values</a></li>
 <li><a class="reference internal" href="#association-lists">Association Lists</a></li>
-<li><a class="reference internal" href="#action-libraries">Action Libraries</a></li>
 <li><a class="reference internal" href="#driving-and-recording">Driving and Recording</a></li>
 <li><a class="reference internal" href="#sound">Sound</a></li>
+<li><a class="reference internal" href="#action-libraries">Action Libraries</a></li>
 <li><a class="reference internal" href="#networking">Networking</a></li>
 <li><a class="reference internal" href="#utility-functions">Utility Functions</a></li>
 </ul>
@@ -429,7 +449,7 @@ This is &#8216;epoch&#8217; time, the number of seconds since January 1, 1970.</
     </div>
     <div class="footer" role="contentinfo">
         &copy; Copyright 2016, Garth Zeglin.
-      Last updated on 2016-02-23.
+      Last updated on 2016-02-24.
       Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
     </div>
   </body>
