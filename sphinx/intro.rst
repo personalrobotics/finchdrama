@@ -28,18 +28,18 @@ the additional features provided by Snap.
 The exercises assume students are already familiar with these basic programming
 ideas in Snap:
 
-  #. imperative programming as sequences of commands
-  #. data representation as numbers and strings (atoms)
-  #. the idea of composite data representation as lists
-  #. creating functions with arguments
-  #. state machine transition diagrams and implementation
+#. imperative programming as sequences of commands
+#. data representation as numbers and strings (atoms)
+#. the idea of composite data representation as lists
+#. creating functions with arguments
+#. state machine transition diagrams and implementation
 
 And these topics related to robotics:
 
-  #. issuing robot commands to change physical state (wheel velocity, LED color)
-  #. controlling timing of actions using delays
-  #. sampling robot sensors to estimate physical state (proximity sensors,
-     accelerometer)
+#. issuing robot commands to change physical state (wheel velocity, LED color)
+#. controlling timing of actions using delays
+#. sampling robot sensors to estimate physical state (proximity sensors,
+   accelerometer)
 
 
 Learning Goals
@@ -47,33 +47,33 @@ Learning Goals
 
 The following topics include the essential learning goals related to robot performance:
 
-  #. capturing human performance via robot
-  #. improvising with robots
-  #. formulating an interaction (pas de deux or dialogue)
-  #. the role of rhythm
-  #. ensemble choreography
-  #. creating meaning through context: story, setting, costuming
-  #. writing a script for video-recorded performance
-  #. writing a script for live performance
+#. capturing human performance via robot
+#. improvising with robots
+#. formulating an interaction (pas de deux or dialogue)
+#. the role of rhythm
+#. ensemble choreography
+#. creating meaning through context: story, setting, costuming
+#. writing a script for video-recorded performance
+#. writing a script for live performance
 
 Accomplishing these objectives will require learning more fundamentals
 of robotics including the following:
 
-  #. using data to represent actions and trajectories
-  #. using a networked key-value store
-  #. using a distributed protocol
-  #. graphical analysis of the convex hull
-  #. the definition of uncertainty
-  #. graphical reasoning about capture regions
-  #. creating primitives for sensorless navigation
-  #. designing environmental features for navigational assistance
+#. using data to represent actions and trajectories
+#. using a networked key-value store
+#. using a distributed protocol
+#. graphical analysis of the convex hull
+#. the definition of uncertainty
+#. graphical reasoning about capture regions
+#. creating primitives for sensorless navigation
+#. designing environmental features for navigational assistance
 
 Implementing these ideas will require new programming skills including the
 following:
 
-  #. using lists as structured data: arrays, association lists
-  #. essential functional programming: values, iteration, and mapping
-  #. understanding recursive functions
+#. using lists as structured data: arrays, association lists
+#. essential functional programming: values, iteration, and mapping
+#. understanding recursive functions
 
 
 Daily Sessions
