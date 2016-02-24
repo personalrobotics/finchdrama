@@ -1,19 +1,20 @@
 Library,Palette,Color,Shape,Name,Arguments,Notes
-Drama,Motion,blue,tabbed,drive Finch and record into [],recording-list,records keyboard-controlled motions and appends action lists to the given recording list
-Drama,Motion,blue,tabbed,play Finch action [],action-list,performs a single action specified as a list of values
-Drama,Motion,blue,tabbed,"play action ``""""`` from library []","action-name, action-library",plays a named sequence
-Drama,Looks,purple,tabbed,drive LEDs and record into [],recording-list,records keyboard-controlled lighting and appends action lists to the given recording list
+Drama,Motion,blue,tabbed,drive Finch and record into ``[]``,recording-list,records keyboard-controlled motions and appends action lists to the given recording list
+Drama,Motion,blue,tabbed,play Finch action ``[]``,action-list,performs a single action specified as a list of values
+Drama,Motion,blue,tabbed,"play action ``""""`` from library ``[]``","action-name, action-library",plays a named sequence
+Drama,Looks,purple,tabbed,drive LEDs and record into ``[]``,recording-list,records keyboard-controlled lighting and appends action lists to the given recording list
+Drama,Sound,magenta,tabbed,"drive buzzer and record into ``[]``",recording-list,records keyboard-controlled musical notes to the given recording list
 Drama,Sound,magenta,tabbed,"Finch buzz MIDI note ``#`` for ``#`` beats","integer-note,number-of-beats",plays a musical note
 Drama,Sensing,cyan,oval,"current time",,returns the absolute (epoch) time in seconds
-Drama,Variables,red,hexagon,"null? *"
-Drama,Variables,red,oval,"find value for * in a-list []"
-Drama,Variables,red,oval,"find record for key * in a-list []"
-Drama,Variables,red,tabbed,"set value * for key * in a-list []"
-Drama,Variables,red,C-shaped,"for each &key &value of a-list []"
-Drama,Variables,red,oval,"text -> action library ``""""``"
-Drama,Variables,red,oval,"action library -> text []"
-Drama,Variables,red,oval,"descriptor for server ``""""`` channel *","server-name,channel-name",create a new server-descriptor
-Drama,Variables,orange,oval,"send message list [] via server []","message-list, server-descriptor",sends key-value updates to a server and returns the parsed response
-Drama,Variables,orange,oval,"poll server []",server-descriptor,fetch the current key-value set from a server channel
-Drama,Variables,red,oval,clock skew for server []
-Drama,Variables,orange,oval,"send cue * with # seconds delay"
+Drama,Variables,red,hexagon,"null? ``*``",value,returns true if value is equivalent to empty
+Drama,Variables,red,oval,"find value for ``*`` in a-list ``[]``","key,association-list",looks up value for key
+Drama,Variables,red,oval,"find record for key ``*`` in a-list ``[]``","key,association-list",looks up key-value list for key
+Drama,Variables,red,tabbed,"set value ``*`` for key ``*`` in a-list ``[]``","value,key,association-list",sets value for key
+Drama,Variables,red,C-shaped,"for each ``&key`` ``&value`` of a-list ``[]``","key-var,value-var,association-list",iterates over keys and values
+Drama,Variables,red,oval,"text -> action library ``""""``",string,parses actions from readable text into library list
+Drama,Variables,red,oval,"action library -> text ``[]``",action-library,print out library into readable text
+Drama,Variables,orange,oval,"descriptor for server ``""""`` channel ``*``","server-name,channel-name",create a new server-descriptor
+Drama,Variables,orange,oval,"send message list ``[]`` via server ``[]``","message-list, server-descriptor",sends key-value updates to a server and returns the parsed response
+Drama,Variables,orange,oval,"poll server ``[]``",server-descriptor,fetch the current key-value set from a server channel
+Drama,Variables,orange,oval,clock skew for server ``[]``,server-descriptor,access the clock skew field
+Drama,Variables,orange,oval,"send cue ``*`` with ``#`` seconds delay","cue-value,seconds-value",send a cue message scheduled in the future
