@@ -29,3 +29,4 @@
 .. _Finch-Sequencing: http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Sequencing
 .. _Finch-Precise-Coordination: http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Precise-Coordination
 .. _Finch-Drama-Library: http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Drama-Library
+.. _Finch-Box-Navigation: http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Box-Navigation

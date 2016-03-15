@@ -72,6 +72,7 @@ These work best in the Chrome browser:
 #. `Robot Sequencing <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Sequencing>`__
 #. `Precise Coordination <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Precise-Coordination>`__
 #. `Drama Library <Finch-Drama-Library_>`_
+#. `Box Navigation <Finch-Box-Navigation_>`_
 
 BirdBrain also hosts `several other curriculum examples using Snap and Scratch
 <Finch Snap Curricula_>`_.
