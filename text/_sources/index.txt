@@ -71,6 +71,7 @@ These work best in the Chrome browser:
 #. `Robot Synchronization <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Coordination-Intro>`__
 #. `Robot Sequencing <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Sequencing>`__
 #. `Precise Coordination <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Precise-Coordination>`__
+#. `Drama Library <Finch-Drama-Library_>`_
 
 BirdBrain also hosts `several other curriculum examples using Snap and Scratch
 <Finch Snap Curricula_>`_.
