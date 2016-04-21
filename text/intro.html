@@ -15,7 +15,7 @@
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
-        VERSION:     '2016-03-15',
+        VERSION:     '2016-04-21',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
         HAS_SOURCE:  true
@@ -25,7 +25,7 @@
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="top" title="Finch Drama Project" href="index.html" />
-    <link rel="next" title="Standard Snap Blocks Reference" href="snapref.html" />
+    <link rel="next" title="Exercise - Moving Like a Robot" href="ex/body-robot.html" />
     <link rel="prev" title="Course Guide" href="index.html" /> 
   </head>
   <body role="document">
@@ -36,7 +36,7 @@
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="snapref.html" title="Standard Snap Blocks Reference"
+          <a href="ex/body-robot.html" title="Exercise - Moving Like a Robot"
              accesskey="N">next</a> |</li>
         <li class="right" >
           <a href="index.html" title="Course Guide"
@@ -96,23 +96,19 @@ accelerometer)</li>
 <li>ensemble choreography</li>
 <li>creating meaning through context: story, setting, costuming</li>
 <li>writing a script for video-recorded performance</li>
-<li>writing a script for live performance</li>
 </ol>
 <p>Accomplishing these objectives will require learning more fundamentals
 of robotics including the following:</p>
 <ol class="arabic simple">
 <li>using data to represent actions and trajectories</li>
-<li>using a networked key-value store</li>
-<li>using a distributed protocol</li>
-<li>graphical analysis of the convex hull</li>
-<li>the definition of uncertainty</li>
-<li>graphical reasoning about capture regions</li>
+<li>using a distributed protocol (networked key-value store)</li>
 <li>creating primitives for sensorless navigation</li>
 <li>designing environmental features for navigational assistance</li>
 </ol>
 <p>Implementing these ideas will require new programming skills including the
 following:</p>
 <ol class="arabic simple">
+<li>state machine graph representations</li>
 <li>using lists as structured data: arrays, association lists</li>
 <li>essential functional programming: values, iteration, and mapping</li>
 <li>understanding recursive functions</li>
@@ -121,38 +117,84 @@ following:</p>
 <div class="section" id="daily-sessions">
 <h2>Daily Sessions<a class="headerlink" href="#daily-sessions" title="Permalink to this headline">¶</a></h2>
 <p>The course involves a series of hour-long sessions mixing technical exercises to
-build robot skills and drama exercises to develop storytelling abilities.  The
-course will loosely alternate between technical and drama topics, the exact
-schedule is yet to be determined.</p>
-<div class="section" id="summary-of-drama-sequence">
-<h3>Summary of Drama Sequence<a class="headerlink" href="#summary-of-drama-sequence" title="Permalink to this headline">¶</a></h3>
-<ol class="arabic simple">
-<li>Introductions, warm-ups, and improv exercises.</li>
-<li>Storytelling with objects: finding a story in anything, seeing from a new point of view.</li>
-<li>Storytelling with robots: movement, setting, and relationships.</li>
-<li>Robot dance party.  Rhythm and synchrony.  Ensemble choreography.</li>
-<li>Creating a character, finding a voice.</li>
-<li>Costuming and set design.</li>
-<li>Robot circus.</li>
-<li>Developing a theme.</li>
-<li>Rehearsal skills.</li>
-<li>Scriptwriting workshop.</li>
-<li>Practice, practice, practice.</li>
-<li>Documentation.</li>
-</ol>
+build robot skills and drama exercises to develop storytelling abilities.  In
+general, the course will loosely alternate between technical and drama topics.
+The specific sequence is flexible although a suggested sequence is diagrammed
+below.</p>
+<p>The culminating project is framed as a production of a video pageant.  The
+choice of video is intended to increase the flexibility of the outcome, since it
+eases incremental composition of a performance, reduces the demands of
+performing live, and simplifies the staging.  However, the sequence could be
+easily adapted to culminate in a live performance, either improvised or
+rehearsed.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="6%" />
+<col width="94%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Week</th>
+<th class="head">Activities</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>1</td>
+<td><div class="first last line-block">
+<div class="line">body movement exercises</div>
+<div class="line">review of fundamentals of Snap programming</div>
+<div class="line">pair and ensemble movement exercises</div>
 </div>
-<div class="section" id="summary-of-technical-sequence">
-<h3>Summary of Technical Sequence<a class="headerlink" href="#summary-of-technical-sequence" title="Permalink to this headline">¶</a></h3>
-<ol class="arabic simple">
-<li>Introduction to Snap!</li>
-<li>State machine programming.  Shared autonomy.</li>
-<li>Functions, lists, and data.</li>
-<li>Movement primitives.  Parameterization.</li>
-<li>Robot geometry.  Diff-drive kinematics, center of rotation, convex hull.</li>
-<li>Sensorless navigation.  Uncertainty, collisions and capture regions.</li>
-<li>Ensemble synchronization (networking).</li>
-<li>Distributed scripting and protocols.</li>
-</ol>
+</td>
+</tr>
+<tr class="row-odd"><td>2</td>
+<td><div class="first last line-block">
+<div class="line">introduction to Snap library, teleoperation and animation practice</div>
+<div class="line">sensorless navigation; synchronized movement</div>
+<div class="line">narrative movement exercises</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td>3</td>
+<td><div class="first last line-block">
+<div class="line">story brainstorming and pitching</div>
+<div class="line">scene storyboarding</div>
+<div class="line">development of robot motion using human rehearsal</div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td>4</td>
+<td><div class="first last line-block">
+<div class="line">programming robots for performance</div>
+<div class="line">scene rehearsals</div>
+<div class="line">clip recording for proof-of-concept video</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td>5</td>
+<td><div class="first last line-block">
+<div class="line">costume, prop and scenery development</div>
+<div class="line">programming revisions</div>
+<div class="line">scene dress rehearsals</div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td>6</td>
+<td><div class="first last line-block">
+<div class="line">clip recording for proof-of-concept video</div>
+<div class="line">final editing</div>
+<div class="line">final show, including live performance demonstrations</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="course-map">
+<h3>Course Map<a class="headerlink" href="#course-map" title="Permalink to this headline">¶</a></h3>
+<p>The following map illustrates the suggested paths through the exercises and
+activities.  The <strong>Production</strong> phase outlines the process of developing a story
+into a video performance.  Not every activity has a corresponding written
+exercise, many of these are left to the discretion of the instructor.</p>
+<a class="reference internal image-reference" href="_images/course-plan.svg"><img src="_images/course-plan.svg" width="75%" /></a>
 </div>
 </div>
 </div>
@@ -169,8 +211,7 @@ schedule is yet to be determined.</p>
 <li><a class="reference internal" href="#prerequisites">Prerequisites</a></li>
 <li><a class="reference internal" href="#learning-goals">Learning Goals</a></li>
 <li><a class="reference internal" href="#daily-sessions">Daily Sessions</a><ul>
-<li><a class="reference internal" href="#summary-of-drama-sequence">Summary of Drama Sequence</a></li>
-<li><a class="reference internal" href="#summary-of-technical-sequence">Summary of Technical Sequence</a></li>
+<li><a class="reference internal" href="#course-map">Course Map</a></li>
 </ul>
 </li>
 </ul>
@@ -181,8 +222,8 @@ schedule is yet to be determined.</p>
   <p class="topless"><a href="index.html"
                         title="previous chapter">Course Guide</a></p>
   <h4>Next topic</h4>
-  <p class="topless"><a href="snapref.html"
-                        title="next chapter">Standard Snap Blocks Reference</a></p>
+  <p class="topless"><a href="ex/body-robot.html"
+                        title="next chapter">Exercise - Moving Like a Robot</a></p>
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
     <form class="search" action="search.html" method="get">
@@ -191,9 +232,6 @@ schedule is yet to be determined.</p>
       <input type="hidden" name="check_keywords" value="yes" />
       <input type="hidden" name="area" value="default" />
     </form>
-    <p class="searchtip" style="font-size: 90%">
-    Enter search terms or a module, class or function name.
-    </p>
 </div>
 <script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
@@ -207,7 +245,7 @@ schedule is yet to be determined.</p>
           <a href="genindex.html" title="General Index"
              >index</a></li>
         <li class="right" >
-          <a href="snapref.html" title="Standard Snap Blocks Reference"
+          <a href="ex/body-robot.html" title="Exercise - Moving Like a Robot"
              >next</a> |</li>
         <li class="right" >
           <a href="index.html" title="Course Guide"
@@ -217,8 +255,8 @@ schedule is yet to be determined.</p>
     </div>
     <div class="footer" role="contentinfo">
         &copy; Copyright 2016, Garth Zeglin.
-      Last updated on 2016-03-15.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
+      Last updated on 2016-04-21.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.
     </div>
   </body>
 </html>

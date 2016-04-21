@@ -6,10 +6,10 @@
 Course Guide
 ############
 
-The `Finch Drama Project`_ is an effort to develop a curriculum around creating
-dramatic performances using small mobile robots.  This is the reference guide
-containing course tutorials and exercises.  It is written to be accessible to
-middle-school students, but could be used at a variety of levels.
+The `Finch Drama Project`_ is a workshop curriculum for creating dramatic
+performances using small mobile robots.  This is the reference guide containing
+course tutorials and exercises.  It is written to be accessible to middle-school
+students, but could be used at a variety of levels.
 
 We are using the `Finch Robot`_ platform sold by `BirdBrain Technologies`_,
 although the core ideas could be ported to other devices.  We are using the
@@ -26,13 +26,15 @@ Contents
    :maxdepth: 1
 
    intro
-   snapref
-   libref
+   ex/body-robot
+   ex/pair-robot
    ex/state-machine
    ex/sensorless-parking
    ex/network-comm
    ex/robot-sync
-
+   snapref
+   libref
+   videos
 
 *  :ref:`search`
 
