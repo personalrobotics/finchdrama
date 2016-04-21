@@ -54,23 +54,19 @@ The following topics include the essential learning goals related to robot perfo
 #. ensemble choreography
 #. creating meaning through context: story, setting, costuming
 #. writing a script for video-recorded performance
-#. writing a script for live performance
 
 Accomplishing these objectives will require learning more fundamentals
 of robotics including the following:
 
 #. using data to represent actions and trajectories
-#. using a networked key-value store
-#. using a distributed protocol
-#. graphical analysis of the convex hull
-#. the definition of uncertainty
-#. graphical reasoning about capture regions
+#. using a distributed protocol (networked key-value store)
 #. creating primitives for sensorless navigation
 #. designing environmental features for navigational assistance
 
 Implementing these ideas will require new programming skills including the
 following:
 
+#. state machine graph representations
 #. using lists as structured data: arrays, association lists
 #. essential functional programming: values, iteration, and mapping
 #. understanding recursive functions
@@ -80,36 +76,49 @@ Daily Sessions
 ==============
 
 The course involves a series of hour-long sessions mixing technical exercises to
-build robot skills and drama exercises to develop storytelling abilities.  The
-course will loosely alternate between technical and drama topics, the exact
-schedule is yet to be determined.
+build robot skills and drama exercises to develop storytelling abilities.  In
+general, the course will loosely alternate between technical and drama topics.
+The specific sequence is flexible although a suggested sequence is diagrammed
+below.
+
+The culminating project is framed as a production of a video pageant.  The
+choice of video is intended to increase the flexibility of the outcome, since it
+eases incremental composition of a performance, reduces the demands of
+performing live, and simplifies the staging.  However, the sequence could be
+easily adapted to culminate in a live performance, either improvised or
+rehearsed.
+
+====	========================================================
+Week	Activities
+====	========================================================
+1	| body movement exercises
+	| review of fundamentals of Snap programming
+	| pair and ensemble movement exercises
+2	| introduction to Snap library, teleoperation and animation practice
+	| sensorless navigation; synchronized movement
+	| narrative movement exercises
+3	| story brainstorming and pitching
+	| scene storyboarding
+	| development of robot motion using human rehearsal
+4	| programming robots for performance
+	| scene rehearsals
+	| clip recording for proof-of-concept video
+5	| costume, prop and scenery development
+	| programming revisions
+	| scene dress rehearsals
+6	| clip recording for proof-of-concept video
+	| final editing
+	| final show, including live performance demonstrations
+====	========================================================
 
 
-Summary of Drama Sequence
--------------------------
+Course Map
+-----------
 
-#. Introductions, warm-ups, and improv exercises.
-#. Storytelling with objects: finding a story in anything, seeing from a new point of view.
-#. Storytelling with robots: movement, setting, and relationships.
-#. Robot dance party.  Rhythm and synchrony.  Ensemble choreography.
-#. Creating a character, finding a voice.
-#. Costuming and set design.
-#. Robot circus.
-#. Developing a theme.
-#. Rehearsal skills.
-#. Scriptwriting workshop.
-#. Practice, practice, practice.
-#. Documentation.
+The following map illustrates the suggested paths through the exercises and
+activities.  The **Production** phase outlines the process of developing a story
+into a video performance.  Not every activity has a corresponding written
+exercise, many of these are left to the discretion of the instructor.
 
-
-Summary of Technical Sequence
------------------------------
-
-#. Introduction to Snap!
-#. State machine programming.  Shared autonomy.
-#. Functions, lists, and data.
-#. Movement primitives.  Parameterization.
-#. Robot geometry.  Diff-drive kinematics, center of rotation, convex hull.
-#. Sensorless navigation.  Uncertainty, collisions and capture regions.
-#. Ensemble synchronization (networking).
-#. Distributed scripting and protocols.
+.. image:: images/course-plan.svg
+   :width: 75%
