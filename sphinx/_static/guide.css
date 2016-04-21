@@ -1,3 +1,14 @@
 .strike {
   text-decoration: line-through;
 }
+div.related {
+    background-color: #a40007;  /* #6BA81E; original green */
+}
+div.body h1,
+div.body h2,
+div.body h3,
+div.body h4,
+div.body h5,
+div.body h6 {
+    background-color: #d9e9ff; /* #BED4EB; original gray-blue */
+}
