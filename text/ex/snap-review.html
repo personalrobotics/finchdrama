@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Exercise - Review of Snap! &mdash; Finch Drama Project</title>
+    
+    <link rel="stylesheet" href="../_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/guide.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '2016-04-29',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="Finch Drama Project" href="../index.html" />
+    <link rel="next" title="Exercise - State Transition Diagrams" href="state-machine.html" />
+    <link rel="prev" title="Exercise - Interacting Like Robots" href="pair-robot.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="state-machine.html" title="Exercise - State Transition Diagrams"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="pair-robot.html" title="Exercise - Interacting Like Robots"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Finch Drama Project</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="exercise-review-of-snap">
+<h1>Exercise - Review of Snap!<a class="headerlink" href="#exercise-review-of-snap" title="Permalink to this headline">¶</a></h1>
+<p>Snap! is a browser-based graphical programming language used for all the robot
+programming activities in this workshop.  Ideally students will already be
+familiar with Snap! (see <a class="reference internal" href="../intro.html#prerequisites"><span class="std std-ref">Prerequisites</span></a>) but the following is a guide to
+quickly learning enough of the system to get started.</p>
+<div class="section" id="basic-concepts">
+<h2>Basic Concepts<a class="headerlink" href="#basic-concepts" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="http://snap.berkeley.edu">Snap!</a> is a drag-and-drop block-based language created at UC Berkeley as an
+improvement on <a class="reference external" href="https://scratch.mit.edu/">Scratch</a>.  Programs are constructed by dragging blocks
+representing computational operations into stacks.  The blocks have exterior and
+interior shapes which indicate the kinds of functions they perform. The system
+will only allow blocks to fit together which have compatible properties.  E.g. a
+block with a slot expecting a true or false input value has a hexagonal shape;
+blocks which produce a true or false value have a hexagonal exterior and will be
+allowed to fit into the slot.  Note that doesn&#8217;t mean the program will work,
+just that all programs which can be drawn are syntactically correct and can be
+evaluated.</p>
+<p>The usual application of Snap! is writing interactive graphical programs which
+draw sprite and pen graphics in a browser canvas and make sounds.  The Snap!
+support for the Finch robots adds additional blocks which communicate with the
+robot hardware.  Most of the drawing and sound operators will not be used in
+this course since we will focus on robot performance.</p>
+<p>The important improvements of Snap! over Scratch can be summarized as follows:</p>
+<ol class="arabic simple">
+<li>Support for cloud storage of sketches.  The ScratchX system used with the
+Finch does not have access to the community cloud system, so it is difficult
+to share sketches.  Note, however, that Snap! does not have a community
+portal, just a cloud server, but users may pass out their own links to
+sketches they make public.</li>
+<li>Support for recursion in user-defined blocks.</li>
+<li>First-class data lists.  Together with recursion, this opens the door to many
+programming techniques, including structured data manipulation and
+object-oriented design.</li>
+<li>Implementation in Javascript instead of Flash (more broadly compatible with
+new devices, more future-proof).</li>
+</ol>
+</div>
+<div class="section" id="online-resources">
+<h2>Online Resources<a class="headerlink" href="#online-resources" title="Permalink to this headline">¶</a></h2>
+<p>The course guide includes the following Snap! resources:</p>
+<ol class="arabic simple">
+<li><a class="reference internal" href="../code.html#code-notes"><span class="std std-ref">All sketches associated with this course are described in the code notes.</span></a></li>
+<li><a class="reference internal" href="../snapref.html#snap-reference"><span class="std std-ref">Quick reference guide to the standard Snap! and Finch blocks</span></a></li>
+<li><a class="reference internal" href="../libref.html#course-library"><span class="std std-ref">Reference guide to the course Snap! library</span></a></li>
+</ol>
+<p>The following general resources are available from BirdBrain and UC Berkeley:</p>
+<ol class="arabic simple">
+<li><a class="reference external" href="http://finchrobot.com/chromebook-support">BirdBrain Finch and Snap guide</a></li>
+<li><a class="reference external" href="http://finchrobot.com/software/snap">BirdBrain Snap! tutorial</a></li>
+<li><a class="reference external" href="http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=birdbraintech&amp;ProjectName=Finch-Chrome">BirdBrain Snap! library</a> (direct link to interactive system)</li>
+<li><a class="reference external" href="http://snap.berkeley.edu/run">Snap! interactive system (i.e. without Finch)</a> (direct link to interactive system)</li>
+<li><a class="reference external" href="http://snap.berkeley.edu/SnapManual.pdf">Snap! official reference manual</a></li>
+<li><a class="reference external" href="https://github.com/jmoenig/Snap--Build-Your-Own-Blocks">Snap! source code</a></li>
+</ol>
+</div>
+<div class="section" id="agenda-for-review">
+<h2>Agenda for Review<a class="headerlink" href="#agenda-for-review" title="Permalink to this headline">¶</a></h2>
+<p>Your instructor will guide you through the following topics and terminology:</p>
+<ol class="arabic simple">
+<li>Starting Snap!<ol class="arabic">
+<li>For Snap! alone: <a class="reference external" href="http://snap.berkeley.edu/run">run Snap!</a></li>
+<li>With the Finch, start the Finch Connection App first.</li>
+</ol>
+</li>
+<li>Saving your sketches.<ol class="arabic">
+<li>Creating a cloud account from within Snap! so you can work on sketches from any computer.</li>
+<li>Saving both locally and on the cloud.</li>
+<li>Setting cloud sketches to be public.</li>
+<li>Note: Finch-based sketches can still be loaded and run even if no robot is
+attached, although any robot-related output operations will have no effect
+and sensor operations will return default values.  This can be useful for
+offline testing.</li>
+</ol>
+</li>
+<li>Basic block types and terminology:<ol class="arabic">
+<li>Hat blocks.</li>
+<li>Command blocks.</li>
+<li>Reporter blocks (oval).</li>
+<li>Predicate blocks (hexagon).</li>
+<li>C-shaped blocks.</li>
+</ol>
+</li>
+<li>Control flow through blocks.</li>
+<li>Atomic data types:<ol class="arabic">
+<li>Numbers.</li>
+<li>Booleans.</li>
+<li>Strings.</li>
+</ol>
+</li>
+<li>Finch command and reporter blocks.<ol class="arabic">
+<li>Robot output commands.</li>
+<li>Sensor reporters.</li>
+</ol>
+</li>
+<li>Controlling timing and delay.</li>
+<li>Global variables.</li>
+<li>Script variables.</li>
+<li>Lists.</li>
+<li>Threading and concurrent execution.</li>
+<li>Defining new blocks.<ol class="arabic">
+<li>Arguments.</li>
+<li>Return values.</li>
+<li>Recursion.</li>
+</ol>
+</li>
+<li>Using block libraries.</li>
+<li>Reading code defined within Snap!.</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Exercise - Review of Snap!</a><ul>
+<li><a class="reference internal" href="#basic-concepts">Basic Concepts</a></li>
+<li><a class="reference internal" href="#online-resources">Online Resources</a></li>
+<li><a class="reference internal" href="#agenda-for-review">Agenda for Review</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="pair-robot.html"
+                        title="previous chapter">Exercise - Interacting Like Robots</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="state-machine.html"
+                        title="next chapter">Exercise - State Transition Diagrams</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="state-machine.html" title="Exercise - State Transition Diagrams"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="pair-robot.html" title="Exercise - Interacting Like Robots"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Finch Drama Project</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2016, Garth Zeglin.
+      Last updated on 2016-04-29.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.
+    </div>
+  </body>
+</html>

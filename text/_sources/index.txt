@@ -28,10 +28,12 @@ Contents
    intro
    ex/body-robot
    ex/pair-robot
+   ex/snap-review
    ex/state-machine
    ex/sensorless-parking
    ex/network-comm
    ex/robot-sync
+   code
    snapref
    libref
    videos
@@ -61,18 +63,19 @@ Support`_.  Please note that these examples will not work with the BirdBrain
 Robot Server as it uses an incompatible system for communicating between Snap!
 and the robot.
 
+.. _course-sketch-list:
 
 Snap! Sketches
 --------------
 
 These work best in the Chrome browser:
 
-#. `State Machine <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-State-Machine>`__
-#. `Network Communication <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Sprite-Communication-Intro>`__
-#. `Sensorless Parking <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Sensorless-Parking>`__
-#. `Robot Synchronization <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Coordination-Intro>`__
-#. `Robot Sequencing <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Sequencing>`__
-#. `Precise Coordination <http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Precise-Coordination>`__
+#. `State Machine <Finch-State-Machine_>`_
+#. `Network Communication <Sprite-Communication-Intro_>`_
+#. `Sensorless Parking <Finch-Sensorless-Parking_>`_
+#. `Robot Synchronization <Finch-Coordination-Intro_>`_
+#. `Robot Sequencing <Finch-Sequencing_>`_
+#. `Precise Coordination <Finch-Precise-Coordination_>`_
 #. `Drama Library <Finch-Drama-Library_>`_
 #. `Box Navigation <Finch-Box-Navigation_>`_
 

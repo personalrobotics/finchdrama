@@ -4,6 +4,9 @@ Videos
 
 .. contents::
 
+
+.. _box-navigation-video:
+
 Finch Box Navigation Demo
 -------------------------
 

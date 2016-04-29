@@ -13,430 +13,888 @@
     <g fill="white" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="translate(15,52)" stroke="white">
       <rect x="-15" width="1218" height="1589" y="-52" clip-path="url(#clipPath2)" stroke="none"/>
     </g>
-    <g fill="rgb(245,245,245)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(245,245,245)">
-      <rect x="809.2004" y="-36.666" clip-path="url(#clipPath2)" width="378.0004" rx="4" ry="4" height="499.3926" stroke="none"/>
-      <rect x="809.2004" y="-36.666" clip-path="url(#clipPath2)" fill="rgb(235,235,235)" width="378.0004" height="21.666" stroke="none"/>
-    </g>
-    <g font-size="15px" stroke-linecap="butt" transform="matrix(1,0,0,1,15,52)" text-rendering="geometricPrecision" font-family="sans-serif" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
-      <text x="1044.1803" xml:space="preserve" y="-20.1641" clip-path="url(#clipPath2)" stroke="none">Technical Exercises</text>
-      <rect x="809.2004" y="-36.666" clip-path="url(#clipPath2)" fill="none" width="378.0004" stroke-dasharray="6,2" rx="4" ry="4" height="499.3926"/>
-    </g>
-    <g fill="rgb(204,255,204)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(204,255,204)">
-      <rect x="1050.3256" y="333.1953" clip-path="url(#clipPath2)" width="120.4766" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="1057.3256" xml:space="preserve" y="351.7969" clip-path="url(#clipPath2)" stroke="none">introduce network</text>
-      <text x="1065.6459" xml:space="preserve" y="365.9297" clip-path="url(#clipPath2)" stroke="none">communication</text>
-      <rect x="1050.3256" y="333.1953" clip-path="url(#clipPath2)" fill="none" width="120.4766" rx="4" ry="4" height="42.2656"/>
-    </g>
-    <g fill="rgb(204,255,204)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(204,255,204)">
-      <rect x="955.2228" y="0" clip-path="url(#clipPath2)" width="93.5234" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="962.2228" xml:space="preserve" y="18.6016" clip-path="url(#clipPath2)" stroke="none">fundamentals</text>
-      <text x="980.1495" xml:space="preserve" y="32.7344" clip-path="url(#clipPath2)" stroke="none">of Snap</text>
-      <rect x="955.2228" y="0" clip-path="url(#clipPath2)" fill="none" width="93.5234" rx="4" ry="4" height="42.2656"/>
-    </g>
-    <g fill="rgb(204,255,204)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(204,255,204)">
-      <rect x="1043.5813" y="245.9297" clip-path="url(#clipPath2)" width="127.6191" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="1063.5305" xml:space="preserve" y="264.5312" clip-path="url(#clipPath2)" stroke="none">introduce state</text>
-      <text x="1050.5813" xml:space="preserve" y="278.6641" clip-path="url(#clipPath2)" stroke="none">transition diagrams</text>
-      <rect x="1043.5813" y="245.9297" clip-path="url(#clipPath2)" fill="none" width="127.6191" rx="4" ry="4" height="42.2656"/>
-    </g>
-    <g fill="rgb(204,255,204)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(204,255,204)">
-      <rect x="832.9942" y="72.2656" clip-path="url(#clipPath2)" width="127.168" rx="4" ry="4" height="56.3984" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="852.876" xml:space="preserve" y="90.8672" clip-path="url(#clipPath2)" stroke="none">introduce Snap</text>
-      <text x="853.3565" xml:space="preserve" y="105" clip-path="url(#clipPath2)" stroke="none">support library</text>
-      <text x="839.9942" xml:space="preserve" y="119.1328" clip-path="url(#clipPath2)" stroke="none">and documentation</text>
-      <rect x="832.9942" y="72.2656" clip-path="url(#clipPath2)" fill="none" width="127.168" rx="4" ry="4" height="56.3984"/>
-    </g>
-    <g fill="rgb(204,255,204)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(204,255,204)">
-      <rect x="825.2004" y="245.9297" clip-path="url(#clipPath2)" width="188.3809" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="843.9045" xml:space="preserve" y="264.5312" clip-path="url(#clipPath2)" stroke="none">exercise: recording action</text>
-      <text x="832.2004" xml:space="preserve" y="278.6641" clip-path="url(#clipPath2)" stroke="none">primitives using teleoperation</text>
-      <rect x="825.2004" y="245.9297" clip-path="url(#clipPath2)" fill="none" width="188.3809" rx="4" ry="4" height="42.2656"/>
-    </g>
-    <g fill="rgb(204,255,204)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(204,255,204)">
-      <rect x="825.2006" y="333.1953" clip-path="url(#clipPath2)" width="195.125" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="832.2006" xml:space="preserve" y="351.7969" clip-path="url(#clipPath2)" stroke="none">exercise: sensorless navigation</text>
-      <text x="850.476" xml:space="preserve" y="365.9297" clip-path="url(#clipPath2)" stroke="none">(i.e. using world physics)</text>
-      <rect x="825.2006" y="333.1953" clip-path="url(#clipPath2)" fill="none" width="195.125" rx="4" ry="4" height="42.2656"/>
-    </g>
-    <g fill="rgb(204,255,204)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(204,255,204)">
-      <rect x="991.0169" y="405.4609" clip-path="url(#clipPath2)" width="180.1836" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="998.0169" xml:space="preserve" y="424.0625" clip-path="url(#clipPath2)" stroke="none">exercise: time-synchronized</text>
-      <text x="1042.6888" xml:space="preserve" y="438.1953" clip-path="url(#clipPath2)" stroke="none">robot motion</text>
-      <rect x="991.0169" y="405.4609" clip-path="url(#clipPath2)" fill="none" width="180.1836" rx="4" ry="4" height="42.2656"/>
-    </g>
-    <g fill="rgb(204,255,204)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(204,255,204)">
-      <rect x="850.9532" y="151.5977" clip-path="url(#clipPath2)" width="91.25" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="857.9532" xml:space="preserve" y="170.1992" clip-path="url(#clipPath2)" stroke="none">teleoperation</text>
-      <text x="873.5655" xml:space="preserve" y="184.332" clip-path="url(#clipPath2)" stroke="none">practice</text>
-      <rect x="850.9532" y="151.5977" clip-path="url(#clipPath2)" fill="none" width="91.25" rx="4" ry="4" height="42.2656"/>
-      <path fill="none" d="M1025.3654 42.2656 L1025.3654 57.2656 L1107.3909 57.2656 L1107.3909 237.8836" clip-path="url(#clipPath2)"/>
-      <path d="M1107.3909 245.8836 L1112.3909 233.8836 L1107.3909 236.8836 L1102.3909 233.8836 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M1139.2957 288.1953 L1139.2957 303.1953 L1140.683 303.1953 L1140.683 325.166" clip-path="url(#clipPath2)"/>
-      <path d="M1140.683 333.166 L1145.683 321.166 L1140.683 324.166 L1135.683 321.166 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M978.6036 42.2656 L978.6036 57.2656 L896.5782 57.2656 L896.5782 64.2363" clip-path="url(#clipPath2)"/>
-      <path d="M896.5782 72.2363 L901.5782 60.2363 L896.5782 63.2363 L891.5782 60.2363 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M966.4861 288.1953 L966.4861 318.1953 L1080.4447 318.1953 L1080.4447 325.166" clip-path="url(#clipPath2)"/>
-      <path d="M1080.4447 333.166 L1085.4447 321.166 L1080.4447 324.166 L1075.4447 321.166 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M872.2957 288.1953 L872.2957 303.1953 L873.9819 303.1953 L873.9819 325.166" clip-path="url(#clipPath2)"/>
-      <path d="M873.9819 333.166 L878.9819 321.166 L873.9819 324.166 L868.9819 321.166 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M1075.4861 288.1953 L1075.4861 303.1953 L971.5444 303.1953 L971.5444 325.166" clip-path="url(#clipPath2)"/>
-      <path d="M971.5444 333.166 L976.5444 321.166 L971.5444 324.166 L966.5444 321.166 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M1110.5638 375.4609 L1110.5638 390.4609 L1081.1088 390.4609 L1081.1088 397.4316" clip-path="url(#clipPath2)"/>
-      <path d="M1081.1088 405.4316 L1086.1088 393.4316 L1081.1088 396.4316 L1076.1088 393.4316 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M896.5782 128.6641 L896.5782 143.5529" clip-path="url(#clipPath2)"/>
-      <path d="M896.5782 151.5529 L901.5782 139.5529 L896.5782 142.5529 L891.5782 139.5529 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M919.3907 193.8633 L919.3909 237.9043" clip-path="url(#clipPath2)"/>
-      <path d="M919.3909 245.9043 L924.3909 233.9043 L919.3909 236.9043 L914.3909 233.9043 Z" clip-path="url(#clipPath2)" stroke="none"/>
-    </g>
-    <g fill="rgb(245,245,245)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(245,245,245)">
-      <rect x="0" y="-36.666" clip-path="url(#clipPath2)" width="375.8798" rx="4" ry="4" height="587.5918" stroke="none"/>
-      <rect x="0" y="-36.666" clip-path="url(#clipPath2)" fill="rgb(235,235,235)" width="375.8798" height="21.666" stroke="none"/>
-    </g>
-    <g font-size="15px" stroke-linecap="butt" transform="matrix(1,0,0,1,15,52)" text-rendering="geometricPrecision" font-family="sans-serif" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
-      <text x="253.6967" xml:space="preserve" y="-20.1641" clip-path="url(#clipPath2)" stroke="none">Drama Exercises</text>
-      <rect x="0" y="-36.666" clip-path="url(#clipPath2)" fill="none" width="375.8798" stroke-dasharray="6,2" rx="4" ry="4" height="587.5918"/>
-    </g>
-    <g fill="rgb(255,255,153)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,255,153)">
-      <rect x="105.2338" y="79.332" clip-path="url(#clipPath2)" width="142.6309" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="112.2338" xml:space="preserve" y="97.9336" clip-path="url(#clipPath2)" stroke="none">exercise: moving your</text>
-      <text x="127.0023" xml:space="preserve" y="112.0664" clip-path="url(#clipPath2)" stroke="none">body like a robot</text>
-      <rect x="105.2338" y="79.332" clip-path="url(#clipPath2)" fill="none" width="142.6309" rx="4" ry="4" height="42.2656"/>
-    </g>
-    <g fill="rgb(255,255,153)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,255,153)">
-      <rect x="117.3362" y="238.8633" clip-path="url(#clipPath2)" width="174.3125" rx="4" ry="4" height="56.3984" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="140.4173" xml:space="preserve" y="257.4648" clip-path="url(#clipPath2)" stroke="none">exercise: improvising </text>
-      <text x="124.3362" xml:space="preserve" y="271.5977" clip-path="url(#clipPath2)" stroke="none">a scene using teleoperation</text>
-      <text x="141.4632" xml:space="preserve" y="285.7305" clip-path="url(#clipPath2)" stroke="none">(interacting via robot)</text>
-      <rect x="117.3362" y="238.8633" clip-path="url(#clipPath2)" fill="none" width="174.3125" rx="4" ry="4" height="56.3984"/>
-    </g>
-    <g fill="rgb(255,255,153)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,255,153)">
-      <rect x="16.0003" y="151.5977" clip-path="url(#clipPath2)" width="134.1582" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="23.0003" xml:space="preserve" y="170.1992" clip-path="url(#clipPath2)" stroke="none">exercise: using body</text>
-      <text x="29.1643" xml:space="preserve" y="184.332" clip-path="url(#clipPath2)" stroke="none">spatial positioning</text>
-      <rect x="16.0003" y="151.5977" clip-path="url(#clipPath2)" fill="none" width="134.1582" rx="4" ry="4" height="42.2656"/>
-    </g>
-    <g fill="rgb(255,255,153)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,255,153)">
-      <rect x="180.1587" y="151.5977" clip-path="url(#clipPath2)" width="179.7207" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="187.1587" xml:space="preserve" y="170.1992" clip-path="url(#clipPath2)" stroke="none">exercise: using body rhythm</text>
-      <text x="219.1245" xml:space="preserve" y="184.332" clip-path="url(#clipPath2)" stroke="none">to convey an idea</text>
-      <rect x="180.1587" y="151.5977" clip-path="url(#clipPath2)" fill="none" width="179.7207" rx="4" ry="4" height="42.2656"/>
-    </g>
-    <g fill="rgb(255,255,153)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,255,153)">
-      <rect x="112.9241" y="505.9258" clip-path="url(#clipPath2)" width="183.1367" rx="4" ry="4" height="30" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="119.9241" xml:space="preserve" y="525.4609" clip-path="url(#clipPath2)" stroke="none">exercise: building a narrative</text>
-      <rect x="112.9241" y="505.9258" clip-path="url(#clipPath2)" fill="none" width="183.1367" rx="4" ry="4" height="30"/>
-    </g>
-    <g fill="rgb(255,255,153)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,255,153)">
-      <rect x="123.2132" y="405.4609" clip-path="url(#clipPath2)" width="162.5586" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="130.2132" xml:space="preserve" y="424.0625" clip-path="url(#clipPath2)" stroke="none">exercise: using symmetry</text>
-      <text x="162.0677" xml:space="preserve" y="438.1953" clip-path="url(#clipPath2)" stroke="none">and synchrony</text>
-      <rect x="123.2132" y="405.4609" clip-path="url(#clipPath2)" fill="none" width="162.5586" rx="4" ry="4" height="42.2656"/>
-    </g>
-    <g fill="rgb(255,255,153)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,255,153)">
-      <rect x="57.6484" y="333.1953" clip-path="url(#clipPath2)" width="131.8438" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="64.6484" xml:space="preserve" y="351.7969" clip-path="url(#clipPath2)" stroke="none">exercise: identifying</text>
-      <text x="69.3212" xml:space="preserve" y="365.9297" clip-path="url(#clipPath2)" stroke="none">steps and patterns</text>
-      <rect x="57.6484" y="333.1953" clip-path="url(#clipPath2)" fill="none" width="131.8438" rx="4" ry="4" height="42.2656"/>
-    </g>
-    <g fill="rgb(255,255,153)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,255,153)">
-      <rect x="219.4928" y="333.1953" clip-path="url(#clipPath2)" width="140.3867" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="226.4928" xml:space="preserve" y="351.7969" clip-path="url(#clipPath2)" stroke="none">exercise: taking turns</text>
-      <text x="230.9137" xml:space="preserve" y="365.9297" clip-path="url(#clipPath2)" stroke="none">and dramatic tempo</text>
-      <rect x="219.4928" y="333.1953" clip-path="url(#clipPath2)" fill="none" width="140.3867" rx="4" ry="4" height="42.2656"/>
-    </g>
-    <g fill="rgb(255,255,153)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,255,153)">
-      <rect x="114.3334" y="0" clip-path="url(#clipPath2)" width="124.4316" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="121.3334" xml:space="preserve" y="18.6016" clip-path="url(#clipPath2)" stroke="none">introductory group</text>
-      <text x="149.4613" xml:space="preserve" y="32.7344" clip-path="url(#clipPath2)" stroke="none">exercises</text>
-      <rect x="114.3334" y="0" clip-path="url(#clipPath2)" fill="none" width="124.4316" rx="4" ry="4" height="42.2656"/>
-      <path fill="none" d="M873.7657 193.8633 L873.7657 223.8633 L262.5966 223.8633 L262.5966 230.834" clip-path="url(#clipPath2)"/>
-      <path d="M262.5966 238.834 L267.5966 226.834 L262.5966 229.834 L257.5966 226.834 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M140.8915 121.5977 L140.8915 136.5977 L83.0794 136.5977 L83.0794 143.5684" clip-path="url(#clipPath2)"/>
-      <path d="M83.0794 151.5684 L88.0794 139.5684 L83.0794 142.5684 L78.0794 139.5684 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M83.0794 193.8633 L83.0794 208.8633 L146.3883 208.8633 L146.3883 230.834" clip-path="url(#clipPath2)"/>
-      <path d="M146.3883 238.834 L151.3883 226.834 L146.3883 229.834 L141.3883 226.834 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M212.2069 121.5977 L212.2069 136.5977 L270.019 136.5977 L270.019 143.5684" clip-path="url(#clipPath2)"/>
-      <path d="M270.019 151.5684 L275.019 139.5684 L270.019 142.5684 L265.019 139.5684 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M270.019 193.8633 L270.019 208.8633 L204.4925 208.8633 L204.4925 230.834" clip-path="url(#clipPath2)"/>
-      <path d="M204.4925 238.834 L209.4925 226.834 L204.4925 229.834 L199.4925 226.834 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M204.4925 295.2617 L204.4925 397.434" clip-path="url(#clipPath2)"/>
-      <path d="M204.4925 405.434 L209.4925 393.434 L204.4925 396.434 L199.4925 393.434 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M204.4925 447.7266 L204.4925 497.8974" clip-path="url(#clipPath2)"/>
-      <path d="M204.4925 505.8974 L209.4925 493.8974 L204.4925 496.8974 L199.4925 493.8974 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M146.3883 295.2617 L146.3883 310.2617 L123.5702 310.2617 L123.5702 325.1505" clip-path="url(#clipPath2)"/>
-      <path d="M123.5702 333.1505 L128.5702 321.1505 L123.5702 324.1505 L118.5702 321.1505 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M156.5312 375.4609 L156.5312 390.4609 L150.3063 390.4609 L150.3063 397.4316" clip-path="url(#clipPath2)"/>
-      <path d="M150.3063 405.4316 L155.3063 393.4316 L150.3063 396.4316 L145.3063 393.4316 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M90.6093 375.4609 L90.6091 462.7266 L143.4469 462.7266 L143.4469 497.8836" clip-path="url(#clipPath2)"/>
-      <path d="M143.4469 505.8836 L148.4469 493.8836 L143.4469 496.8836 L138.4469 493.8836 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M262.5966 295.2617 L262.5966 310.2617 L289.6861 310.2617 L289.6861 325.1505" clip-path="url(#clipPath2)"/>
-      <path d="M289.6861 333.1505 L294.6861 321.1505 L289.6861 324.1505 L284.6861 321.1505 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M324.7828 375.4609 L324.7829 462.7266 L265.538 462.7266 L265.538 497.8836" clip-path="url(#clipPath2)"/>
-      <path d="M265.538 505.8836 L270.538 493.8836 L265.538 496.8836 L260.538 493.8836 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M254.5894 375.4609 L254.5894 390.4609 L258.6786 390.4609 L258.6786 397.4316" clip-path="url(#clipPath2)"/>
-      <path d="M258.6786 405.4316 L263.6786 393.4316 L258.6786 396.4316 L253.6786 393.4316 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M176.5492 42.2656 L176.5492 71.2958" clip-path="url(#clipPath2)"/>
-      <path d="M176.5492 79.2958 L181.5492 67.2958 L176.5492 70.2958 L171.5492 67.2958 Z" clip-path="url(#clipPath2)" stroke="none"/>
-    </g>
-    <g fill="rgb(245,245,245)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(245,245,245)">
-      <rect x="405.8798" y="296.5293" clip-path="url(#clipPath2)" width="373.3206" rx="4" ry="4" height="1225.3184" stroke="none"/>
-      <rect x="405.8798" y="296.5293" clip-path="url(#clipPath2)" fill="rgb(235,235,235)" width="373.3206" height="21.666" stroke="none"/>
-    </g>
-    <g font-size="15px" stroke-linecap="butt" transform="matrix(1,0,0,1,15,52)" text-rendering="geometricPrecision" font-family="sans-serif" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
-      <text x="698.6555" xml:space="preserve" y="313.0312" clip-path="url(#clipPath2)" stroke="none">Production</text>
-      <rect x="405.8798" y="296.5293" clip-path="url(#clipPath2)" fill="none" width="373.3206" stroke-dasharray="6,2" rx="4" ry="4" height="1225.3184"/>
-    </g>
-    <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
-      <rect x="559.5541" y="1476.8477" clip-path="url(#clipPath2)" width="95.6855" rx="4" ry="4" height="30" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="566.5541" xml:space="preserve" y="1496.3828" clip-path="url(#clipPath2)" stroke="none">finished video</text>
-      <rect x="559.5541" y="1476.8477" clip-path="url(#clipPath2)" fill="none" width="95.6855" rx="4" ry="4" height="30"/>
-    </g>
-    <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
-      <rect x="542.8519" y="1426.8477" clip-path="url(#clipPath2)" width="129.0898" rx="4" ry="4" height="30" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="549.8519" xml:space="preserve" y="1446.3828" clip-path="url(#clipPath2)" stroke="none">chromakey and edit</text>
-      <rect x="542.8519" y="1426.8477" clip-path="url(#clipPath2)" fill="none" width="129.0898" rx="4" ry="4" height="30"/>
-    </g>
-    <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
-      <rect x="593.0119" y="812.9883" clip-path="url(#clipPath2)" width="114.5762" rx="4" ry="4" height="30" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="600.0119" xml:space="preserve" y="832.5234" clip-path="url(#clipPath2)" stroke="none">test green screen</text>
-      <rect x="593.0119" y="812.9883" clip-path="url(#clipPath2)" fill="none" width="114.5762" rx="4" ry="4" height="30"/>
-    </g>
-    <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
-      <rect x="575.7971" y="750.7227" clip-path="url(#clipPath2)" width="149.0059" rx="4" ry="4" height="30" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="582.7971" xml:space="preserve" y="770.2578" clip-path="url(#clipPath2)" stroke="none">test lighting conditions</text>
-      <rect x="575.7971" y="750.7227" clip-path="url(#clipPath2)" fill="none" width="149.0059" rx="4" ry="4" height="30"/>
-    </g>
-    <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
-      <rect x="421.8798" y="1140.918" clip-path="url(#clipPath2)" width="104.9023" rx="4" ry="4" height="30" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="428.8798" xml:space="preserve" y="1160.4531" clip-path="url(#clipPath2)" stroke="none">make costumes</text>
-      <rect x="421.8798" y="1140.918" clip-path="url(#clipPath2)" fill="none" width="104.9023" rx="4" ry="4" height="30"/>
-    </g>
-    <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
-      <rect x="569.389" y="1364.582" clip-path="url(#clipPath2)" width="76.0156" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="576.389" xml:space="preserve" y="1383.1836" clip-path="url(#clipPath2)" stroke="none">shoot final</text>
-      <text x="576.4769" xml:space="preserve" y="1397.3164" clip-path="url(#clipPath2)" stroke="none">video clips</text>
-      <rect x="569.389" y="1364.582" clip-path="url(#clipPath2)" fill="none" width="76.0156" rx="4" ry="4" height="42.2656"/>
-    </g>
-    <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
-      <rect x="669.6124" y="1140.918" clip-path="url(#clipPath2)" width="93.5879" rx="4" ry="4" height="30" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="676.6124" xml:space="preserve" y="1160.4531" clip-path="url(#clipPath2)" stroke="none">make scenery</text>
-      <rect x="669.6124" y="1140.918" clip-path="url(#clipPath2)" fill="none" width="93.5879" rx="4" ry="4" height="30"/>
-    </g>
-    <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
-      <rect x="571.6581" y="879.1211" clip-path="url(#clipPath2)" width="72.3711" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="578.6581" xml:space="preserve" y="897.7227" clip-path="url(#clipPath2)" stroke="none">shoot test</text>
-      <text x="594.4667" xml:space="preserve" y="911.8555" clip-path="url(#clipPath2)" stroke="none">clips</text>
-      <rect x="571.6581" y="879.1211" clip-path="url(#clipPath2)" fill="none" width="72.3711" rx="4" ry="4" height="42.2656"/>
-    </g>
-    <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
-      <rect x="543.2987" y="941.3867" clip-path="url(#clipPath2)" width="129.0898" rx="4" ry="4" height="30" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="550.2987" xml:space="preserve" y="960.9219" clip-path="url(#clipPath2)" stroke="none">chromakey and edit</text>
-      <rect x="543.2987" y="941.3867" clip-path="url(#clipPath2)" fill="none" width="129.0898" rx="4" ry="4" height="30"/>
-    </g>
-    <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
-      <rect x="552.4276" y="991.3867" clip-path="url(#clipPath2)" width="110.832" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="559.4276" xml:space="preserve" y="1009.9883" clip-path="url(#clipPath2)" stroke="none">proof of concept</text>
-      <text x="592.1991" xml:space="preserve" y="1024.1211" clip-path="url(#clipPath2)" stroke="none">video</text>
-      <rect x="552.4276" y="991.3867" clip-path="url(#clipPath2)" fill="none" width="110.832" rx="4" ry="4" height="42.2656"/>
-    </g>
-    <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
-      <rect x="569.2587" y="1053.6523" clip-path="url(#clipPath2)" width="77.1699" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="576.2587" xml:space="preserve" y="1072.2539" clip-path="url(#clipPath2)" stroke="none">storyboard</text>
-      <text x="581.9452" xml:space="preserve" y="1086.3867" clip-path="url(#clipPath2)" stroke="none">revisions</text>
-      <rect x="569.2587" y="1053.6523" clip-path="url(#clipPath2)" fill="none" width="77.1699" rx="4" ry="4" height="42.2656"/>
-    </g>
-    <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
-      <rect x="432.5515" y="580.9258" clip-path="url(#clipPath2)" width="77.1699" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="440.5515" xml:space="preserve" y="599.5273" clip-path="url(#clipPath2)" stroke="none">storyboard</text>
-      <text x="458.1414" xml:space="preserve" y="613.6602" clip-path="url(#clipPath2)" stroke="none">draft</text>
-      <rect x="432.5515" y="580.9258" clip-path="url(#clipPath2)" fill="none" width="77.1699" rx="4" ry="4" height="42.2656"/>
-    </g>
-    <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
-      <rect x="446.25" y="744.5898" clip-path="url(#clipPath2)" width="99.5469" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="453.25" xml:space="preserve" y="763.1914" clip-path="url(#clipPath2)" stroke="none">program robot</text>
-      <text x="459.0478" xml:space="preserve" y="777.3242" clip-path="url(#clipPath2)" stroke="none">performance</text>
-      <rect x="446.25" y="744.5898" clip-path="url(#clipPath2)" fill="none" width="99.5469" rx="4" ry="4" height="42.2656"/>
-    </g>
-    <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
-      <rect x="433.6033" y="643.1914" clip-path="url(#clipPath2)" width="75.0664" rx="4" ry="4" height="56.3984" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="440.6033" xml:space="preserve" y="661.793" clip-path="url(#clipPath2)" stroke="none">test robot </text>
-      <text x="442.0623" xml:space="preserve" y="675.9258" clip-path="url(#clipPath2)" stroke="none">animation</text>
-      <text x="447.7898" xml:space="preserve" y="690.0586" clip-path="url(#clipPath2)" stroke="none">by hand</text>
-      <rect x="433.6033" y="643.1914" clip-path="url(#clipPath2)" fill="none" width="75.0664" rx="4" ry="4" height="56.3984"/>
-    </g>
-    <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
-      <rect x="463.9892" y="806.8555" clip-path="url(#clipPath2)" width="64.0684" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="470.9892" xml:space="preserve" y="825.457" clip-path="url(#clipPath2)" stroke="none">rehearse</text>
-      <text x="476.4238" xml:space="preserve" y="839.5898" clip-path="url(#clipPath2)" stroke="none">scenes</text>
-      <rect x="463.9892" y="806.8555" clip-path="url(#clipPath2)" fill="none" width="64.0684" rx="4" ry="4" height="42.2656"/>
-    </g>
-    <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
-      <rect x="570.599" y="1288.1836" clip-path="url(#clipPath2)" width="73.5957" rx="4" ry="4" height="56.3984" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="590.8558" xml:space="preserve" y="1306.7852" clip-path="url(#clipPath2)" stroke="none">scene</text>
-      <text x="591.7054" xml:space="preserve" y="1320.918" clip-path="url(#clipPath2)" stroke="none">dress</text>
-      <text x="577.599" xml:space="preserve" y="1335.0508" clip-path="url(#clipPath2)" stroke="none">rehearsals</text>
-      <rect x="570.599" y="1288.1836" clip-path="url(#clipPath2)" fill="none" width="73.5957" rx="4" ry="4" height="56.3984"/>
-    </g>
-    <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
-      <rect x="556.7822" y="1140.918" clip-path="url(#clipPath2)" width="82.8301" rx="4" ry="4" height="30" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="563.7822" xml:space="preserve" y="1160.4531" clip-path="url(#clipPath2)" stroke="none">make props</text>
-      <rect x="556.7822" y="1140.918" clip-path="url(#clipPath2)" fill="none" width="82.8301" rx="4" ry="4" height="30"/>
-    </g>
-    <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
-      <rect x="445.6326" y="411.5938" clip-path="url(#clipPath2)" width="88.8594" rx="4" ry="4" height="30" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="452.6326" xml:space="preserve" y="431.1289" clip-path="url(#clipPath2)" stroke="none">story pitches</text>
-      <rect x="445.6326" y="411.5938" clip-path="url(#clipPath2)" fill="none" width="88.8594" rx="4" ry="4" height="30"/>
-    </g>
-    <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
-      <rect x="434.5379" y="333.1953" clip-path="url(#clipPath2)" width="111.0488" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="441.5379" xml:space="preserve" y="351.7969" clip-path="url(#clipPath2)" stroke="none">brainstorm story</text>
-      <text x="474.8367" xml:space="preserve" y="365.9297" clip-path="url(#clipPath2)" stroke="none">ideas</text>
-      <rect x="434.5379" y="333.1953" clip-path="url(#clipPath2)" fill="none" width="111.0488" rx="4" ry="4" height="42.2656"/>
-    </g>
-    <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
-      <rect x="622.7657" y="1200.918" clip-path="url(#clipPath2)" width="93.6582" rx="4" ry="4" height="42.2656" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="629.7657" xml:space="preserve" y="1219.5195" clip-path="url(#clipPath2)" stroke="none">programming</text>
-      <text x="643.6964" xml:space="preserve" y="1233.6523" clip-path="url(#clipPath2)" stroke="none">revisions</text>
-      <rect x="622.7657" y="1200.918" clip-path="url(#clipPath2)" fill="none" width="93.6582" rx="4" ry="4" height="42.2656"/>
-    </g>
-    <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
-      <rect x="421.8798" y="492.7266" clip-path="url(#clipPath2)" width="91.9355" rx="4" ry="4" height="56.3984" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
-      <text x="427.8799" xml:space="preserve" y="511.3281" clip-path="url(#clipPath2)" stroke="none">introduce the</text>
-      <text x="435.0488" xml:space="preserve" y="525.4609" clip-path="url(#clipPath2)" stroke="none">notion of a</text>
-      <text x="443.3925" xml:space="preserve" y="539.5938" clip-path="url(#clipPath2)" stroke="none">pageant</text>
-      <rect x="421.8798" y="492.7266" clip-path="url(#clipPath2)" fill="none" width="91.9355" rx="4" ry="4" height="56.3984"/>
-      <path fill="none" d="M607.3969 1456.8477 L607.3969 1468.8086" clip-path="url(#clipPath2)"/>
-      <path d="M607.3969 1476.8086 L612.3969 1464.8086 L607.3969 1467.8086 L602.3969 1464.8086 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M650.3 780.7227 L650.3 804.9568" clip-path="url(#clipPath2)"/>
-      <path d="M650.3 812.9568 L655.3 800.9568 L650.3 803.9568 L645.3 800.9568 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M607.3969 1406.8477 L607.3969 1418.8086" clip-path="url(#clipPath2)"/>
-      <path d="M607.3969 1426.8086 L612.3969 1414.8086 L607.3969 1417.8086 L602.3969 1414.8086 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M922.7631 375.4609 L922.7631 390.4609 L549.4921 390.4609 L549.4921 729.5898 L739.8032 729.5898 L739.8033 1132.8928" clip-path="url(#clipPath2)"/>
-      <path d="M739.8033 1140.8928 L744.8033 1128.8928 L739.8033 1131.8928 L734.8033 1128.8928 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M650.3 842.9883 L650.3 857.9883 L625.9364 857.9883 L625.9364 871.0798" clip-path="url(#clipPath2)"/>
-      <path d="M625.9364 879.0798 L630.9364 867.0798 L625.9364 870.0798 L620.9364 867.0798 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M607.8436 921.3867 L607.8436 933.3477" clip-path="url(#clipPath2)"/>
-      <path d="M607.8436 941.3477 L612.8436 929.3477 L607.8436 932.3477 L602.8436 929.3477 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M607.8436 971.3867 L607.8436 983.3477" clip-path="url(#clipPath2)"/>
-      <path d="M607.8436 991.3477 L612.8436 979.3477 L607.8436 982.3477 L602.8436 979.3477 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M607.8436 1033.6523 L607.8436 1045.6133" clip-path="url(#clipPath2)"/>
-      <path d="M607.8436 1053.6133 L612.8436 1041.6133 L607.8436 1044.6133 L602.8436 1041.6133 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M578.9049 1095.918 L578.9049 1110.918 L474.331 1110.918 L474.331 1132.8887" clip-path="url(#clipPath2)"/>
-      <path d="M474.331 1140.8887 L479.331 1128.8887 L474.331 1131.8887 L469.331 1128.8887 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M636.7823 1095.918 L636.7823 1110.918 L693.0094 1110.918 L693.0094 1132.8887" clip-path="url(#clipPath2)"/>
-      <path d="M693.0094 1140.8887 L698.0094 1128.8887 L693.0094 1131.8887 L688.0094 1128.8887 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M204.4925 535.9258 L204.4925 565.9258 L445.4132 565.9258 L445.4132 572.8965" clip-path="url(#clipPath2)"/>
-      <path d="M445.4132 580.8965 L450.4132 568.8965 L445.4132 571.8965 L440.4132 568.8965 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M1081.1088 447.7266 L1081.1088 477.7266 L564.4921 477.7266 L564.4921 714.5898 L520.9102 714.5898 L520.9102 736.5605" clip-path="url(#clipPath2)"/>
-      <path d="M520.9102 744.5605 L525.9102 732.5605 L520.9102 735.5605 L515.9102 732.5605 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M471.1365 623.1914 L471.1365 635.1523" clip-path="url(#clipPath2)"/>
-      <path d="M471.1365 643.1523 L476.1365 631.1523 L471.1365 634.1523 L466.1365 631.1523 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M471.1365 699.5898 L471.1367 736.5459" clip-path="url(#clipPath2)"/>
-      <path d="M471.1367 744.5459 L476.1366 732.5459 L471.1367 735.5459 L466.1367 732.5459 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M496.0234 786.8555 L496.0234 798.8164" clip-path="url(#clipPath2)"/>
-      <path d="M496.0234 806.8164 L501.0234 794.8164 L496.0234 797.8164 L491.0234 794.8164 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M496.0234 849.1211 L496.0234 864.1211 L589.7509 864.1211 L589.7509 871.0918" clip-path="url(#clipPath2)"/>
-      <path d="M589.7509 879.0918 L594.7509 867.0918 L589.7509 870.0918 L584.7509 867.0918 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M739.8033 1170.918 L739.8032 1273.1836 L634.9952 1273.1836 L634.9952 1280.1543" clip-path="url(#clipPath2)"/>
-      <path d="M634.9952 1288.1543 L639.9952 1276.1543 L634.9952 1279.1543 L629.9952 1276.1543 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M474.331 1170.918 L474.331 1237.0508 L579.7985 1237.0508 L579.7985 1280.1337" clip-path="url(#clipPath2)"/>
-      <path d="M579.7985 1288.1337 L584.7985 1276.1337 L579.7985 1279.1337 L574.7985 1276.1337 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M607.3969 1344.582 L607.3969 1356.543" clip-path="url(#clipPath2)"/>
-      <path d="M607.3969 1364.543 L612.3969 1352.543 L607.3969 1355.543 L602.3969 1352.543 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M598.1974 1095.918 L598.1973 1132.874" clip-path="url(#clipPath2)"/>
-      <path d="M598.1972 1140.874 L603.1973 1128.874 L598.1973 1131.874 L593.1973 1128.874 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M598.1972 1170.918 L598.1973 1280.1549" clip-path="url(#clipPath2)"/>
-      <path d="M598.1974 1288.1549 L603.1973 1276.1549 L598.1973 1279.1549 L593.1973 1276.1549 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M512.2772 441.5938 L512.2772 456.5938 L528.8155 456.5938 L528.8155 564.125 L496.8598 564.125 L496.8598 572.8929" clip-path="url(#clipPath2)"/>
-      <path d="M496.8598 580.8929 L501.8598 568.8929 L496.8598 571.8929 L491.8598 568.8929 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M490.0623 375.4609 L490.0623 403.5585" clip-path="url(#clipPath2)"/>
-      <path d="M490.0623 411.5585 L495.0623 399.5585 L490.0623 402.5585 L485.0623 399.5585 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M617.4899 1095.918 L617.4899 1125.918 L654.6123 1125.918 L654.6123 1185.918 L646.1803 1185.918 L646.1803 1192.8887" clip-path="url(#clipPath2)"/>
-      <path d="M646.1803 1200.8887 L651.1803 1188.8887 L646.1803 1191.8887 L641.1803 1188.8887 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M693.0094 1170.918 L693.0094 1192.8887" clip-path="url(#clipPath2)"/>
-      <path d="M693.0094 1200.8887 L698.0094 1188.8887 L693.0094 1191.8887 L688.0094 1188.8887 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M669.5948 1243.1836 L669.5948 1258.1836 L616.5963 1258.1836 L616.5963 1280.1543" clip-path="url(#clipPath2)"/>
-      <path d="M616.5963 1288.1543 L621.5963 1276.1543 L616.5963 1279.1543 L611.5963 1276.1543 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M467.8474 441.5938 L467.8476 484.6766" clip-path="url(#clipPath2)"/>
-      <path d="M467.8476 492.6766 L472.8476 480.6766 L467.8476 483.6766 L462.8476 480.6767 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" d="M467.8476 549.125 L467.8476 564.125 L471.1365 564.125 L471.1365 572.8929" clip-path="url(#clipPath2)"/>
-      <path d="M471.1365 580.8929 L476.1365 568.8929 L471.1365 571.8929 L466.1365 568.8929 Z" clip-path="url(#clipPath2)" stroke="none"/>
+    <g id="y.node.0">
+      <g fill="rgb(245,245,245)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(245,245,245)">
+        <rect x="809.2004" y="-36.666" width="378.0004" rx="4" ry="4" height="499.3926" stroke="none"/>
+      </g>
+      <g>
+        <g fill="rgb(235,235,235)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(235,235,235)">
+          <rect x="809.2004" width="378.0004" height="21.666" y="-36.666" stroke="none"/>
+        </g>
+        <g font-size="15px" stroke-linecap="butt" transform="matrix(1,0,0,1,15,52)" text-rendering="geometricPrecision" font-family="sans-serif" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
+          <text x="1044.1803" xml:space="preserve" y="-20.1641" stroke="none">Technical Exercises</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" stroke-dasharray="6,2" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="809.2004" y="-36.666" fill="none" width="378.0004" rx="4" ry="4" height="499.3926"/>
+      </g>
+    </g>
+    <g id="y.node.1">
+      <g fill="rgb(204,255,204)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(204,255,204)">
+        <rect x="1050.3256" y="333.1953" width="120.4766" rx="4" ry="4" height="42.2656" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="1057.3256" xml:space="preserve" y="351.7969" stroke="none">introduce network</text>
+          <text x="1065.6459" xml:space="preserve" y="365.9297" stroke="none">communication</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="1050.3256" y="333.1953" fill="none" width="120.4766" rx="4" ry="4" height="42.2656"/>
+      </g>
+    </g>
+    <g id="y.node.2">
+      <g fill="rgb(204,255,204)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(204,255,204)">
+        <rect x="955.2228" y="0" width="93.5234" rx="4" ry="4" height="42.2656" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="962.2228" xml:space="preserve" y="18.6016" stroke="none">fundamentals</text>
+          <text x="980.1495" xml:space="preserve" y="32.7344" stroke="none">of Snap</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="955.2228" y="0" fill="none" width="93.5234" rx="4" ry="4" height="42.2656"/>
+      </g>
+    </g>
+    <g id="y.node.3">
+      <g fill="rgb(204,255,204)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(204,255,204)">
+        <rect x="1043.5813" y="245.9297" width="127.6191" rx="4" ry="4" height="42.2656" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="1063.5305" xml:space="preserve" y="264.5312" stroke="none">introduce state</text>
+          <text x="1050.5813" xml:space="preserve" y="278.6641" stroke="none">transition diagrams</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="1043.5813" y="245.9297" fill="none" width="127.6191" rx="4" ry="4" height="42.2656"/>
+      </g>
+    </g>
+    <g id="y.node.4">
+      <g fill="rgb(204,255,204)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(204,255,204)">
+        <rect x="832.9942" y="72.2656" width="127.168" rx="4" ry="4" height="56.3984" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="852.876" xml:space="preserve" y="90.8672" stroke="none">introduce Snap</text>
+          <text x="853.3565" xml:space="preserve" y="105" stroke="none">support library</text>
+          <text x="839.9942" xml:space="preserve" y="119.1328" stroke="none">and documentation</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="832.9942" y="72.2656" fill="none" width="127.168" rx="4" ry="4" height="56.3984"/>
+      </g>
+    </g>
+    <g id="y.node.5">
+      <g fill="rgb(204,255,204)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(204,255,204)">
+        <rect x="825.2004" y="245.9297" width="188.3809" rx="4" ry="4" height="42.2656" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="843.9045" xml:space="preserve" y="264.5312" stroke="none">exercise: recording action</text>
+          <text x="832.2004" xml:space="preserve" y="278.6641" stroke="none">primitives using teleoperation</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="825.2004" y="245.9297" fill="none" width="188.3809" rx="4" ry="4" height="42.2656"/>
+      </g>
+    </g>
+    <g id="y.node.6">
+      <g fill="rgb(204,255,204)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(204,255,204)">
+        <rect x="825.2006" y="333.1953" width="195.125" rx="4" ry="4" height="42.2656" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="832.2006" xml:space="preserve" y="351.7969" stroke="none">exercise: sensorless navigation</text>
+          <text x="850.476" xml:space="preserve" y="365.9297" stroke="none">(i.e. using world physics)</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="825.2006" y="333.1953" fill="none" width="195.125" rx="4" ry="4" height="42.2656"/>
+      </g>
+    </g>
+    <g id="y.node.7">
+      <g fill="rgb(204,255,204)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(204,255,204)">
+        <rect x="991.0169" y="405.4609" width="180.1836" rx="4" ry="4" height="42.2656" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="998.0169" xml:space="preserve" y="424.0625" stroke="none">exercise: time-synchronized</text>
+          <text x="1042.6888" xml:space="preserve" y="438.1953" stroke="none">robot motion</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="991.0169" y="405.4609" fill="none" width="180.1836" rx="4" ry="4" height="42.2656"/>
+      </g>
+    </g>
+    <g id="y.node.8">
+      <g fill="rgb(204,255,204)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(204,255,204)">
+        <rect x="850.9532" y="151.5977" width="91.25" rx="4" ry="4" height="42.2656" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="857.9532" xml:space="preserve" y="170.1992" stroke="none">teleoperation</text>
+          <text x="873.5655" xml:space="preserve" y="184.332" stroke="none">practice</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="850.9532" y="151.5977" fill="none" width="91.25" rx="4" ry="4" height="42.2656"/>
+      </g>
+    </g>
+    <g id="y.edge.20">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M1025.3654 42.2656 L1025.3654 57.2656 L1107.3909 57.2656 L1107.3909 237.8836"/>
+        <path d="M1107.3909 245.8836 L1112.3909 233.8836 L1107.3909 236.8836 L1102.3909 233.8836 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.19">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M1139.2957 288.1953 L1139.2957 303.1953 L1140.683 303.1953 L1140.683 325.166"/>
+        <path d="M1140.683 333.166 L1145.683 321.166 L1140.683 324.166 L1135.683 321.166 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.14">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M978.6036 42.2656 L978.6036 57.2656 L896.5782 57.2656 L896.5782 64.2363"/>
+        <path d="M896.5782 72.2363 L901.5782 60.2363 L896.5782 63.2363 L891.5782 60.2363 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.15">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M966.4861 288.1953 L966.4861 318.1953 L1080.4447 318.1953 L1080.4447 325.166"/>
+        <path d="M1080.4447 333.166 L1085.4447 321.166 L1080.4447 324.166 L1075.4447 321.166 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.21">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M872.2957 288.1953 L872.2957 303.1953 L873.9819 303.1953 L873.9819 325.166"/>
+        <path d="M873.9819 333.166 L878.9819 321.166 L873.9819 324.166 L868.9819 321.166 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.22">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M1075.4861 288.1953 L1075.4861 303.1953 L971.5444 303.1953 L971.5444 325.166"/>
+        <path d="M971.5444 333.166 L976.5444 321.166 L971.5444 324.166 L966.5444 321.166 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.23">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M1110.5638 375.4609 L1110.5638 390.4609 L1081.1088 390.4609 L1081.1088 397.4316"/>
+        <path d="M1081.1088 405.4316 L1086.1088 393.4316 L1081.1088 396.4316 L1076.1088 393.4316 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.33">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M896.5782 128.6641 L896.5782 143.5529"/>
+        <path d="M896.5782 151.5529 L901.5782 139.5529 L896.5782 142.5529 L891.5782 139.5529 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.34">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M919.3907 193.8633 L919.3909 237.9043"/>
+        <path d="M919.3909 245.9043 L924.3909 233.9043 L919.3909 236.9043 L914.3909 233.9043 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.node.9">
+      <g fill="rgb(245,245,245)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(245,245,245)">
+        <rect x="0" y="-36.666" width="375.8798" rx="4" ry="4" height="587.5918" stroke="none"/>
+      </g>
+      <g>
+        <g fill="rgb(235,235,235)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(235,235,235)">
+          <rect x="0" width="375.8798" height="21.666" y="-36.666" stroke="none"/>
+        </g>
+        <g font-size="15px" stroke-linecap="butt" transform="matrix(1,0,0,1,15,52)" text-rendering="geometricPrecision" font-family="sans-serif" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
+          <text x="253.6967" xml:space="preserve" y="-20.1641" stroke="none">Drama Exercises</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" stroke-dasharray="6,2" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="0" y="-36.666" fill="none" width="375.8798" rx="4" ry="4" height="587.5918"/>
+      </g>
+    </g>
+    <g id="y.node.10">
+      <a target="_blank" xlink:type="simple" xlink:href="../ex/body-robot.html" xlink:show="new">
+        <g fill="rgb(255,255,153)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,255,153)">
+          <rect x="105.2338" y="79.332" width="142.6309" rx="4" ry="4" height="42.2656" stroke="none"/>
+        </g>
+        <g>
+          <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+            <text x="112.2338" xml:space="preserve" y="97.9336" stroke="none">exercise: moving your</text>
+            <text x="127.0023" xml:space="preserve" y="112.0664" stroke="none">body like a robot</text>
+          </g>
+        </g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <rect x="105.2338" y="79.332" fill="none" width="142.6309" rx="4" ry="4" height="42.2656"/>
+        </g>
+      </a>
+    </g>
+    <g id="y.node.11">
+      <g fill="rgb(255,255,153)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,255,153)">
+        <rect x="117.3362" y="238.8633" width="174.3125" rx="4" ry="4" height="56.3984" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="140.4173" xml:space="preserve" y="257.4648" stroke="none">exercise: improvising </text>
+          <text x="124.3362" xml:space="preserve" y="271.5977" stroke="none">a scene using teleoperation</text>
+          <text x="141.4632" xml:space="preserve" y="285.7305" stroke="none">(interacting via robot)</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="117.3362" y="238.8633" fill="none" width="174.3125" rx="4" ry="4" height="56.3984"/>
+      </g>
+    </g>
+    <g id="y.node.12">
+      <g fill="rgb(255,255,153)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,255,153)">
+        <rect x="16.0003" y="151.5977" width="134.1582" rx="4" ry="4" height="42.2656" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="23.0003" xml:space="preserve" y="170.1992" stroke="none">exercise: using body</text>
+          <text x="29.1643" xml:space="preserve" y="184.332" stroke="none">spatial positioning</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="16.0003" y="151.5977" fill="none" width="134.1582" rx="4" ry="4" height="42.2656"/>
+      </g>
+    </g>
+    <g id="y.node.13">
+      <g fill="rgb(255,255,153)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,255,153)">
+        <rect x="180.1587" y="151.5977" width="179.7207" rx="4" ry="4" height="42.2656" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="187.1587" xml:space="preserve" y="170.1992" stroke="none">exercise: using body rhythm</text>
+          <text x="219.1245" xml:space="preserve" y="184.332" stroke="none">to convey an idea</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="180.1587" y="151.5977" fill="none" width="179.7207" rx="4" ry="4" height="42.2656"/>
+      </g>
+    </g>
+    <g id="y.node.14">
+      <g fill="rgb(255,255,153)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,255,153)">
+        <rect x="112.9241" y="505.9258" width="183.1367" rx="4" ry="4" height="30" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="119.9241" xml:space="preserve" y="525.4609" stroke="none">exercise: building a narrative</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="112.9241" y="505.9258" fill="none" width="183.1367" rx="4" ry="4" height="30"/>
+      </g>
+    </g>
+    <g id="y.node.15">
+      <g fill="rgb(255,255,153)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,255,153)">
+        <rect x="123.2132" y="405.4609" width="162.5586" rx="4" ry="4" height="42.2656" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="130.2132" xml:space="preserve" y="424.0625" stroke="none">exercise: using symmetry</text>
+          <text x="162.0677" xml:space="preserve" y="438.1953" stroke="none">and synchrony</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="123.2132" y="405.4609" fill="none" width="162.5586" rx="4" ry="4" height="42.2656"/>
+      </g>
+    </g>
+    <g id="y.node.16">
+      <g fill="rgb(255,255,153)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,255,153)">
+        <rect x="57.6484" y="333.1953" width="131.8438" rx="4" ry="4" height="42.2656" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="64.6484" xml:space="preserve" y="351.7969" stroke="none">exercise: identifying</text>
+          <text x="69.3212" xml:space="preserve" y="365.9297" stroke="none">steps and patterns</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="57.6484" y="333.1953" fill="none" width="131.8438" rx="4" ry="4" height="42.2656"/>
+      </g>
+    </g>
+    <g id="y.node.17">
+      <g fill="rgb(255,255,153)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,255,153)">
+        <rect x="219.4928" y="333.1953" width="140.3867" rx="4" ry="4" height="42.2656" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="226.4928" xml:space="preserve" y="351.7969" stroke="none">exercise: taking turns</text>
+          <text x="230.9137" xml:space="preserve" y="365.9297" stroke="none">and dramatic tempo</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="219.4928" y="333.1953" fill="none" width="140.3867" rx="4" ry="4" height="42.2656"/>
+      </g>
+    </g>
+    <g id="y.node.18">
+      <g fill="rgb(255,255,153)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,255,153)">
+        <rect x="114.3334" y="0" width="124.4316" rx="4" ry="4" height="42.2656" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="121.3334" xml:space="preserve" y="18.6016" stroke="none">introductory group</text>
+          <text x="149.4613" xml:space="preserve" y="32.7344" stroke="none">exercises</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="114.3334" y="0" fill="none" width="124.4316" rx="4" ry="4" height="42.2656"/>
+      </g>
+    </g>
+    <g id="y.edge.35">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M873.7657 193.8633 L873.7657 223.8633 L262.5966 223.8633 L262.5966 230.834"/>
+        <path d="M262.5966 238.834 L267.5966 226.834 L262.5966 229.834 L257.5966 226.834 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.25">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M140.8915 121.5977 L140.8915 136.5977 L83.0794 136.5977 L83.0794 143.5684"/>
+        <path d="M83.0794 151.5684 L88.0794 139.5684 L83.0794 142.5684 L78.0794 139.5684 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.26">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M83.0794 193.8633 L83.0794 208.8633 L146.3883 208.8633 L146.3883 230.834"/>
+        <path d="M146.3883 238.834 L151.3883 226.834 L146.3883 229.834 L141.3883 226.834 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.24">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M212.2069 121.5977 L212.2069 136.5977 L270.019 136.5977 L270.019 143.5684"/>
+        <path d="M270.019 151.5684 L275.019 139.5684 L270.019 142.5684 L265.019 139.5684 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.27">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M270.019 193.8633 L270.019 208.8633 L204.4925 208.8633 L204.4925 230.834"/>
+        <path d="M204.4925 238.834 L209.4925 226.834 L204.4925 229.834 L199.4925 226.834 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.37">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M204.4925 295.2617 L204.4925 397.434"/>
+        <path d="M204.4925 405.434 L209.4925 393.434 L204.4925 396.434 L199.4925 393.434 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.43">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M204.4925 447.7266 L204.4925 497.8974"/>
+        <path d="M204.4925 505.8974 L209.4925 493.8974 L204.4925 496.8974 L199.4925 493.8974 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.38">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M146.3883 295.2617 L146.3883 310.2617 L123.5702 310.2617 L123.5702 325.1505"/>
+        <path d="M123.5702 333.1505 L128.5702 321.1505 L123.5702 324.1505 L118.5702 321.1505 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.39">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M156.5312 375.4609 L156.5312 390.4609 L150.3063 390.4609 L150.3063 397.4316"/>
+        <path d="M150.3063 405.4316 L155.3063 393.4316 L150.3063 396.4316 L145.3063 393.4316 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.42">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M90.6093 375.4609 L90.6091 462.7266 L143.4469 462.7266 L143.4469 497.8836"/>
+        <path d="M143.4469 505.8836 L148.4469 493.8836 L143.4469 496.8836 L138.4469 493.8836 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.40">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M262.5966 295.2617 L262.5966 310.2617 L289.6861 310.2617 L289.6861 325.1505"/>
+        <path d="M289.6861 333.1505 L294.6861 321.1505 L289.6861 324.1505 L284.6861 321.1505 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.36">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M324.7828 375.4609 L324.7829 462.7266 L265.538 462.7266 L265.538 497.8836"/>
+        <path d="M265.538 505.8836 L270.538 493.8836 L265.538 496.8836 L260.538 493.8836 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.41">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M254.5894 375.4609 L254.5894 390.4609 L258.6786 390.4609 L258.6786 397.4316"/>
+        <path d="M258.6786 405.4316 L263.6786 393.4316 L258.6786 396.4316 L253.6786 393.4316 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.50">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M176.5492 42.2656 L176.5492 71.2958"/>
+        <path d="M176.5492 79.2958 L181.5492 67.2958 L176.5492 70.2958 L171.5492 67.2958 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.node.19">
+      <g fill="rgb(245,245,245)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(245,245,245)">
+        <rect x="405.8798" y="296.5293" width="373.3206" rx="4" ry="4" height="1225.3184" stroke="none"/>
+      </g>
+      <g>
+        <g fill="rgb(235,235,235)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(235,235,235)">
+          <rect x="405.8798" width="373.3206" height="21.666" y="296.5293" stroke="none"/>
+        </g>
+        <g font-size="15px" stroke-linecap="butt" transform="matrix(1,0,0,1,15,52)" text-rendering="geometricPrecision" font-family="sans-serif" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
+          <text x="698.6555" xml:space="preserve" y="313.0312" stroke="none">Production</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" stroke-dasharray="6,2" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="405.8798" y="296.5293" fill="none" width="373.3206" rx="4" ry="4" height="1225.3184"/>
+      </g>
+    </g>
+    <g id="y.node.20">
+      <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
+        <rect x="559.5541" y="1476.8477" width="95.6855" rx="4" ry="4" height="30" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="566.5541" xml:space="preserve" y="1496.3828" stroke="none">finished video</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="559.5541" y="1476.8477" fill="none" width="95.6855" rx="4" ry="4" height="30"/>
+      </g>
+    </g>
+    <g id="y.node.21">
+      <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
+        <rect x="542.8519" y="1426.8477" width="129.0898" rx="4" ry="4" height="30" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="549.8519" xml:space="preserve" y="1446.3828" stroke="none">chromakey and edit</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="542.8519" y="1426.8477" fill="none" width="129.0898" rx="4" ry="4" height="30"/>
+      </g>
+    </g>
+    <g id="y.node.22">
+      <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
+        <rect x="593.0119" y="812.9883" width="114.5762" rx="4" ry="4" height="30" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="600.0119" xml:space="preserve" y="832.5234" stroke="none">test green screen</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="593.0119" y="812.9883" fill="none" width="114.5762" rx="4" ry="4" height="30"/>
+      </g>
+    </g>
+    <g id="y.node.23">
+      <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
+        <rect x="575.7971" y="750.7227" width="149.0059" rx="4" ry="4" height="30" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="582.7971" xml:space="preserve" y="770.2578" stroke="none">test lighting conditions</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="575.7971" y="750.7227" fill="none" width="149.0059" rx="4" ry="4" height="30"/>
+      </g>
+    </g>
+    <g id="y.node.24">
+      <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
+        <rect x="421.8798" y="1140.918" width="104.9023" rx="4" ry="4" height="30" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="428.8798" xml:space="preserve" y="1160.4531" stroke="none">make costumes</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="421.8798" y="1140.918" fill="none" width="104.9023" rx="4" ry="4" height="30"/>
+      </g>
+    </g>
+    <g id="y.node.25">
+      <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
+        <rect x="569.389" y="1364.582" width="76.0156" rx="4" ry="4" height="42.2656" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="576.389" xml:space="preserve" y="1383.1836" stroke="none">shoot final</text>
+          <text x="576.4769" xml:space="preserve" y="1397.3164" stroke="none">video clips</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="569.389" y="1364.582" fill="none" width="76.0156" rx="4" ry="4" height="42.2656"/>
+      </g>
+    </g>
+    <g id="y.node.26">
+      <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
+        <rect x="669.6124" y="1140.918" width="93.5879" rx="4" ry="4" height="30" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="676.6124" xml:space="preserve" y="1160.4531" stroke="none">make scenery</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="669.6124" y="1140.918" fill="none" width="93.5879" rx="4" ry="4" height="30"/>
+      </g>
+    </g>
+    <g id="y.node.27">
+      <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
+        <rect x="571.6581" y="879.1211" width="72.3711" rx="4" ry="4" height="42.2656" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="578.6581" xml:space="preserve" y="897.7227" stroke="none">shoot test</text>
+          <text x="594.4667" xml:space="preserve" y="911.8555" stroke="none">clips</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="571.6581" y="879.1211" fill="none" width="72.3711" rx="4" ry="4" height="42.2656"/>
+      </g>
+    </g>
+    <g id="y.node.28">
+      <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
+        <rect x="543.2987" y="941.3867" width="129.0898" rx="4" ry="4" height="30" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="550.2987" xml:space="preserve" y="960.9219" stroke="none">chromakey and edit</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="543.2987" y="941.3867" fill="none" width="129.0898" rx="4" ry="4" height="30"/>
+      </g>
+    </g>
+    <g id="y.node.29">
+      <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
+        <rect x="552.4276" y="991.3867" width="110.832" rx="4" ry="4" height="42.2656" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="559.4276" xml:space="preserve" y="1009.9883" stroke="none">proof of concept</text>
+          <text x="592.1991" xml:space="preserve" y="1024.1211" stroke="none">video</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="552.4276" y="991.3867" fill="none" width="110.832" rx="4" ry="4" height="42.2656"/>
+      </g>
+    </g>
+    <g id="y.node.30">
+      <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
+        <rect x="569.2587" y="1053.6523" width="77.1699" rx="4" ry="4" height="42.2656" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="576.2587" xml:space="preserve" y="1072.2539" stroke="none">storyboard</text>
+          <text x="581.9452" xml:space="preserve" y="1086.3867" stroke="none">revisions</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="569.2587" y="1053.6523" fill="none" width="77.1699" rx="4" ry="4" height="42.2656"/>
+      </g>
+    </g>
+    <g id="y.node.31">
+      <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
+        <rect x="432.5515" y="580.9258" width="77.1699" rx="4" ry="4" height="42.2656" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="440.5515" xml:space="preserve" y="599.5273" stroke="none">storyboard</text>
+          <text x="458.1414" xml:space="preserve" y="613.6602" stroke="none">draft</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="432.5515" y="580.9258" fill="none" width="77.1699" rx="4" ry="4" height="42.2656"/>
+      </g>
+    </g>
+    <g id="y.node.32">
+      <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
+        <rect x="446.25" y="744.5898" width="99.5469" rx="4" ry="4" height="42.2656" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="453.25" xml:space="preserve" y="763.1914" stroke="none">program robot</text>
+          <text x="459.0478" xml:space="preserve" y="777.3242" stroke="none">performance</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="446.25" y="744.5898" fill="none" width="99.5469" rx="4" ry="4" height="42.2656"/>
+      </g>
+    </g>
+    <g id="y.node.33">
+      <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
+        <rect x="433.6033" y="643.1914" width="75.0664" rx="4" ry="4" height="56.3984" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="440.6033" xml:space="preserve" y="661.793" stroke="none">test robot </text>
+          <text x="442.0623" xml:space="preserve" y="675.9258" stroke="none">animation</text>
+          <text x="447.7898" xml:space="preserve" y="690.0586" stroke="none">by hand</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="433.6033" y="643.1914" fill="none" width="75.0664" rx="4" ry="4" height="56.3984"/>
+      </g>
+    </g>
+    <g id="y.node.34">
+      <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
+        <rect x="463.9892" y="806.8555" width="64.0684" rx="4" ry="4" height="42.2656" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="470.9892" xml:space="preserve" y="825.457" stroke="none">rehearse</text>
+          <text x="476.4238" xml:space="preserve" y="839.5898" stroke="none">scenes</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="463.9892" y="806.8555" fill="none" width="64.0684" rx="4" ry="4" height="42.2656"/>
+      </g>
+    </g>
+    <g id="y.node.35">
+      <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
+        <rect x="570.599" y="1288.1836" width="73.5957" rx="4" ry="4" height="56.3984" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="590.8558" xml:space="preserve" y="1306.7852" stroke="none">scene</text>
+          <text x="591.7054" xml:space="preserve" y="1320.918" stroke="none">dress</text>
+          <text x="577.599" xml:space="preserve" y="1335.0508" stroke="none">rehearsals</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="570.599" y="1288.1836" fill="none" width="73.5957" rx="4" ry="4" height="56.3984"/>
+      </g>
+    </g>
+    <g id="y.node.36">
+      <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
+        <rect x="556.7822" y="1140.918" width="82.8301" rx="4" ry="4" height="30" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="563.7822" xml:space="preserve" y="1160.4531" stroke="none">make props</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="556.7822" y="1140.918" fill="none" width="82.8301" rx="4" ry="4" height="30"/>
+      </g>
+    </g>
+    <g id="y.node.37">
+      <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
+        <rect x="445.6326" y="411.5938" width="88.8594" rx="4" ry="4" height="30" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="452.6326" xml:space="preserve" y="431.1289" stroke="none">story pitches</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="445.6326" y="411.5938" fill="none" width="88.8594" rx="4" ry="4" height="30"/>
+      </g>
+    </g>
+    <g id="y.node.38">
+      <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
+        <rect x="434.5379" y="333.1953" width="111.0488" rx="4" ry="4" height="42.2656" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="441.5379" xml:space="preserve" y="351.7969" stroke="none">brainstorm story</text>
+          <text x="474.8367" xml:space="preserve" y="365.9297" stroke="none">ideas</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="434.5379" y="333.1953" fill="none" width="111.0488" rx="4" ry="4" height="42.2656"/>
+      </g>
+    </g>
+    <g id="y.node.39">
+      <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
+        <rect x="622.7657" y="1200.918" width="93.6582" rx="4" ry="4" height="42.2656" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="629.7657" xml:space="preserve" y="1219.5195" stroke="none">programming</text>
+          <text x="643.6964" xml:space="preserve" y="1233.6523" stroke="none">revisions</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="622.7657" y="1200.918" fill="none" width="93.6582" rx="4" ry="4" height="42.2656"/>
+      </g>
+    </g>
+    <g id="y.node.40">
+      <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke="rgb(255,204,0)">
+        <rect x="421.8798" y="492.7266" width="91.9355" rx="4" ry="4" height="56.3984" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+          <text x="427.8799" xml:space="preserve" y="511.3281" stroke="none">introduce the</text>
+          <text x="435.0488" xml:space="preserve" y="525.4609" stroke="none">notion of a</text>
+          <text x="443.3925" xml:space="preserve" y="539.5938" stroke="none">pageant</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <rect x="421.8798" y="492.7266" fill="none" width="91.9355" rx="4" ry="4" height="56.3984"/>
+      </g>
+    </g>
+    <g id="y.edge.0">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M607.3969 1456.8477 L607.3969 1468.8086"/>
+        <path d="M607.3969 1476.8086 L612.3969 1464.8086 L607.3969 1467.8086 L602.3969 1464.8086 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.1">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M650.3 780.7227 L650.3 804.9568"/>
+        <path d="M650.3 812.9568 L655.3 800.9568 L650.3 803.9568 L645.3 800.9568 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.4">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M607.3969 1406.8477 L607.3969 1418.8086"/>
+        <path d="M607.3969 1426.8086 L612.3969 1414.8086 L607.3969 1417.8086 L602.3969 1414.8086 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.32">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M922.7631 375.4609 L922.7631 390.4609 L549.4921 390.4609 L549.4921 729.5898 L739.8032 729.5898 L739.8033 1132.8928"/>
+        <path d="M739.8033 1140.8928 L744.8033 1128.8928 L739.8033 1131.8928 L734.8033 1128.8928 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.49">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M650.3 842.9883 L650.3 857.9883 L625.9364 857.9883 L625.9364 871.0798"/>
+        <path d="M625.9364 879.0798 L630.9364 867.0798 L625.9364 870.0798 L620.9364 867.0798 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.3">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M607.8436 921.3867 L607.8436 933.3477"/>
+        <path d="M607.8436 941.3477 L612.8436 929.3477 L607.8436 932.3477 L602.8436 929.3477 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.2">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M607.8436 971.3867 L607.8436 983.3477"/>
+        <path d="M607.8436 991.3477 L612.8436 979.3477 L607.8436 982.3477 L602.8436 979.3477 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.5">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M607.8436 1033.6523 L607.8436 1045.6133"/>
+        <path d="M607.8436 1053.6133 L612.8436 1041.6133 L607.8436 1044.6133 L602.8436 1041.6133 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.6">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M578.9049 1095.918 L578.9049 1110.918 L474.331 1110.918 L474.331 1132.8887"/>
+        <path d="M474.331 1140.8887 L479.331 1128.8887 L474.331 1131.8887 L469.331 1128.8887 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.7">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M636.7823 1095.918 L636.7823 1110.918 L693.0094 1110.918 L693.0094 1132.8887"/>
+        <path d="M693.0094 1140.8887 L698.0094 1128.8887 L693.0094 1131.8887 L688.0094 1128.8887 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.29">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M204.4925 535.9258 L204.4925 565.9258 L445.4132 565.9258 L445.4132 572.8965"/>
+        <path d="M445.4132 580.8965 L450.4132 568.8965 L445.4132 571.8965 L440.4132 568.8965 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.28">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M1081.1088 447.7266 L1081.1088 477.7266 L564.4921 477.7266 L564.4921 714.5898 L520.9102 714.5898 L520.9102 736.5605"/>
+        <path d="M520.9102 744.5605 L525.9102 732.5605 L520.9102 735.5605 L515.9102 732.5605 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.10">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M471.1365 623.1914 L471.1365 635.1523"/>
+        <path d="M471.1365 643.1523 L476.1365 631.1523 L471.1365 634.1523 L466.1365 631.1523 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.11">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M471.1365 699.5898 L471.1367 736.5459"/>
+        <path d="M471.1367 744.5459 L476.1366 732.5459 L471.1367 735.5459 L466.1367 732.5459 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.13">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M496.0234 786.8555 L496.0234 798.8164"/>
+        <path d="M496.0234 806.8164 L501.0234 794.8164 L496.0234 797.8164 L491.0234 794.8164 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.12">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M496.0234 849.1211 L496.0234 864.1211 L589.7509 864.1211 L589.7509 871.0918"/>
+        <path d="M589.7509 879.0918 L594.7509 867.0918 L589.7509 870.0918 L584.7509 867.0918 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.16">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M739.8033 1170.918 L739.8032 1273.1836 L634.9952 1273.1836 L634.9952 1280.1543"/>
+        <path d="M634.9952 1288.1543 L639.9952 1276.1543 L634.9952 1279.1543 L629.9952 1276.1543 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.17">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M474.331 1170.918 L474.331 1237.0508 L579.7985 1237.0508 L579.7985 1280.1337"/>
+        <path d="M579.7985 1288.1337 L584.7985 1276.1337 L579.7985 1279.1337 L574.7985 1276.1337 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.18">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M607.3969 1344.582 L607.3969 1356.543"/>
+        <path d="M607.3969 1364.543 L612.3969 1352.543 L607.3969 1355.543 L602.3969 1352.543 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.30">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M598.1974 1095.918 L598.1973 1132.874"/>
+        <path d="M598.1972 1140.874 L603.1973 1128.874 L598.1973 1131.874 L593.1973 1128.874 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.31">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M598.1972 1170.918 L598.1973 1280.1549"/>
+        <path d="M598.1974 1288.1549 L603.1973 1276.1549 L598.1973 1279.1549 L593.1973 1276.1549 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.9">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M512.2772 441.5938 L512.2772 456.5938 L528.8155 456.5938 L528.8155 564.125 L496.8598 564.125 L496.8598 572.8929"/>
+        <path d="M496.8598 580.8929 L501.8598 568.8929 L496.8598 571.8929 L491.8598 568.8929 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.8">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M490.0623 375.4609 L490.0623 403.5585"/>
+        <path d="M490.0623 411.5585 L495.0623 399.5585 L490.0623 402.5585 L485.0623 399.5585 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.44">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M617.4899 1095.918 L617.4899 1125.918 L654.6123 1125.918 L654.6123 1185.918 L646.1803 1185.918 L646.1803 1192.8887"/>
+        <path d="M646.1803 1200.8887 L651.1803 1188.8887 L646.1803 1191.8887 L641.1803 1188.8887 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.46">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M693.0094 1170.918 L693.0094 1192.8887"/>
+        <path d="M693.0094 1200.8887 L698.0094 1188.8887 L693.0094 1191.8887 L688.0094 1188.8887 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.45">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M669.5948 1243.1836 L669.5948 1258.1836 L616.5963 1258.1836 L616.5963 1280.1543"/>
+        <path d="M616.5963 1288.1543 L621.5963 1276.1543 L616.5963 1279.1543 L611.5963 1276.1543 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.47">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M467.8474 441.5938 L467.8476 484.6766"/>
+        <path d="M467.8476 492.6766 L472.8476 480.6766 L467.8476 483.6766 L462.8476 480.6767 Z" stroke="none"/>
+      </g>
+    </g>
+    <g id="y.edge.48">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,15,52)" stroke-linecap="butt">
+        <path fill="none" d="M467.8476 549.125 L467.8476 564.125 L471.1365 564.125 L471.1365 572.8929"/>
+        <path d="M471.1365 580.8929 L476.1365 568.8929 L471.1365 571.8929 L466.1365 568.8929 Z" stroke="none"/>
+      </g>
     </g>
   </g>
 </svg>
