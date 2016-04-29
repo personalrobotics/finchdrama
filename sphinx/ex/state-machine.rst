@@ -1,5 +1,7 @@
 .. include:: ../links.rst
 
+.. _exercise-state-machine:
+
 Exercise - State Transition Diagrams
 ====================================
 

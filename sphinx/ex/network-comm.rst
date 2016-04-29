@@ -1,5 +1,7 @@
 .. include:: ../links.rst
 
+.. _exercise-network-communication:
+
 Exercise - Network Communication
 ================================
 

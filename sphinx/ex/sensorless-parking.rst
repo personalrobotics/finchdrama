@@ -1,5 +1,7 @@
 .. include:: ../links.rst
 
+.. _exercise-sensorless-parking:
+
 Exercise - Sensorless Parking
 =============================
 

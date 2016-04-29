@@ -1,5 +1,7 @@
 .. include:: ../links.rst
 
+.. _exercise-robot-synchronization:
+
 Exercise - Robot Synchronization
 ================================
 
