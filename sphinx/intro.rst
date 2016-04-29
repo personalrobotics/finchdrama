@@ -17,6 +17,7 @@ Technologies`_, and uses the `Snap!`_ visual programming system.  However, the
 core ideas are general and this course could be ported to other languages and
 robots.
 
+.. _prerequisites:
 
 Prerequisites
 =============
