@@ -1,5 +1,7 @@
 .. include:: ../links.rst
 
+.. _exercise-pair-robot:
+
 Exercise - Interacting Like Robots
 ==================================
 

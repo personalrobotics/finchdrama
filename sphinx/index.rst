@@ -31,6 +31,7 @@ Contents
    ex/snap-review
    ex/state-machine
    ex/sensorless-parking
+   ex/micro-scene
    ex/network-comm
    ex/robot-sync
    code
