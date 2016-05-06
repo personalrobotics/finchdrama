@@ -92,10 +92,27 @@ Association Lists
 Driving and Recording
 ---------------------
 
-``drive Finch and record into []``
-  Runs keyboard-driving interface, recording an action-list for each change
-  of output into an existing list.  The list may be empty to begin, but must
-  exist in order to be modified.
+``drive Finch and record into []`` Runs keyboard-driving interface, recording an action-list for each change of output into an existing list.
+  The list may be empty to begin, but must exist in order to be modified.  If no
+  list is provided, then the block just runs the teleoperation interface without
+  recording.  The default key bindings are as follows.  Note that the movement
+  keys superimpose; pressing the right arrow while holding down the up arrow
+  creates a curving arc.
+
+    =====	==============  
+    key		action
+    =====	==============
+    up		forward
+    down	reverse
+    left	turn CCW in place
+    right	turn CW in place
+    1		set 25% speed
+    2		set 50% speed
+    3		set 75% speed
+    4		set 100% speed
+    x           exit driving teleoperation loop
+    =====	==============  
+  
 
 ``drive LEDs and record into []``
   Runs keyboard-controlled lighting interface, recording events into the given
