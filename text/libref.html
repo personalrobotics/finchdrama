@@ -15,7 +15,7 @@
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
-        VERSION:     '2016-05-03',
+        VERSION:     '2016-05-06',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
         HAS_SOURCE:  true
@@ -297,10 +297,55 @@ key and a value.</dd>
 <div class="section" id="driving-and-recording">
 <h3>Driving and Recording<a class="headerlink" href="#driving-and-recording" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
-<dt><code class="docutils literal"><span class="pre">drive</span> <span class="pre">Finch</span> <span class="pre">and</span> <span class="pre">record</span> <span class="pre">into</span> <span class="pre">[]</span></code></dt>
-<dd>Runs keyboard-driving interface, recording an action-list for each change
-of output into an existing list.  The list may be empty to begin, but must
-exist in order to be modified.</dd>
+<dt><code class="docutils literal"><span class="pre">drive</span> <span class="pre">Finch</span> <span class="pre">and</span> <span class="pre">record</span> <span class="pre">into</span> <span class="pre">[]</span></code> Runs keyboard-driving interface, recording an action-list for each change of output into an existing list.</dt>
+<dd><p class="first">The list may be empty to begin, but must exist in order to be modified.  If no
+list is provided, then the block just runs the teleoperation interface without
+recording.  The default key bindings are as follows.  Note that the movement
+keys superimpose; pressing the right arrow while holding down the up arrow
+creates a curving arc.</p>
+<blockquote class="last">
+<div><table border="1" class="docutils">
+<colgroup>
+<col width="14%" />
+<col width="86%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">key</th>
+<th class="head">action</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>up</td>
+<td>forward</td>
+</tr>
+<tr class="row-odd"><td>down</td>
+<td>reverse</td>
+</tr>
+<tr class="row-even"><td>left</td>
+<td>turn CCW in place</td>
+</tr>
+<tr class="row-odd"><td>right</td>
+<td>turn CW in place</td>
+</tr>
+<tr class="row-even"><td>1</td>
+<td>set 25% speed</td>
+</tr>
+<tr class="row-odd"><td>2</td>
+<td>set 50% speed</td>
+</tr>
+<tr class="row-even"><td>3</td>
+<td>set 75% speed</td>
+</tr>
+<tr class="row-odd"><td>4</td>
+<td>set 100% speed</td>
+</tr>
+<tr class="row-even"><td>x</td>
+<td>exit driving teleoperation loop</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</dd>
 <dt><code class="docutils literal"><span class="pre">drive</span> <span class="pre">LEDs</span> <span class="pre">and</span> <span class="pre">record</span> <span class="pre">into</span> <span class="pre">[]</span></code></dt>
 <dd>Runs keyboard-controlled lighting interface, recording events into the given
 recording list.</dd>
@@ -446,7 +491,7 @@ This is &#8216;epoch&#8217; time, the number of seconds since midnight of Januar
     </div>
     <div class="footer" role="contentinfo">
         &copy; Copyright 2016, Garth Zeglin.
-      Last updated on 2016-05-03.
+      Last updated on 2016-05-06.
       Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.
     </div>
   </body>

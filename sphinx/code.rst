@@ -20,6 +20,14 @@ and no code appears on the tab for the Stage.  This is recommended so that your
 scripts can show debugging information on the canvas using 'say' and 'think',
 which can sometimes be helpful.
 
+Finch-Animation-Deck
+====================
+
+`Finch-Animation-Deck`_ provides an interface for driving the robot and
+recording complex actions into primitives.  It is built using
+Finch-Drama-Library.  It can be used as a starting point for creating scripted
+performances composed from motion primitives.
+
 
 Finch-Box-Navigation
 ====================

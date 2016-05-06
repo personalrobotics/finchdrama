@@ -27,6 +27,7 @@
 .. be sure to add an entry in code.rst for any new sketches
 .. _Finch-Chrome: http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=birdbraintech&ProjectName=Finch-Chrome
 
+.. _Finch-Animation-Deck: http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Animation-Deck
 .. _Finch-Box-Navigation: http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Box-Navigation
 .. _Finch-Coordination-Intro: http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Coordination-Intro
 .. _Finch-Drama-Library: http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Drama-Library
