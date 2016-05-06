@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Exercise - Creating Animation Primitives &mdash; Finch Drama Project</title>
+    
+    <link rel="stylesheet" href="../_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/guide.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '2016-05-06',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="Finch Drama Project" href="../index.html" />
+    <link rel="next" title="Exercise - Network Communication" href="network-comm.html" />
+    <link rel="prev" title="Exercise - Building a Tiny Narrative" href="micro-scene.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="network-comm.html" title="Exercise - Network Communication"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="micro-scene.html" title="Exercise - Building a Tiny Narrative"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Finch Drama Project</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="exercise-creating-animation-primitives">
+<span id="exercise-primitives"></span><h1>Exercise - Creating Animation Primitives<a class="headerlink" href="#exercise-creating-animation-primitives" title="Permalink to this headline">¶</a></h1>
+<p>For this individual exercise, we will explore how to practice and record robot
+motion sequences which can be composed together.</p>
+<p>A recurring idea in robot programming is the use of motion <em>primitives</em>, which
+are individual actions which be sequenced together to solve a task.  For our
+movie performance, each primitive might take the form of a short dance step or
+phrase, or a individual reaction movement responding to another character.</p>
+<div class="section" id="try-it">
+<h2>Try it!<a class="headerlink" href="#try-it" title="Permalink to this headline">¶</a></h2>
+<p>We will use the <a class="reference external" href="http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&amp;ProjectName=Finch-Animation-Deck">Finch-Animation-Deck</a> sketch for this exercise.  This example
+uses Finch-Drama-Library to implement an animation interface which allows
+recording individual primitives using a driving interface, then saving them as
+named primitives in a stored library.  These primitives can then be replayed by
+name.</p>
+<p>The comments in the sketch should guide through testing all the features as follows:</p>
+<ol class="arabic simple">
+<li>Clearing the library to erase all stored primitives.</li>
+<li>Driving the robot using the keyboard.</li>
+<li>Choosing a name for a new primitive, then performing and saving it.</li>
+<li>Replaying actions by name.</li>
+</ol>
+</div>
+<div class="section" id="building-a-performance">
+<h2>Building a Performance<a class="headerlink" href="#building-a-performance" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>First, decide on a basic story context and the role of your robot character.</li>
+<li>Try improvising robot movement to see what kinds of actions might be consistent with this character.  Are they fast, slow, staccato, smooth?</li>
+<li>Try some short general-purpose expressions; can you animate a double-take?  Surprise?  Fear?</li>
+<li>When you are happy with a movement, choose a name and save it.</li>
+<li>Try programming a sequence using normal Snap! techniques and the <code class="docutils literal"><span class="pre">play</span> <span class="pre">action</span> <span class="pre">&quot;&quot;</span> <span class="pre">from</span> <span class="pre">library</span> <span class="pre">[]</span></code> command block to execute your primitives.</li>
+</ol>
+<p><em>Garth Zeglin, Personal Robotics Lab, Carnegie Mellon University</em></p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Exercise - Creating Animation Primitives</a><ul>
+<li><a class="reference internal" href="#try-it">Try it!</a></li>
+<li><a class="reference internal" href="#building-a-performance">Building a Performance</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="micro-scene.html"
+                        title="previous chapter">Exercise - Building a Tiny Narrative</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="network-comm.html"
+                        title="next chapter">Exercise - Network Communication</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="network-comm.html" title="Exercise - Network Communication"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="micro-scene.html" title="Exercise - Building a Tiny Narrative"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Finch Drama Project</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2016, Garth Zeglin.
+      Last updated on 2016-05-06.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.
+    </div>
+  </body>
+</html>

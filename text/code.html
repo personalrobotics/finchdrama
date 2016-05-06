@@ -15,7 +15,7 @@
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
-        VERSION:     '2016-05-03',
+        VERSION:     '2016-05-06',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
         HAS_SOURCE:  true
@@ -65,7 +65,14 @@ scripts can show debugging information on the canvas using &#8216;say&#8217; and
 which can sometimes be helpful.</p>
 </div>
 <div class="section" id="id2">
-<h2>Finch-Box-Navigation<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<h2>Finch-Animation-Deck<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&amp;ProjectName=Finch-Animation-Deck">Finch-Animation-Deck</a> provides an interface for driving the robot and
+recording complex actions into primitives.  It is built using
+Finch-Drama-Library.  It can be used as a starting point for creating scripted
+performances composed from motion primitives.</p>
+</div>
+<div class="section" id="id3">
+<h2>Finch-Box-Navigation<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&amp;ProjectName=Finch-Box-Navigation">Finch-Box-Navigation</a> is the code used in the <a class="reference internal" href="videos.html#box-navigation-video"><span class="std std-ref">Finch Box Navigation Demo</span></a>
 video.  It uses the plain Finch-Chrome library to implement two different
 strategies for navigating around a Finch Box placed on the floor.  It is helpful
@@ -76,14 +83,14 @@ open-loop sequence of driving movements to drive around a corner and attempt to
 find the next face.</p>
 <p>The second strategy adds deliberate collision to reduce positioning error, and works better.</p>
 </div>
-<div class="section" id="id3">
-<h2>Finch-Coordination-Intro<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id4">
+<h2>Finch-Coordination-Intro<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&amp;ProjectName=Finch-Coordination-Intro">Finch-Coordination-Intro</a> is used in <a class="reference internal" href="ex/robot-sync.html#exercise-robot-synchronization"><span class="std std-ref">Exercise - Robot Synchronization</span></a>.
 It uses the plain Finch-Chrome library to implement multi-robot coordination
 using communication over a network server.</p>
 </div>
-<div class="section" id="id4">
-<h2>Finch-Drama-Library<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id5">
+<h2>Finch-Drama-Library<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&amp;ProjectName=Finch-Drama-Library">Finch-Drama-Library</a> is a reference library to serve as the foundation for
 more advanced robot scripting.  It includes a number of new blocks to extend the
 basic Finch-Chrome library.  The sketch includes a number of demonstration
@@ -104,35 +111,35 @@ estimates of client-server clock skew for managing precision synchronization
 of multiple robots.</li>
 </ol>
 </div>
-<div class="section" id="id5">
-<h2>Finch-Precise-Coordination<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id6">
+<h2>Finch-Precise-Coordination<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&amp;ProjectName=Finch-Precise-Coordination">Finch-Precise-Coordination</a> is a followup to <a class="reference external" href="http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&amp;ProjectName=Finch-Coordination-Intro">Finch-Coordination-Intro</a> which
 adds an estimation of client-server clock skew, built using the plain
 Finch-Chrome library.  It is largely superseded by <a class="reference external" href="http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&amp;ProjectName=Finch-Drama-Library">Finch-Drama-Library</a> except
 as a simpler example for understanding how time works across the network.</p>
 </div>
-<div class="section" id="id6">
-<h2>Finch-Sensorless-Parking<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id7">
+<h2>Finch-Sensorless-Parking<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&amp;ProjectName=Finch-Sensorless-Parking">Finch-Sensorless-Parking</a> is used in <a class="reference internal" href="ex/sensorless-parking.html#exercise-sensorless-parking"><span class="std std-ref">Exercise - Sensorless Parking</span></a>.  It
 uses the plain Finch-Chrome library to implement simple open-loop strategies for
 using collision with an obstacle for localization.  It isn&#8217;t autonomous; it
 requires user input to initiate the different phases of the movement.</p>
 </div>
-<div class="section" id="id7">
-<h2>Finch-Sequencing<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id8">
+<h2>Finch-Sequencing<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&amp;ProjectName=Finch-Sequencing">Finch-Sequencing</a> needs to be rewritten to use <a class="reference external" href="http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&amp;ProjectName=Finch-Drama-Library">Finch-Drama-Library</a>, it is
 really a precursor to the library and not as capable.  It implements an action
 recording and playback system to demonstrate list data structures.  The data is
 stored on a per-Sprite basis, which isn&#8217;t the most obvious to use.</p>
 </div>
-<div class="section" id="id8">
-<h2>Finch-State-Machine<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id9">
+<h2>Finch-State-Machine<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&amp;ProjectName=Finch-State-Machine">Finch-State-Machine</a> is used in <a class="reference internal" href="ex/state-machine.html#exercise-state-machine"><span class="std std-ref">Exercise - State Transition Diagrams</span></a>.  It implements
 a single-loop polled state machine coding structure which can be used to
 implement arbitrary state transition graphs.</p>
 </div>
-<div class="section" id="id9">
-<h2>Sprite-Communication-Intro<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id10">
+<h2>Sprite-Communication-Intro<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&amp;ProjectName=Sprite-Communication-Intro">Sprite-Communication-Intro</a> is used in <a class="reference internal" href="ex/network-comm.html#exercise-network-communication"><span class="std std-ref">Exercise - Network Communication</span></a>.
 It doesn&#8217;t use the robots; it demonstrates the use of the network communications
 server to coordinate graphical sprites across different computers.</p>
@@ -149,14 +156,15 @@ server to coordinate graphical sprites across different computers.</p>
   <ul>
 <li><a class="reference internal" href="#">Notes on Snap! Sample Code</a><ul>
 <li><a class="reference internal" href="#id1">Finch-Chrome</a></li>
-<li><a class="reference internal" href="#id2">Finch-Box-Navigation</a></li>
-<li><a class="reference internal" href="#id3">Finch-Coordination-Intro</a></li>
-<li><a class="reference internal" href="#id4">Finch-Drama-Library</a></li>
-<li><a class="reference internal" href="#id5">Finch-Precise-Coordination</a></li>
-<li><a class="reference internal" href="#id6">Finch-Sensorless-Parking</a></li>
-<li><a class="reference internal" href="#id7">Finch-Sequencing</a></li>
-<li><a class="reference internal" href="#id8">Finch-State-Machine</a></li>
-<li><a class="reference internal" href="#id9">Sprite-Communication-Intro</a></li>
+<li><a class="reference internal" href="#id2">Finch-Animation-Deck</a></li>
+<li><a class="reference internal" href="#id3">Finch-Box-Navigation</a></li>
+<li><a class="reference internal" href="#id4">Finch-Coordination-Intro</a></li>
+<li><a class="reference internal" href="#id5">Finch-Drama-Library</a></li>
+<li><a class="reference internal" href="#id6">Finch-Precise-Coordination</a></li>
+<li><a class="reference internal" href="#id7">Finch-Sensorless-Parking</a></li>
+<li><a class="reference internal" href="#id8">Finch-Sequencing</a></li>
+<li><a class="reference internal" href="#id9">Finch-State-Machine</a></li>
+<li><a class="reference internal" href="#id10">Sprite-Communication-Intro</a></li>
 </ul>
 </li>
 </ul>
@@ -198,7 +206,7 @@ server to coordinate graphical sprites across different computers.</p>
     </div>
     <div class="footer" role="contentinfo">
         &copy; Copyright 2016, Garth Zeglin.
-      Last updated on 2016-05-03.
+      Last updated on 2016-05-06.
       Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.
     </div>
   </body>

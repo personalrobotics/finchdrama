@@ -32,6 +32,7 @@ Contents
    ex/state-machine
    ex/sensorless-parking
    ex/micro-scene
+   ex/primitives
    ex/network-comm
    ex/robot-sync
    code
