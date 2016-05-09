@@ -115,6 +115,33 @@ a single-loop polled state machine coding structure which can be used to
 implement arbitrary state transition graphs.
 
 
+Snap-Value-Quirks
+==================================
+
+`Snap-Value-Quirks`_ is a technical exploration of some quirks and corner cases
+of the Snap! language.  The actual language is partially defined in the `Snap
+Manual`_ and the help available within the interface, but many conditions are
+not well-specified.  This sketch uses assertion tests to document a number of
+specific operator properties.
+
+Some of the implicit properties complicate writing clean code for string
+and list processing.  For example:
+
+#. An empty input field has zero length, but is identified as a number, not a
+   string.
+
+#. A input field 0 is equal to either a computed number zero or a computed
+   character '0'.  I.e., input fields have ambiguous type as evaluated by the
+   equality operator.
+
+#. A single 'space' character identifies a number, not a string.
+   Furthermore,the equality operator does not treat this value as equal to zero,
+   but the multiplication operator does.
+
+#. Splitting an empty string on whitespace yields a list with one element
+   containing a zero-length value.
+
+
 Sprite-Communication-Intro
 ==================================
 
