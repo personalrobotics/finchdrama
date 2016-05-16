@@ -137,6 +137,8 @@ be helpful to review these in detail.  The following prompts may be helpful:
 
 #. When is this happening?
 
+One-page Treatment
+------------------
 
 After brainstorming the essentials of the story, write out a one-page treatment
 which explains the following:
