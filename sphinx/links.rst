@@ -35,4 +35,5 @@
 .. _Finch-Sensorless-Parking: http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Sensorless-Parking
 .. _Finch-Sequencing: http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-Sequencing
 .. _Finch-State-Machine: http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Finch-State-Machine
+.. _Snap-Value-Quirks: http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Snap-Value-Quirks
 .. _Sprite-Communication-Intro: http://snap.berkeley.edu/snapsource/snap.html#cloud:Username=prldrama&ProjectName=Sprite-Communication-Intro

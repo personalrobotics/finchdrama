@@ -35,6 +35,7 @@ Contents
    ex/primitives
    ex/network-comm
    ex/robot-sync
+   ex/theming
    code
    snapref
    libref
