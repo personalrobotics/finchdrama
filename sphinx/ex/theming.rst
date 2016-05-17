@@ -118,12 +118,12 @@ following directly from the ideas in :ref:`exercise-pair-robot`.  After that
 students can write a program in Snap! to perform the scene autonomously or to
 enable remote puppeting (teleoperated acting).
 
-All of the suggestions from the 'Tiny Narrative' exercise still apply, so it may
-be helpful to review these in detail.  The following prompts may be helpful:
+All of the suggestions from :ref:`exercise-micro-scene` still apply, so it may
+be helpful to review these in detail.  The following prompts can guide you:
 
 #. How is the scene related to the main theme?
 
-#. Who or what do your robots represent?  Are the based on a real or fictional
+#. Who or what do your robots represent?  Are they based on a real or fictional
    ideas, persons, objects, or robots?
 
 #. How does your character feel about the other characters?  What does your
