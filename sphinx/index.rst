@@ -36,6 +36,7 @@ Contents
    ex/network-comm
    ex/robot-sync
    ex/theming
+   ex/storyboard
    code
    snapref
    libref
