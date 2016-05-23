@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="612" height="792" viewBox="0, 0, 612, 792">
+  <g id="Layer_1">
+    <g>
+      <path d="M36.5,72.5 L292.532,72.5 L292.532,216.5 L36.5,216.5 L36.5,72.5 z" fill="#FFFFFF"/>
+      <path d="M36.5,72.5 L292.532,72.5 L292.532,216.5 L36.5,216.5 L36.5,72.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <text transform="matrix(1, 0, -0, 1, 434.016, 128.5)">
+      <tspan x="-128.016" y="-46.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Shot Name:</tspan>
+      <tspan x="-128.016" y="-34.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Character(s):</tspan>
+      <tspan x="-128.016" y="-22.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Shot Type:	</tspan>
+      <tspan x="-72.016" y="-22.5" font-family="AppleSymbols" font-size="10" fill="#0C0B0B">☐</tspan>
+      <tspan x="-63.715" y="-22.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">wide  	</tspan>
+      <tspan x="-16.016" y="-22.5" font-family="AppleSymbols" font-size="10" fill="#0E0C0C">☐</tspan>
+      <tspan x="-7.715" y="-22.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">close on _________</tspan>
+      <tspan x="-128.016" y="-8.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">  		</tspan>
+      <tspan x="-72.016" y="-8.5" font-family="AppleSymbols" font-size="10" fill="#0C0B0B">☐</tspan>
+      <tspan x="-63.715" y="-8.5" font-family="Helvetica" font-size="10" fill="#0C0B0B">aerial</tspan>
+      <tspan x="-39.257" y="-8.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">  	</tspan>
+      <tspan x="-16.016" y="-8.5" font-family="AppleSymbols" font-size="10" fill="#0E0C0C">☐</tspan>
+      <tspan x="-7.715" y="-8.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">other: __________________</tspan>
+      <tspan x="-128.016" y="5.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Scenery:</tspan>
+      <tspan x="-128.016" y="17.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Props:</tspan>
+      <tspan x="-128.016" y="29.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Action:</tspan>
+      <tspan x="-128.016" y="53.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Dialogue:</tspan>
+    </text>
+    <text transform="matrix(1, 0, -0, 1, 306, 52.2)">
+      <tspan x="-270" y="3" font-family="Helvetica" font-size="12" fill="#0E0C0C">Sequence Title:                              Team Members:                                                   Date:</tspan>
+    </text>
+    <g>
+      <path d="M36.5,252.5 L292.532,252.5 L292.532,396.5 L36.5,396.5 L36.5,252.5 z" fill="#FFFFFF"/>
+      <path d="M36.5,252.5 L292.532,252.5 L292.532,396.5 L36.5,396.5 L36.5,252.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g>
+      <path d="M36.5,432.5 L292.532,432.5 L292.532,576.5 L36.5,576.5 L36.5,432.5 z" fill="#FFFFFF"/>
+      <path d="M36.5,432.5 L292.532,432.5 L292.532,576.5 L36.5,576.5 L36.5,432.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g>
+      <path d="M36.5,612.5 L292.532,612.5 L292.532,756.5 L36.5,756.5 L36.5,612.5 z" fill="#FFFFFF"/>
+      <path d="M36.5,612.5 L292.532,612.5 L292.532,756.5 L36.5,756.5 L36.5,612.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <text transform="matrix(1, 0, -0, 1, 306, 23)">
+      <tspan x="-74.946" y="5" font-family="Helvetica-Bold" font-size="14" fill="#0E0C0C">Storyboard Worksheet</tspan>
+    </text>
+    <text transform="matrix(1, 0, -0, 1, 434.016, 308.5)">
+      <tspan x="-128.016" y="-46.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Shot Name:</tspan>
+      <tspan x="-128.016" y="-34.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Character(s):</tspan>
+      <tspan x="-128.016" y="-22.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Shot Type:	</tspan>
+      <tspan x="-72.016" y="-22.5" font-family="AppleSymbols" font-size="10" fill="#0C0B0B">☐</tspan>
+      <tspan x="-63.715" y="-22.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">wide  	</tspan>
+      <tspan x="-16.016" y="-22.5" font-family="AppleSymbols" font-size="10" fill="#0E0C0C">☐</tspan>
+      <tspan x="-7.715" y="-22.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">close on _________</tspan>
+      <tspan x="-128.016" y="-8.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">  		</tspan>
+      <tspan x="-72.016" y="-8.5" font-family="AppleSymbols" font-size="10" fill="#0C0B0B">☐</tspan>
+      <tspan x="-63.715" y="-8.5" font-family="Helvetica" font-size="10" fill="#0C0B0B">aerial</tspan>
+      <tspan x="-39.257" y="-8.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">  	</tspan>
+      <tspan x="-16.016" y="-8.5" font-family="AppleSymbols" font-size="10" fill="#0E0C0C">☐</tspan>
+      <tspan x="-7.715" y="-8.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">other: __________________</tspan>
+      <tspan x="-128.016" y="5.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Scenery:</tspan>
+      <tspan x="-128.016" y="17.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Props:</tspan>
+      <tspan x="-128.016" y="29.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Action:</tspan>
+      <tspan x="-128.016" y="53.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Dialogue:</tspan>
+    </text>
+    <text transform="matrix(1, 0, -0, 1, 434.016, 488.5)">
+      <tspan x="-128.016" y="-46.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Shot Name:</tspan>
+      <tspan x="-128.016" y="-34.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Character(s):</tspan>
+      <tspan x="-128.016" y="-22.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Shot Type:	</tspan>
+      <tspan x="-72.016" y="-22.5" font-family="AppleSymbols" font-size="10" fill="#0C0B0B">☐</tspan>
+      <tspan x="-63.715" y="-22.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">wide  	</tspan>
+      <tspan x="-16.016" y="-22.5" font-family="AppleSymbols" font-size="10" fill="#0E0C0C">☐</tspan>
+      <tspan x="-7.715" y="-22.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">close on _________</tspan>
+      <tspan x="-128.016" y="-8.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">  		</tspan>
+      <tspan x="-72.016" y="-8.5" font-family="AppleSymbols" font-size="10" fill="#0C0B0B">☐</tspan>
+      <tspan x="-63.715" y="-8.5" font-family="Helvetica" font-size="10" fill="#0C0B0B">aerial</tspan>
+      <tspan x="-39.257" y="-8.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">  	</tspan>
+      <tspan x="-16.016" y="-8.5" font-family="AppleSymbols" font-size="10" fill="#0E0C0C">☐</tspan>
+      <tspan x="-7.715" y="-8.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">other: __________________</tspan>
+      <tspan x="-128.016" y="5.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Scenery:</tspan>
+      <tspan x="-128.016" y="17.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Props:</tspan>
+      <tspan x="-128.016" y="29.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Action:</tspan>
+      <tspan x="-128.016" y="53.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Dialogue:</tspan>
+    </text>
+    <text transform="matrix(1, 0, -0, 1, 434.016, 668.5)">
+      <tspan x="-128.016" y="-46.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Shot Name:</tspan>
+      <tspan x="-128.016" y="-34.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Character(s):</tspan>
+      <tspan x="-128.016" y="-22.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Shot Type:	</tspan>
+      <tspan x="-72.016" y="-22.5" font-family="AppleSymbols" font-size="10" fill="#0C0B0B">☐</tspan>
+      <tspan x="-63.715" y="-22.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">wide  	</tspan>
+      <tspan x="-16.016" y="-22.5" font-family="AppleSymbols" font-size="10" fill="#0E0C0C">☐</tspan>
+      <tspan x="-7.715" y="-22.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">close on _________</tspan>
+      <tspan x="-128.016" y="-8.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">  		</tspan>
+      <tspan x="-72.016" y="-8.5" font-family="AppleSymbols" font-size="10" fill="#0C0B0B">☐</tspan>
+      <tspan x="-63.715" y="-8.5" font-family="Helvetica" font-size="10" fill="#0C0B0B">aerial</tspan>
+      <tspan x="-39.257" y="-8.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">  	</tspan>
+      <tspan x="-16.016" y="-8.5" font-family="AppleSymbols" font-size="10" fill="#0E0C0C">☐</tspan>
+      <tspan x="-7.715" y="-8.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">other: __________________</tspan>
+      <tspan x="-128.016" y="5.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Scenery:</tspan>
+      <tspan x="-128.016" y="17.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Props:</tspan>
+      <tspan x="-128.016" y="29.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Action:</tspan>
+      <tspan x="-128.016" y="53.5" font-family="Helvetica" font-size="10" fill="#0E0C0C">Dialogue:</tspan>
+    </text>
+  </g>
+</svg>
